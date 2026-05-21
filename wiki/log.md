@@ -79,3 +79,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[atlas-source]], [[atlas]], [[turborepo]]
 - updated: [[blueally-pipeline]], [[neon]], [[drizzle-orm]], [[vercel]], [[anthropic-sdk]], [[tailwindcss]], [[ai-architecture-studio]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly AI App — Project Inventory
+- source: raw/notes/projects/blueally-ai-app.md
+- created: [[blueally-ai-app-source]], [[blueally-ai-app]], [[consulting-brief]]
+- updated: [[blueally-pipeline]], [[anthropic-sdk]], [[neon]], [[drizzle-orm]], [[tailwindcss]], [[vercel]]
+- contradictions: 0

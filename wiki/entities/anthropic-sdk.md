@@ -1,24 +1,24 @@
 ---
 title: Anthropic SDK
 kind: entity
-summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, and the BlueAlly AI Website (Next.js).
-tags: [ai, sdk, anthropic, claude, integration]
-sources: 6
+summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, BlueAlly AI App, and the BlueAlly AI Website (Next.js).
+tags: [sdk, ai, anthropic, claude, blueally]
+sources: 8
 updated: 2026-05-21
 ---
 
-The Anthropic SDK is Anthropic's official software development kit for programmatic access to [[claude-sonnet]] and other Claude models. Within BlueAlly it serves as the standard AI integration layer across the pipeline.
+The Anthropic SDK is Anthropic's official library for programmatic access to Claude language models. Within the BlueAlly ecosystem it is the standard AI integration layer, used across multiple deployed applications.
 
-## BlueAlly usage
+## Usage in BlueAlly apps
 
-- [[atlas]] — intelligent financial modeling and infrastructure cost planning
-- [[ai-executive-readout]] — AI-assisted executive report generation
-- [[ai-infra-sizing]] — Claude as advisor-only layer alongside deterministic calculation engine
-- [[ai-visual-intelligence-library]] — Claude-grounded Ask drawer
-- [[aiwebsiteblueally-next]] — Claude SDK integration for the Next.js marketing site
+- [[atlas]] — investment intelligence and ROI analysis
+- [[ai-executive-readout]] — executive report generation
+- [[ai-infra-sizing]] — Claude as advisor-only layer alongside deterministic calculations
+- [[blueally-ai-app]] — generates structured [[consulting-brief]]s from executive-supplied business challenges
+- [[aiwebsiteblueally-next]] — AI integration in the Next.js marketing site rewrite
 
 ## Related
 
-- [[claude-sonnet]] — Specific Claude model used for PRD generation in AI Architecture Studio
-- [[blueally-pipeline]] — Pipeline context
-- [[atlas]] — Investment intelligence platform using the SDK for financial modeling
+- [[claude-sonnet]] — specific Claude model used in [[ai-architecture-studio]] for PRD generation
+- [[blueally-pipeline]] — the delivery pipeline whose apps rely on this SDK
+- [[blueally-ai-app]] — newest consumer of the SDK

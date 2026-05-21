@@ -1,25 +1,25 @@
 ---
 title: Vercel
 kind: entity
-summary: Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, and the BlueAlly AI Website (Next.js).
-tags: [deployment, hosting, cloud, infrastructure]
-sources: 6
+summary: Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, and the BlueAlly AI Website (Next.js).
+tags: [deployment, cloud, hosting, blueally]
+sources: 8
 updated: 2026-05-21
 ---
 
-Vercel is a cloud deployment platform specialising in frontend and full-stack Next.js applications. It is the primary hosting platform for deployed BlueAlly applications, and is also the creator and maintainer of [[turborepo]].
+Vercel is the standard cloud deployment platform across the BlueAlly application stack, hosting the majority of the deployed pipeline applications.
 
-## BlueAlly deployments on Vercel
+## BlueAlly apps hosted on Vercel
 
-- [[ai-executive-briefing]] — interactive animated executive AI strategy presentation
-- [[ai-executive-readout]] — executive-level AI readout report generation
-- [[ai-infra-sizing]] — enterprise AI infrastructure right-sizing platform
-- [[ai-systems-presentation]] — web-native animated AI systems architecture presentation
-- [[atlas]] — AI Investment Intelligence Platform (atlas.vercel.app)
+- [[ai-executive-briefing]] — web-native executive strategy presentation
+- [[ai-executive-readout]] — executive report generation tool
+- [[ai-infra-sizing]] — AI infrastructure sizing platform
+- [[ai-systems-presentation]] — AI systems architecture presentation
+- [[atlas]] — AI investment intelligence platform (atlas.vercel.app)
+- [[blueally-ai-app]] — consulting brief generator (blueally-ai-app.vercel.app)
 - [[aiwebsiteblueally-next]] — Next.js marketing site rewrite
 
 ## Related
 
-- [[turborepo]] — Vercel-developed monorepo build system used by Atlas
-- [[blueally-pipeline]] — Pipeline context
-- [[neon]] — Database platform frequently paired with Vercel in BlueAlly apps
+- [[gofasterwithai]] — BlueAlly's branded domain hosting additional deployed pipeline apps
+- [[blueally-pipeline]] — the delivery pipeline whose apps are deployed here

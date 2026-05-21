@@ -37,3 +37,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-executive-briefing-source]], [[ai-executive-briefing]], [[framer-motion]], [[zustand]], [[vercel]], [[blueally-presentation-toolkit]], [[blueally-workshop-experience]], [[blueally-presenting]]
 - updated: [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | AI Executive Readout Source
+- source: raw/notes/projects/ai-executive-readout.md
+- created: [[ai-executive-readout-source]], [[ai-executive-readout]]
+- updated: [[blueally-pipeline]], [[drizzle-orm]], [[framer-motion]], [[neon]], [[vercel]]
+- contradictions: 0

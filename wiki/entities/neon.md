@@ -1,25 +1,22 @@
 ---
 title: Neon
 kind: entity
-summary: Serverless Postgres database platform used as the database layer in AI Architecture Studio.
-tags: [infrastructure, database]
-sources: 1
+summary: Serverless Postgres database platform used as the database layer in AI Architecture Studio and AI Executive Readout.
+tags: [database, postgres, serverless]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: Neon
-kind: entity
-summary: Serverless Postgres database platform used as the database layer in AI Architecture Studio.
-tags: [infrastructure, database]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-architecture-studio-source
----
+Neon is a serverless Postgres database platform used as the managed database layer in multiple BlueAlly pipeline applications.
 
-Neon is a serverless Postgres database platform. Within the BlueAlly ecosystem it is used as the database backing [[ai-architecture-studio]], which maintains 5 DB tables via [[drizzle-orm]].
+## Usage in BlueAlly
+
+- [[ai-architecture-studio]] — serves as the database layer for the artifact generation pipeline app.
+- [[ai-executive-readout]] — serves as the database layer backing content retrieval for executive readout report generation.
 
 ## Related
 
+- [[drizzle-orm]]
 - [[ai-architecture-studio]]
-- [[ai-architecture-studio-source]]
+- [[ai-executive-readout]]
+- [[blueally-pipeline]]

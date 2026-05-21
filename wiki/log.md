@@ -157,3 +157,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-workshop-web-source]], [[blueally-workshop-web]]
 - updated: [[blueally-pipeline]], [[vercel]], [[neon]], [[framer-motion]], [[drizzle-orm]]
 - contradictions: 0
+
+## [2026-05-21] ingest | ChrisBot — Project Inventory
+- source: raw/notes/projects/chrisbot.md
+- created: [[chrisbot-source]], [[chrisbot]]
+- updated: [[anthropic-sdk]], [[claude-sdk-enablement]], [[neon]]
+- contradictions: 0

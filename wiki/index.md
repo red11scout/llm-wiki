@@ -27,6 +27,7 @@
 - [[blueally-workbench]] — Deployed BlueAlly AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; a domain-specific vertical tool last committed 2026-04-16.
 - [[blueally-workshop-experience]] — Deployed BlueAlly interactive animated presentation platform for live AI workshops; 28 slides across 7 sections with a 3-layer animation system and no database; last committed 2026-03-28.
 - [[blueally-workshop-web]] — Deployed BlueAlly workshop management hub providing scheduling, content management, and participant interaction with Next.js, Neon, and Framer Motion; last committed 2026-03-16.
+- [[chrisbot]] — Archived BlueAlly conversational AI chatbot built with Claude SDK and Neon for persistent message storage; not deployed, last committed 2026-02-25.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
 - [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
@@ -89,3 +90,4 @@
 - [[blueally-workbench-source]] — Project inventory for BlueAlly Workbench, a deployed AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; last committed 2026-04-16.
 - [[blueally-workshop-experience-source]] — Project inventory for BlueAlly Workshop Experience, a deployed Next.js interactive animated presentation platform for live AI workshops with 28 slides across 7 sections; last committed 2026-03-28.
 - [[blueally-workshop-web-source]] — Project inventory for BlueAlly Workshop Hub, a deployed Next.js workshop management platform providing scheduling, content management, and participant interaction with Neon and Framer Motion; last committed 2026-03-16.
+- [[chrisbot-source]] — Project inventory for ChrisBot, an archived BlueAlly conversational AI chatbot built with Claude SDK and Neon for persistent message storage; last committed 2026-02-25.

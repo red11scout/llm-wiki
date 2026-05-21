@@ -2,25 +2,22 @@
 title: Neon
 kind: entity
 summary: Serverless Postgres database platform used as the database layer across multiple BlueAlly apps.
-tags: [database, infrastructure, postgres]
+tags: [database, postgres, serverless, blueally]
 sources: 2
 updated: 2026-05-21
 ---
 
-Neon is a serverless Postgres database platform used as the primary database layer across the BlueAlly application ecosystem. Its serverless, branching-friendly architecture makes it well-suited to Next.js deployments on Vercel.
+Neon is a serverless Postgres platform that serves as the standard database layer across the BlueAlly ecosystem — from archived early explorations through to current production applications.
 
-## BlueAlly apps using Neon
+## BlueAlly usage
 
-- [[aiwebsiteblueally-next]] — BlueAlly AI Website (Next.js rewrite)
-- [[ai-executive-readout]] — Executive-level AI readout report generator
-- [[atlas]] — AI Investment Intelligence Platform
-- [[blueally-intelligence]] — Archived M&A intelligence platform
-- [[blueally-portal]] — Workshop participant portal
-- [[blueally-presenting]] — Knowledge graph presentation platform
-- [[blueally-customer-portal]] — Planned multi-tenant customer portal
-- [[blueally-workshop-web]] — Workshop management hub
+Neon appears in both archived and active BlueAlly projects:
+
+- **Archived**: [[chrisbot]], [[blueally-intelligence]]
+- **Active / deployed**: [[aiworkflow]], [[ai-executive-readout]], [[blueally-portal]], [[blueally-workshop-web]], [[blueally-presenting]], [[atlas]], [[aiwebsiteblueally-next]], [[blueally-ai-app]], [[blueally-ai-solution-navigator]], [[blueally-private-ai-investment-planner]], [[blueally-microsites]]
 
 ## Related
 
-- [[drizzle-orm]] — TypeScript ORM commonly paired with Neon across BlueAlly apps
-- [[vercel]] — Deployment platform co-hosting many Neon-backed apps
+- [[drizzle-orm]]
+- [[blueally-pipeline]]
+- [[anthropic-sdk]]

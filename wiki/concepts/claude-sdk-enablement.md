@@ -2,33 +2,27 @@
 title: Claude SDK Enablement
 kind: concept
 summary: BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
-tags: [enablement, training, claude-sdk, blueally]
-sources: 1
+tags: [claude-sdk, enablement, training, blueally]
+sources: 3
 updated: 2026-05-21
 ---
 
----
-title: Claude SDK Enablement
-kind: concept
-summary: BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
-tags: [enablement, training, claude-sdk, blueally]
-sources: 1
-updated: 2026-05-21
----
+Claude SDK Enablement is BlueAlly's practice of building team fluency with the [[anthropic-sdk]] through concrete, runnable examples. Rather than abstract instruction, the approach produces small demonstration projects and internal tools that explore specific SDK capabilities, with that learning carried forward into production applications.
 
-Claude SDK Enablement refers to BlueAlly's structured approach to onboarding team members and clients onto the [[anthropic-sdk]] through practical, hands-on learning artefacts. Rather than abstract documentation, enablement is delivered via working example applications that demonstrate real SDK patterns.
+## Known enablement artefacts
 
-## Known artefacts
+| Project | Kind | Last commit | Notes |
+|---|---|---|---|
+| [[chrisbot]] | Archived chatbot | 2026-02-25 | Conversational AI with Neon persistence; early chatbot pattern exploration |
+| [[blueally-enablement-notebooks]] | Archived Jupyter project | 2025-06-11 | NYC Tourist Assistant; internal Python/Claude SDK training material |
 
-- [[blueally-enablement-notebooks]] — An archived NYC Tourist Assistant built in Python/Flask/Jupyter as a walkthrough of Claude SDK usage; the earliest known enablement artefact (last committed 2025-06-11).
+## Influence on production apps
 
-## Relationship to the broader ecosystem
-
-Enablement material sits outside the production [[blueally-pipeline]] but complements customer-facing education tools such as [[ai-visual-intelligence-library]], which delivers AI concept education to executive audiences.
+Patterns explored in enablement artefacts — particularly the pairing of Claude SDK with a [[neon]] persistence layer first visible in ChrisBot — were carried forward into the full [[blueally-pipeline]].
 
 ## Related
 
 - [[anthropic-sdk]]
+- [[chrisbot]]
 - [[blueally-enablement-notebooks]]
-- [[ai-visual-intelligence-library]]
-- [[ai-literacy]]
+- [[blueally-pipeline]]

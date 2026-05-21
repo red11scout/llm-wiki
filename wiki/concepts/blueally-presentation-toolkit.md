@@ -7,25 +7,24 @@ sources: 2
 updated: 2026-05-21
 ---
 
-The BlueAlly Presentation Toolkit is BlueAlly's family of web-native presentation and workshop delivery applications, collectively replacing traditional PowerPoint decks for executive briefings and live workshop sessions.
+The BlueAlly Presentation Toolkit is the collection of web-native tools BlueAlly uses to deliver executive and workshop presentations without PowerPoint. Each tool in the toolkit serves a distinct delivery context, ranging from animated executive briefings to interactive workshop environments to a fully connected knowledge graph platform.
 
-## Members
+## Members of the toolkit
 
-| App | Role |
-|-----|------|
-| [[ai-executive-briefing]] | Interactive animated executive AI strategy presentation |
-| [[blueally-workshop-experience]] | Web-native workshop presentation application |
-| [[blueally-presenting]] | Web-native general presentation utility |
-| [[blueally-presenting-workshop]] | Database-backed Modern AI Systems Workshop with 49 slides, presenter mode, and Claude-powered editing |
-| [[ai-systems-presentation]] | Interactive animated presentation on AI systems architecture |
+| App | Description |
+|---|---|
+| [[ai-executive-briefing]] | Interactive animated executive AI strategy presentation built with Next.js and Framer Motion |
+| [[ai-systems-presentation]] | Web-native animated presentation on AI systems architecture |
+| [[blueally-workshop-experience]] | Workshop presentation application |
+| [[blueally-presenting]] | AI-powered [[knowledge-graph-presentation]] platform; the next evolution beyond animated HTML |
+| [[blueally-presenting-workshop]] | Modern AI Systems Workshop platform with 49 slides, presenter mode, and Claude-powered editing |
 
-## Design principles
+## Evolution
 
-- All tools are web-native, leveraging [[react]], [[framer-motion]], and [[tailwindcss]] instead of static slide formats.
-- AI-assisted content capabilities (via [[anthropic-sdk]]) are embedded where live editing or customization is required.
-- Tools are deployed on [[vercel]] and integrated into the broader [[blueally-pipeline]].
+Early toolkit members ([[ai-executive-briefing]], [[ai-systems-presentation]]) use Framer Motion animated HTML as the primary presentation mechanism. [[blueally-presenting]] represents the strategic next step: a [[knowledge-graph-presentation]] data model where content nodes and edges are reusable across presentations, powered by [[tiptap]] and [[anthropic-sdk]] within a [[turborepo]] monorepo.
 
 ## Related
-- [[blueally-pipeline]]
-- [[framer-motion]]
-- [[vercel]]
+
+- [[blueally-pipeline]] — the broader delivery pipeline the toolkit feeds into
+- [[knowledge-graph-presentation]] — architectural concept underlying BlueAlly Presenting
+- [[framer-motion]] — animation library used by the earlier toolkit members

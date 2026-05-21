@@ -21,7 +21,7 @@
 - [[blueally-intelligence]] — Archived BlueAlly M&A intelligence and portfolio analytics platform powered by Claude and Neon; not deployed, last committed 2026-02-13.
 - [[blueally-microsites]] — Deployed BlueAlly multi-tenant client delivery portal at portal.gofasterwithai.com; password-protected landing pages linking clients to all their generated pipeline artifacts; last committed 2026-05-12.
 - [[blueally-portal]] — Active BlueAlly AI Workshop Portal built with Next.js and Neon, providing authenticated workshop participants access to session materials and outputs; last committed 2026-04-24.
-- [[blueally-presenting]] — BlueAlly web-native presentation utility; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing, blueally-workshop-experience, and blueally-presenting-workshop.
+- [[blueally-presenting]] — Deployed BlueAlly AI-powered knowledge graph presentation platform; a Turborepo monorepo with Tiptap, Anthropic SDK, and Neon replacing PowerPoint with connected, reusable content nodes; last committed 2026-04-03.
 - [[blueally-presenting-workshop]] — Deployed BlueAlly Modern AI Systems Workshop platform with 49 slides across 8 sections, presenter mode, and Claude-powered editing; deployed at blueally-workshop.vercel.app, last committed 2026-04-06.
 - [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing, blueally-presenting, and blueally-presenting-workshop.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
@@ -30,7 +30,7 @@
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps.
 - [[framer-motion]] — React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, BlueAlly AI Website (Next.js), BlueAlly Customer Portal, BlueAlly Portal, and BlueAlly Presenting Workshop — for interactive animations.
-- [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com, AI Visual Intelligence Library at library.gofasterwithai.com, and BlueAlly Microsites client portal at portal.gofasterwithai.com.
+- [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio, AI Visual Intelligence Library, BlueAlly Microsites client portal, and BlueAlly Presenting.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
 - [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps.
@@ -40,7 +40,8 @@
 - [[researchapp]] — Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps for styling.
-- [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas for managing the multi-package BlueAlly Investment Intelligence Platform codebase.
+- [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
+- [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
 - [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), and BlueAlly Presenting Workshop.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state.
@@ -53,6 +54,7 @@
 - [[claude-sdk-enablement]] — BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
 - [[consulting-brief]] — Structured, AI-generated document that frames an executive's business challenge as an actionable AI opportunity; primary output artifact of BlueAlly AI App.
 - [[glass-monolith-theme]] — BlueAlly Microsites visual design theme featuring glass-morphism aesthetics; applied to client landing pages with Framer Motion stagger animations.
+- [[knowledge-graph-presentation]] — Architectural pattern that models presentation content as a graph of connected nodes and edges, enabling content reuse across presentations rather than isolation in individual slide decks.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
 
 ## Sources
@@ -75,4 +77,5 @@
 - [[blueally-intelligence-source]] — Project inventory for BlueAlly Intelligence, an archived BlueAlly M&A intelligence and portfolio analytics platform built on React/Vite/Express with Claude and Neon; last committed 2026-02-13.
 - [[blueally-microsites-source]] — Project inventory for BlueAlly Microsites, a deployed multi-tenant client delivery portal at portal.gofasterwithai.com providing password-protected landing pages linking clients to all their generated artifacts; last committed 2026-05-12.
 - [[blueally-portal-source]] — Project inventory for BlueAlly Portal, an active Next.js/Neon workshop participant portal providing authenticated access to session materials and outputs; last committed 2026-04-24.
+- [[blueally-presenting-source]] — Project inventory for BlueAlly Presenting, a deployed AI-powered knowledge graph presentation platform built as a Turborepo monorepo with Tiptap and Anthropic SDK; last committed 2026-04-03.
 - [[blueally-presenting-workshop-source]] — Project inventory for BlueAlly Presenting Workshop, a deployed Next.js workshop delivery tool with 49 slides across 8 sections, presenter mode, and Claude-powered editing; last committed 2026-04-06.

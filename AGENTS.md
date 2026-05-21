@@ -15,7 +15,7 @@ database is a derived, read-only index. You read `raw/`, you own `wiki/`.
 - `pnpm dev` — Next.js dev server. `pnpm build` — production build (must pass before commit).
 - `pnpm typecheck` — `tsc --noEmit`, TypeScript **strict**. Zero errors before commit.
 - `pnpm lint` — ESLint. `pnpm test` — Vitest.
-- DB: `pnpm drizzle-kit generate` then `pnpm drizzle-kit migrate`. **Never** `drizzle-kit push` against prod.
+- DB: `pnpm db:generate` then `pnpm db:migrate`. **Never** `drizzle-kit push` against prod.
 - Wiki ops (callable as CLI and as server actions): `pnpm wiki:ingest <path>`,
   `pnpm wiki:query "<q>"`, `pnpm wiki:lint`, `pnpm wiki:reindex` (rebuild DB from `wiki/**`).
 

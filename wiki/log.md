@@ -25,3 +25,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[aegm-workshop-source]]
 - updated: [[a-e-global-media]]
 - contradictions: 1
+
+## [2026-05-21] ingest | AI Catalyst — Project Inventory
+- source: raw/notes/projects/ai-catalyst.md
+- created: [[ai-catalyst-source]], [[ai-catalyst]], [[drizzle-orm]], [[researchapp]], [[cognition-two]], [[multi-agent-pipeline]]
+- updated: [[aiworkflow]], [[blueally-pipeline]]
+- contradictions: 0

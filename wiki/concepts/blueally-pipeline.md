@@ -2,26 +2,33 @@
 title: BlueAlly Pipeline
 kind: concept
 summary: BlueAlly's multi-step AI delivery pipeline, progressing from workshop analysis through aiworkflow to AI Architecture Studio artifact generation.
-tags: [blueally, pipeline, delivery]
-sources: 2
+tags: [blueally-ip, pipeline, architecture]
+sources: 4
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end AI delivery workflow BlueAlly uses to take a client engagement from raw workshop analysis through to deployable artifacts. It is a multi-step process anchored by two pipeline apps and a workshop delivery practice.
+The BlueAlly Pipeline is the end-to-end delivery system BlueAlly uses to take an AI use-case workshop through structured analysis and into deployable artifacts. It currently has at least three documented steps, with historical roots in the [[ai-catalyst]] platform.
 
 ## Pipeline steps
 
-1. **Workshop / analysis** — BlueAlly conducts client workshops (e.g. the [[a-e-global-media]] AI capacity workshop) and captures use-case findings. Custom deliverables such as standalone HTML executive presentations may be produced at this stage.
-2. **[[aiworkflow]]** — Step 2 app that processes workshop findings and produces structured JSON output.
-3. **[[ai-architecture-studio]]** — Step 3 app that ingests the aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
+| Step | App | Role |
+|---|---|---|
+| 0 (historical) | [[ai-catalyst]] | Archived predecessor; pioneered multi-agent pipeline and reconciled use case data model |
+| 2 | [[aiworkflow]] | Produces structured JSON from workshop analysis |
+| 3 | [[ai-architecture-studio]] | Consumes aiworkflow JSON; generates diagrams, PRDs, financial models |
 
-## Ecosystem boundaries
+## Architectural lineage
 
-Not all BlueAlly client work runs through the full pipeline. External client deliverables — such as the standalone HTML presentation built for [[a-e-global-media]] — sit adjacent to the core SaaS ecosystem and represent the workshop delivery practice independently of the step 2/3 apps.
+[[ai-catalyst]] pioneered the [[multi-agent-pipeline]] pattern — an 8-agent directed graph with sequential and parallel stages — that directly influenced aiworkflow's design. The reconciled use case data model that AI Catalyst established (combining [[researchapp]] and [[cognition-two]] data) carried forward into the current pipeline.
+
+## Client deliverables
+
+The pipeline has been applied for clients including [[a-e-global-media]], producing static HTML executive microsites as workshop artifacts (see [[ae-ai-workshop-source]], [[aegm-workshop-source]]).
 
 ## Related
 
-- [[aiworkflow]] — Step 2 pipeline app
-- [[ai-architecture-studio]] — Step 3 pipeline app
-- [[a-e-global-media]] — Client whose workshop deliverable illustrates the workshop delivery practice
-- [[gofasterwithai]] — Domain hosting the deployed pipeline apps
+- [[ai-catalyst]] — Historical step 0; now archived
+- [[aiworkflow]] — Step 2
+- [[ai-architecture-studio]] — Step 3
+- [[multi-agent-pipeline]] — Core architectural concept
+- [[a-e-global-media]] — Client example

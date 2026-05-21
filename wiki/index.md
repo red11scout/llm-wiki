@@ -3,17 +3,23 @@
 ## Entities
 - [[a-e-global-media]] — Media company and BlueAlly client; subject of a two-day executive AI workshop delivered as two companion static HTML microsite artifacts.
 - [[ai-architecture-studio]] — Deployed BlueAlly pipeline app (step 3) that ingests aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
-- [[aiworkflow]] — Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio.
+- [[ai-catalyst]] — Archived BlueAlly AI Use Case Workshop Platform with an 8-agent pipeline and 4-dimension survey system; predecessor to aiworkflow, last committed 2026-02-14.
+- [[aiworkflow]] — Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio; successor to AI Catalyst.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
+- [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
+- [[drizzle-orm]] — TypeScript-native ORM library used in the AI Catalyst stack for database access.
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[neon]] — Serverless Postgres database platform used as the database layer in AI Architecture Studio.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
+- [[researchapp]] — Upstream BlueAlly data source integrated by AI Catalyst to supply research data into the workshop analysis pipeline.
 
 ## Concepts
 - [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from workshop analysis through aiworkflow to AI Architecture Studio artifact generation.
+- [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
 
 ## Sources
 - [[ae-ai-workshop-source]] — Project inventory for the A+E Global Media AI Workshop, a standalone HTML executive presentation deliverable built by BlueAlly, last committed 2026-05-04.
 - [[aegm-workshop-source]] — Project inventory for the A+E Global Media AI Workshop Microsite, two static HTML artifacts for a two-day executive AI workshop, last committed 2026-05-05.
 - [[ai-architecture-studio-source]] — Project inventory for AI Architecture Studio, a deployed BlueAlly pipeline app that transforms aiworkflow JSON into architecture diagrams, PRDs, and financial models.
+- [[ai-catalyst-source]] — Project inventory for AI Catalyst, an archived BlueAlly workshop analysis platform superseded by aiworkflow, featuring an 8-agent pipeline and 4-dimension survey system, last committed 2026-02-14.

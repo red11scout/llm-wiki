@@ -1,28 +1,24 @@
 ---
 title: aiworkflow
 kind: entity
-summary: Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio.
-tags: [blueally-pipeline, product]
-sources: 1
+summary: Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio; successor to AI Catalyst.
+tags: [blueally-ip, pipeline]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: aiworkflow
-kind: entity
-summary: Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio.
-tags: [blueally-pipeline, product]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-architecture-studio-source
----
+aiworkflow is the step-2 application in the [[blueally-pipeline]]. It produces structured JSON output that is consumed downstream by [[ai-architecture-studio]]. It is the direct successor to [[ai-catalyst]], inheriting and refining the multi-agent pipeline architecture and reconciled use case data model that AI Catalyst pioneered.
 
-aiworkflow is a BlueAlly pipeline application that sits at step 2 of the [[blueally-pipeline]]. It processes workshop analysis outputs and emits structured JSON that is consumed downstream by [[ai-architecture-studio]] to generate technical architecture artifacts.
+## Ecosystem role
 
-Details beyond its pipeline position and JSON output contract are not yet available from ingested sources.
+- **Predecessor**: [[ai-catalyst]] — the earlier-generation workshop analysis platform that aiworkflow supersedes
+- **Downstream consumer**: [[ai-architecture-studio]] — ingests aiworkflow JSON to generate architecture diagrams, PRDs, and financial models
+- **Pipeline position**: step 2 of the [[blueally-pipeline]]
 
 ## Related
 
-- [[ai-architecture-studio]]
-- [[blueally-pipeline]]
-- [[ai-architecture-studio-source]]
+- [[blueally-pipeline]] — The broader multi-step delivery pipeline
+- [[ai-architecture-studio]] — Step 3; consumes aiworkflow output
+- [[ai-catalyst]] — Predecessor platform superseded by aiworkflow
+- [[multi-agent-pipeline]] — Architectural pattern pioneered by AI Catalyst and carried forward
+- [[ai-architecture-studio-source]] — Source inventory for the downstream consumer

@@ -121,3 +121,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-portal-source]], [[blueally-portal]]
 - updated: [[blueally-pipeline]], [[neon]], [[framer-motion]], [[drizzle-orm]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly Presenting Workshop Source
+- source: raw/notes/projects/blueally-presenting-workshop.md
+- created: [[blueally-presenting-workshop-source]], [[blueally-presenting-workshop]]
+- updated: [[blueally-presenting]], [[blueally-workshop-experience]], [[blueally-presentation-toolkit]], [[framer-motion]], [[neon]], [[drizzle-orm]], [[vercel]]
+- contradictions: 0

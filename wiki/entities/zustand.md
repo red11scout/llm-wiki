@@ -1,25 +1,21 @@
 ---
 title: Zustand
 kind: entity
-summary: Lightweight React state management library used in AI Executive Briefing for slide navigation and presenter controls.
-tags: [library, state-management, react]
-sources: 1
+summary: Lightweight React state management library used in AI Executive Briefing and AI Infrastructure Sizing for client-side state.
+tags: [react, state-management, frontend]
+sources: 3
 updated: 2026-05-21
 ---
 
----
-title: Zustand
-kind: entity
-summary: Lightweight React state management library used in AI Executive Briefing for slide navigation and presenter controls.
-tags: [library, state-management, react]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-executive-briefing-source
----
+Zustand is a lightweight, hook-based React state management library. Within the BlueAlly ecosystem it is used for managing client-side UI and configuration state in presentation and tooling applications.
 
-Zustand is a lightweight, hook-based state management library for React. Within the BlueAlly ecosystem it is used in [[ai-executive-briefing]] to manage slide navigation state and presenter controls, enabling a dynamic web-native presentation experience.
+## BlueAlly usage
+
+- [[ai-executive-briefing]] — slide navigation and presenter controls
+- [[ai-infra-sizing]] — client-side state management for sizing configurations
 
 ## Related
 
 - [[ai-executive-briefing]]
-- [[framer-motion]]
+- [[ai-infra-sizing]]
+- [[blueally-pipeline]]

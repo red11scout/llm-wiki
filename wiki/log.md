@@ -43,3 +43,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-executive-readout-source]], [[ai-executive-readout]]
 - updated: [[blueally-pipeline]], [[drizzle-orm]], [[framer-motion]], [[neon]], [[vercel]]
 - contradictions: 0
+
+## [2026-05-21] ingest | AI Infrastructure Sizing — Project Inventory
+- source: raw/notes/projects/ai-infra-sizing.md
+- created: [[ai-infra-sizing-source]], [[ai-infra-sizing]], [[anthropic-sdk]]
+- updated: [[blueally-pipeline]], [[vercel]], [[neon]], [[drizzle-orm]], [[zustand]]
+- contradictions: 0

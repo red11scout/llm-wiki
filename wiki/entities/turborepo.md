@@ -1,27 +1,22 @@
 ---
 title: Turborepo
 kind: entity
-summary: High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
-tags: [build-tooling, monorepo, vercel]
+summary: High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
+tags: [build-tooling, monorepo, infrastructure]
 sources: 2
 updated: 2026-05-21
 ---
 
-Turborepo is a high-performance monorepo build system created by Vercel. It manages multi-package repositories with intelligent task caching and parallelism, making it well-suited for large platform codebases.
+Turborepo is a high-performance monorepo build system developed by Vercel. Within the BlueAlly ecosystem it is used to structure projects that span multiple packages or apps within a single repository.
 
-## Usage in BlueAlly
+## BlueAlly usage
 
-Turborepo is used in two BlueAlly platforms:
-
-- **[[atlas]]** — BlueAlly's AI Investment Intelligence Platform; the first recorded use of Turborepo in the ecosystem.
-- **[[blueally-presenting]]** — BlueAlly's AI-powered knowledge graph presentation platform; added in the 2026-04-03 commit window.
-
-Both platforms share Turborepo as their monorepo tooling layer, reflecting BlueAlly's pattern of adopting it for complex, multi-package applications.
+- [[atlas]] — AI Investment Intelligence Platform; Turborepo monorepo managing multi-package codebase.
+- [[blueally-presenting]] — AI-powered knowledge graph presentation platform; Turborepo monorepo.
+- [[compass]] — AI Opportunity Research Platform for CFOs; Turborepo monorepo.
 
 ## Related
 
-- [[atlas]] — first known BlueAlly Turborepo consumer
-- [[blueally-presenting]] — second known BlueAlly Turborepo consumer
-- [[vercel]] — creator of Turborepo and deployment platform for both apps
-- [[atlas-source]] — source inventory for Atlas
-- [[blueally-presenting-source]] — source inventory for BlueAlly Presenting
+- [[vercel]] — Cloud deployment platform; Turborepo is a Vercel project
+- [[neon]] — Database layer used in several Turborepo-structured BlueAlly apps
+- [[blueally-pipeline]] — The broader pipeline these monorepo apps support

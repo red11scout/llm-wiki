@@ -181,3 +181,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[cognoresearcher-source]], [[cognoresearcher]]
 - updated: [[researchapp]], [[aiworkflow]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Compass — Project Inventory
+- source: raw/notes/projects/compass.md
+- created: [[compass-source]], [[compass]], [[forensic-ai-opportunity-analysis]]
+- updated: [[blueally-pipeline]], [[vercel]], [[turborepo]]
+- contradictions: 0

@@ -34,6 +34,7 @@
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
 - [[cognition-two]] — Deployed BlueAlly multi-agent cognitive analysis platform on Replit; earliest-generation implementation of the multi-agent pipeline pattern, predecessor to AI Catalyst; last committed 2026-02-10.
 - [[cognoresearcher]] — Archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; predecessor to researchapp and aiworkflow, last committed 2026-02-19.
+- [[compass]] — Deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; a Turborepo monorepo last committed 2026-05-06.
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[esbuild]] — Extremely fast JavaScript/TypeScript bundler and minifier; used in Claude Mem as the build tool for bundling the MCP server.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
@@ -49,8 +50,8 @@
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
-- [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
-- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, BlueAlly Workbench, and BlueAlly Workshop Web.
+- [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, BlueAlly Workbench, BlueAlly Workshop Web, and Compass.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
@@ -63,6 +64,7 @@
 - [[claude-sdk-enablement]] — BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
 - [[consulting-brief]] — Structured, AI-generated document that frames an executive's business challenge as an actionable AI opportunity; primary output artifact of BlueAlly AI App.
 - [[deterministic-scoring]] — An AI design pattern that applies fixed, rule-based scoring criteria to produce consistent, auditable results rather than relying solely on probabilistic LLM output.
+- [[forensic-ai-opportunity-analysis]] — Deep-dive research discipline for identifying, validating, and prioritizing enterprise AI opportunities with financial rigor; operationalized in BlueAlly's Compass platform for CFO audiences.
 - [[glass-monolith-theme]] — BlueAlly Microsites visual design theme featuring glass-morphism aesthetics; applied to client landing pages with Framer Motion stagger animations.
 - [[knowledge-graph-presentation]] — Architectural pattern that models presentation content as a graph of connected nodes and edges, enabling content reuse across presentations rather than isolation in individual slide decks.
 - [[mcp-server]] — Model Context Protocol server — a local or remote process that extends a Claude Code environment with additional tools, resources, or memory; BlueAlly runs 9 MCP servers including Claude Mem.
@@ -99,3 +101,4 @@
 - [[claude-mem-source]] — Project inventory for Claude Mem, a memory compression MCP server for Claude Code using Express, SQLite, and esbuild to persist context across sessions; last committed 2026-02-10.
 - [[cognitiontwo-source]] — Project inventory for CognitionTwo, a deployed multi-agent cognitive analysis platform on Replit that pioneered the multi-agent architecture pattern later adopted by AI Catalyst and aiworkflow; last committed 2026-02-10.
 - [[cognoresearcher-source]] — Project inventory for CognoResearcher, an archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; last committed 2026-02-19.
+- [[compass-source]] — Project inventory for Compass, a deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; last committed 2026-05-06.

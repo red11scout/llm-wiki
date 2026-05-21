@@ -211,3 +211,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[godwin-family-tracker-source]], [[godwin-family-tracker]]
 - updated: [[react]], [[vite]], [[express]], [[tailwindcss]], [[drizzle-orm]], [[neon]], [[anthropic-sdk]], [[deterministic-scoring]], [[fourcups]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Knowledge Capture — Project Inventory
+- source: raw/notes/projects/knowledge-capture.md
+- created: [[knowledge-capture-source]], [[knowledge-capture]]
+- updated: [[concepts-blueally]]
+- contradictions: 0

@@ -46,6 +46,7 @@
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio, AI Visual Intelligence Library, BlueAlly Microsites client portal, and BlueAlly Presenting.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
+- [[knowledge-capture]] — Active BlueAlly internal Next.js/Neon platform for structured knowledge organization, storage, and retrieval; not deployed, last committed 2026-04-09.
 - [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps, personal projects, and external-client tools by the same author.
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
 - [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps and personal projects.
@@ -111,3 +112,4 @@
 - [[fourcups-source]] — Project inventory for Four Cups, a personal/religious Next.js app with Neon, Drizzle ORM, and Framer Motion; deployed at fourcups.vercel.app, last committed 2026-05-04.
 - [[ga-staff-scheduler-source]] — Project inventory for GA Staff Scheduler, a deployed external-client Next.js staff scheduling app with Claude SDK-powered schedule optimization and Neon persistence; last committed 2026-03-31.
 - [[godwin-family-tracker-source]] — Project inventory for Godwin Family Tracker, a personal daily task-scoring app for 6 children with deterministic scoring, WebSocket live updates, and Claude-generated encouragement; not deployed, last committed 2026-02-24.
+- [[knowledge-capture-source]] — Project inventory for Knowledge Capture, an active BlueAlly internal Next.js/Neon platform for structured knowledge organization and retrieval; not deployed, last committed 2026-04-09.

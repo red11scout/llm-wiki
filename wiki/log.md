@@ -19,3 +19,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ae-ai-workshop-source]], [[a-e-global-media]]
 - updated: [[blueally-pipeline]]
 - contradictions: 1
+
+## [2026-05-21] ingest | A+E Global Media AI Workshop Microsite — Project Inventory
+- source: raw/notes/projects/aegm-workshop.md
+- created: [[aegm-workshop-source]]
+- updated: [[a-e-global-media]]
+- contradictions: 1

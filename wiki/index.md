@@ -1,7 +1,7 @@
 # Index
 
 ## Entities
-- [[a-e-global-media]] — Media company and BlueAlly client; subject of a custom AI capacity workshop delivered as a standalone HTML executive presentation.
+- [[a-e-global-media]] — Media company and BlueAlly client; subject of a two-day executive AI workshop delivered as two companion static HTML microsite artifacts.
 - [[ai-architecture-studio]] — Deployed BlueAlly pipeline app (step 3) that ingests aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
 - [[aiworkflow]] — Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
@@ -15,4 +15,5 @@
 
 ## Sources
 - [[ae-ai-workshop-source]] — Project inventory for the A+E Global Media AI Workshop, a standalone HTML executive presentation deliverable built by BlueAlly, last committed 2026-05-04.
+- [[aegm-workshop-source]] — Project inventory for the A+E Global Media AI Workshop Microsite, two static HTML artifacts for a two-day executive AI workshop, last committed 2026-05-05.
 - [[ai-architecture-studio-source]] — Project inventory for AI Architecture Studio, a deployed BlueAlly pipeline app that transforms aiworkflow JSON into architecture diagrams, PRDs, and financial models.

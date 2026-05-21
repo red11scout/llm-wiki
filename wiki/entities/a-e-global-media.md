@@ -1,35 +1,29 @@
 ---
 title: A+E Global Media
 kind: entity
-summary: Media company and BlueAlly client; subject of a custom AI capacity workshop delivered as a standalone HTML executive presentation.
-tags: [client, media, workshop, a-e-global-media]
-sources: 1
+summary: Media company and BlueAlly client; subject of a two-day executive AI workshop delivered as two companion static HTML microsite artifacts.
+tags: [client, media, workshop]
+sources: 3
 updated: 2026-05-21
 ---
 
----
-title: A+E Global Media
-kind: entity
-summary: Media company and BlueAlly client; subject of a custom AI capacity workshop delivered as a standalone HTML executive presentation.
-tags: [client, media, workshop, a-e-global-media]
-sources: 1
-updated: 2026-05-21
----
+A+E Global Media is a media company and external client of BlueAlly. BlueAlly delivered a two-day executive AI workshop for A+E Global Media, producing two companion static HTML artifacts as self-contained, portable deliverables designed to be opened directly in a browser without any server infrastructure.
 
-A+E Global Media is a media company that engaged BlueAlly for an AI capacity workshop. The engagement produced a standalone interactive HTML executive presentation covering AI capacity and workshop content — see [[ae-ai-workshop-source]] for the project inventory.
+## Workshop deliverables
 
-## Engagement details
+The workshop output is split across two related projects:
 
-- **Deliverable type**: Single-page interactive HTML executive presentation
-- **Format**: Standalone HTML artifact (not a hosted application)
-- **Repository**: https://github.com/red11scout/ae-ai-workshop
-- **Last commit**: 2026-05-04
+- **ae-ai-workshop** (see [[ae-ai-workshop-source]]): a standalone HTML executive presentation; the first known deliverable, last committed 2026-05-04.
+- **aegm-workshop** (see [[aegm-workshop-source]]): a companion microsite covering the broader two-day workshop agenda, last committed 2026-05-05.
 
-## Ecosystem context
+Neither project is part of the core [[blueally-pipeline]] SaaS ecosystem — both are external client deliverables.
 
-This engagement is an external client deliverable and does not form part of the core [[blueally-pipeline]] SaaS ecosystem. It represents the type of custom workshop content that BlueAlly produces for clients.
+## Ecosystem role
+
+A+E Global Media sits outside the BlueAlly SaaS pipeline. The workshop engagements are standalone HTML deliverables, not deployed web applications backed by databases or APIs.
 
 ## Related
 
-- [[ae-ai-workshop-source]] — Project inventory for the workshop deliverable
-- [[blueally-pipeline]] — The broader BlueAlly delivery pipeline
+- [[ae-ai-workshop-source]]
+- [[aegm-workshop-source]]
+- [[blueally-pipeline]]

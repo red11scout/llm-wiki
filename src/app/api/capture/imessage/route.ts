@@ -3,8 +3,8 @@ import { createHash } from "crypto";
 import { writeFile, mkdir } from "fs/promises";
 import { join } from "path";
 import { after } from "next/server";
-import { dbWrite } from "@/../../db";
-import { rawSources } from "@/../../db/schema";
+import { dbWrite } from "@db";
+import { rawSources } from "@db/schema";
 
 export const maxDuration = 30;
 

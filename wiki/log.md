@@ -91,3 +91,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-ai-solution-navigator-source]], [[blueally-ai-solution-navigator]]
 - updated: [[blueally-pipeline]], [[neon]], [[drizzle-orm]], [[vercel]], [[tailwindcss]], [[anthropic-sdk]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly Customer Portal — Project Inventory
+- source: raw/notes/projects/blueally-customer-portal.md
+- created: [[blueally-customer-portal-source]], [[blueally-customer-portal]], [[blueally-framework-journey]], [[clerk]], [[vite]], [[express]], [[react]]
+- updated: [[neon]], [[drizzle-orm]], [[framer-motion]], [[tailwindcss]], [[anthropic-sdk]], [[blueally-pipeline]]
+- contradictions: 0

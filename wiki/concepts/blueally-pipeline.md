@@ -1,38 +1,39 @@
 ---
 title: BlueAlly Pipeline
 kind: concept
-summary: BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, and educational support.
+summary: BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, educational support, and customer portal.
 tags: [blueally, pipeline, architecture, delivery]
-sources: 14
+sources: 15
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end delivery system BlueAlly uses to take enterprise clients from initial AI opportunity discovery through structured analysis, solution selection, architecture design, executive reporting, and ongoing education. Each stage is a distinct deployed application that passes structured data to the next.
+The BlueAlly Pipeline is the end-to-end system through which BlueAlly takes a prospective customer from first contact through to ongoing AI transformation tracking. Each stage is a discrete deployed (or planned) application.
 
-## Pipeline stages
+## Pipeline Stages
 
-1. **Top-of-funnel marketing** — [[aiwebsiteblueally]] / [[aiwebsiteblueally-next]]: entry point; planned replacement underway.
-2. **Assessment & discovery** — [[researchapp]] (`discover.movefasterwithai.com`): generates assessment JSON as step-1 input.
-3. **Guided analysis** — [[aiworkflow]]: step-2 app that runs a 10-step workflow on imported assessment JSON, producing structured output.
-4. **Solution selection** — [[blueally-ai-solution-navigator]]: decision-support tool that bridges opportunity identification to technical architecture, using Claude to guide enterprises toward the right AI solutions.
-5. **Architecture generation** — [[ai-architecture-studio]]: step-3 app that ingests aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
-6. **Executive readout** — [[ai-executive-readout]]: generates polished executive-level AI readout reports.
-7. **Infrastructure sizing** — [[ai-infra-sizing]]: right-sizes enterprise AI infrastructure using deterministic calculation with Claude as advisor.
-8. **Investment intelligence** — [[atlas]]: provides token usage projections, Private AI BoMs, and ROI analysis.
-9. **Executive education** — [[ai-visual-intelligence-library]]: interactive platform for AI literacy with animated explainers and a Claude-grounded Ask drawer.
+1. **Top-of-funnel** — [[aiwebsiteblueally]] (current Replit site) → [[aiwebsiteblueally-next]] (Next.js rewrite)
+2. **Assessment / Discovery** — [[researchapp]] generates structured assessment JSON
+3. **Workshop Analysis** — [[aiworkflow]] runs a 10-step guided analysis on the assessment JSON
+4. **Artifact Generation** — [[ai-architecture-studio]] produces architecture diagrams, PRDs, and financial models
+5. **Executive Readout** — [[ai-executive-readout]] renders polished executive-level reports
+6. **Infrastructure Sizing** — [[ai-infra-sizing]] right-sizes AI infrastructure with Claude as advisor
+7. **Investment Intelligence** — [[atlas]] provides token projections, Private AI BoMs, and ROI analysis
+8. **Education** — [[ai-visual-intelligence-library]] delivers animated AI concept explainers
+9. **Presentation** — [[blueally-presentation-toolkit]] (AI Executive Briefing, blueally-presenting, blueally-workshop-experience, AI Systems Presentation)
+10. **Customer Portal** — [[blueally-customer-portal]] (planned) tracks each customer's [[blueally-framework-journey]] through an authenticated multi-tenant portal
 
-## Supporting tools
+## Supporting Tools
 
-- [[blueally-ai-app]] — Field-CTO partner tool for framing AI use cases and generating consulting briefs.
-- [[blueally-presentation-toolkit]] — Suite of web-native presentation tools used to deliver findings to clients.
+- [[blueally-ai-app]] — field-CTO partner tool for framing AI use cases
+- [[blueally-ai-solution-navigator]] — AI solution selection decision support
+- [[ai-executive-briefing]] — web-native executive AI strategy presentation
 
 ## Predecessor
 
-[[ai-catalyst]] was the original workshop analysis platform (8-agent pipeline, 4-dimension survey) before being superseded by [[aiworkflow]].
+[[ai-catalyst]] was the original 8-agent pipeline workshop platform; it was superseded by [[aiworkflow]].
 
 ## Related
 
-- [[consulting-brief]] — Primary output artifact of BlueAlly AI App
-- [[multi-agent-pipeline]] — Architectural pattern pioneered in AI Catalyst
-- [[ai-literacy]] — Foundational concept supported by the educational layer
-- [[gofasterwithai]] — Branded domain hosting key pipeline apps
+- [[blueally-framework-journey]] — 8-part customer journey tracked in the portal
+- [[multi-agent-pipeline]] — architectural pattern used in earlier pipeline stages
+- [[ai-literacy]] — capability the pipeline helps build in client organisations

@@ -125,6 +125,11 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# Claude Code
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/last-context.md
+
 # pnpm
 .pnpm-store
 
@@ -141,3 +146,5 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+.vercel
+.env*.local

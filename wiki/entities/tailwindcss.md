@@ -1,26 +1,21 @@
 ---
 title: TailwindCSS
 kind: entity
-summary: Utility-first CSS framework used across multiple BlueAlly apps and personal projects for styling.
-tags: [frontend, css, styling]
+summary: Utility-first CSS framework used across multiple BlueAlly apps, personal projects, and external-client tools for styling.
+tags: [css, styling, frontend]
 sources: 2
 updated: 2026-05-21
 ---
 
-TailwindCSS is a utility-first CSS framework used for styling across the BlueAlly ecosystem and personal projects by the same author. It is the default styling approach wherever a dedicated component library (e.g., [[shadcn-ui]]) is not already providing styles.
+TailwindCSS is a utility-first CSS framework that is the standard styling solution across the BlueAlly project portfolio. It is used in nearly every deployed app alongside [[nextjs]] and [[react]].
 
-## Used in
+## Usage across BlueAlly ecosystem
 
-### BlueAlly ecosystem
-- Multiple deployed and archived BlueAlly apps
-- [[aiworkflow]] — 10-step guided analysis pipeline app
-- [[ai-architecture-studio]] — architecture diagram and PRD generator
-
-### Personal projects
-- [[godwin-family-tracker]] — personal family task-scoring app
+TailwindCSS is used across BlueAlly core pipeline apps, presentation tools, personal projects, and external-client tools including [[mativ-roi-dashboard]] and [[ga-staff-scheduler]].
 
 ## Related
 
-- [[shadcn-ui]] — component library built on Radix UI and Tailwind CSS
-- [[framer-motion]] — animation library frequently co-located with Tailwind for UI
-- [[react]] — primary UI framework
+- [[react]] — UI framework commonly paired with Tailwind
+- [[nextjs]] — Application framework commonly paired with Tailwind
+- [[shadcn-ui]] — Component library built on Radix UI and Tailwind, used in [[aiworkflow]]
+- [[mativ-roi-dashboard]] — External-client dashboard styled with Tailwind

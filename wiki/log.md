@@ -217,3 +217,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[knowledge-capture-source]], [[knowledge-capture]]
 - updated: [[concepts-blueally]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Mativ ROI Dashboard — Project Inventory
+- source: raw/notes/projects/mativ-roi-dashboard.md
+- created: [[mativ-roi-dashboard-source]], [[mativ-roi-dashboard]], [[mativ-holdings]], [[roi-dashboard]], [[nextjs]]
+- updated: [[vercel]], [[framer-motion]], [[tailwindcss]]
+- contradictions: 0

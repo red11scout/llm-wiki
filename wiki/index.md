@@ -47,16 +47,19 @@
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
 - [[knowledge-capture]] — Active BlueAlly internal Next.js/Neon platform for structured knowledge organization, storage, and retrieval; not deployed, last committed 2026-04-09.
+- [[mativ-holdings]] — Manufacturing enterprise client of BlueAlly; recipient of a custom ROI analysis dashboard deliverable.
+- [[mativ-roi-dashboard]] — Deployed external-client interactive ROI analysis dashboard built for Mativ Holdings using Next.js, Framer Motion, and static content; last committed 2026-03-24.
 - [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps, personal projects, and external-client tools by the same author.
+- [[nextjs]] — React-based full-stack web framework by Vercel; used across the majority of BlueAlly apps, personal projects, and external-client tools as the primary application framework.
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
 - [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps and personal projects.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
 - [[researchapp]] — Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
-- [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps and personal projects for styling.
+- [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps, personal projects, and external-client tools for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
-- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler and Mativ ROI Dashboard.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps and personal projects as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
@@ -76,6 +79,7 @@
 - [[mcp-server]] — Model Context Protocol server — a local or remote process that extends a Claude Code environment with additional tools, resources, or memory; BlueAlly runs 9 MCP servers including Claude Mem.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by CognitionTwo.
 - [[private-ai-investment-modeling]] — Financial modeling discipline for evaluating on-premises or private cloud AI deployments, encompassing hardware BoMs, cloud costs, operational expenditure, and ROI analysis.
+- [[roi-dashboard]] — Interactive visualization tool presenting return-on-investment analysis and business impact metrics to enterprise stakeholders, typically with animated data displays and static or pre-computed content.
 
 ## Sources
 - [[ae-ai-workshop-source]] — Project inventory for the A+E Global Media AI Workshop, a standalone HTML executive presentation deliverable built by BlueAlly, last committed 2026-05-04.
@@ -113,3 +117,4 @@
 - [[ga-staff-scheduler-source]] — Project inventory for GA Staff Scheduler, a deployed external-client Next.js staff scheduling app with Claude SDK-powered schedule optimization and Neon persistence; last committed 2026-03-31.
 - [[godwin-family-tracker-source]] — Project inventory for Godwin Family Tracker, a personal daily task-scoring app for 6 children with deterministic scoring, WebSocket live updates, and Claude-generated encouragement; not deployed, last committed 2026-02-24.
 - [[knowledge-capture-source]] — Project inventory for Knowledge Capture, an active BlueAlly internal Next.js/Neon platform for structured knowledge organization and retrieval; not deployed, last committed 2026-04-09.
+- [[mativ-roi-dashboard-source]] — Project inventory for Mativ ROI Dashboard, a deployed external-client interactive ROI analysis dashboard built for Mativ Holdings with Next.js, Framer Motion, and static content; last committed 2026-03-24.

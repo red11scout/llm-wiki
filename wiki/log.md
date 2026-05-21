@@ -247,3 +247,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[researchapp-source]]
 - updated: [[researchapp]]
 - contradictions: 1
+
+## [2026-05-21] ingest | Sheepdog Society — Project Inventory
+- source: raw/notes/projects/sheepdogsociety.md
+- created: [[sheepdogsociety-source]], [[sheepdogsociety]]
+- updated: [[clerk]]
+- contradictions: 0

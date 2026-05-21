@@ -31,7 +31,7 @@
 - [[claude-code]] — Anthropic's agentic coding assistant; used as the primary AI-assisted development environment across BlueAlly projects, configured with 9 MCP servers including Claude Mem.
 - [[claude-mem]] — BlueAlly developer infrastructure tool; a memory compression MCP server for Claude Code that persists context across sessions using Express, SQLite, and esbuild; last committed 2026-02-10.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
-- [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
+- [[clerk]] — Authentication and user-management platform used in Sheepdog Society for admin auth and scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired in the portal.
 - [[cognition-two]] — Deployed BlueAlly multi-agent cognitive analysis platform on Replit; earliest-generation implementation of the multi-agent pipeline pattern, predecessor to AI Catalyst; last committed 2026-02-10.
 - [[cognoresearcher]] — Archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; predecessor to researchapp and aiworkflow, last committed 2026-02-19.
 - [[compass]] — Deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; a Turborepo monorepo last committed 2026-05-06.
@@ -60,6 +60,7 @@
 - [[researchapp]] — BlueAlly's original Express/Vite AI Strategic Assessment Platform deployed at discover.movefasterwithai.com; step-1 pipeline entry point generating assessment JSON consumed by aiworkflow; last committed 2026-02-23.
 - [[researchapp-v2]] — Active Next.js rewrite of BlueAlly's AI Strategic Assessment Platform, modernising from Express/Vite to Next.js App Router with Zustand; planned replacement for researchapp at step 1 of the BlueAlly pipeline; last committed 2026-02-16.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
+- [[sheepdogsociety]] — Deployed personal/church Next.js website for Acts 2028 Sheepdog Society with Clerk admin auth and Neon member database; last committed 2026-05-16.
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps, personal projects, and external-client tools for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
@@ -127,3 +128,4 @@
 - [[meharry-testbank-source]] — Project inventory for Meharry Test Bank, a deployed external-client educational test bank platform built for Meharry Medical College using Next.js, Neon, and Drizzle ORM; last committed 2026-04-07.
 - [[researchapp-source]] — Project inventory for ResearchApp, BlueAlly's original Express/Vite AI Strategic Assessment Platform at discover.movefasterwithai.com; step-1 pipeline entry point, last committed 2026-02-23.
 - [[researchapp-v2-source]] — Project inventory for ResearchApp v2, a Next.js rewrite of the AI Strategic Assessment Platform replacing the Express/Vite architecture; active, last committed 2026-02-16.
+- [[sheepdogsociety-source]] — Project inventory for Sheepdog Society, a deployed personal/church Next.js site for Acts 2028 with Clerk auth and Neon; last committed 2026-05-16.

@@ -52,6 +52,9 @@ export async function ingest(sourceFilePath: string): Promise<{
   const { object: result } = await generateObject({
     model: sonnet,
     schema: PageUpdateSchema,
+    providerOptions: {
+      anthropic: { structuredOutputMode: "jsonTool" },
+    },
     system: [
       "You are the wiki ingest engine. Follow this schema exactly:",
       schemaPrompt,

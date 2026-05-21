@@ -1,7 +1,12 @@
 import { createAnthropic } from "@ai-sdk/anthropic";
+import { config } from "dotenv";
 
-export const anthropic = createAnthropic();
+config({ path: ".env.local", override: true });
 
-export const sonnet = anthropic("claude-sonnet-4-6-20250514");
+export const anthropic = createAnthropic({
+  baseURL: "https://api.anthropic.com/v1",
+});
 
-export const opus = anthropic("claude-opus-4-7-20250515");
+export const sonnet = anthropic("claude-sonnet-4-6");
+
+export const opus = anthropic("claude-opus-4-7");

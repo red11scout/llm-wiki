@@ -2,58 +2,33 @@
 title: BlueAlly Customer Portal
 kind: entity
 summary: Planned authenticated multi-tenant customer portal for the BlueAlly ecosystem, tracking each organisation's 8-part AI transformation framework journey; not yet deployed.
-tags: [blueally, portal, multi-tenant, framework-journey, in-progress]
-sources: 1
+tags: [blueally, portal, multi-tenant, auth, planned]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: BlueAlly Customer Portal
-kind: entity
-summary: Planned authenticated multi-tenant customer portal for the BlueAlly ecosystem, tracking each organisation's 8-part AI transformation framework journey; not yet deployed.
-tags: [blueally, portal, multi-tenant, framework-journey, in-progress]
-sources: 1
-updated: 2026-05-21
----
-
-BlueAlly Customer Portal is a planned, as-yet-undeployed web application that gives BlueAlly customers an authenticated view of their AI transformation journey. The portal is built around an **8-part framework journey** (see [[blueally-framework-journey]]) and a multi-tenant data model that keeps each customer organisation's steps and artifacts isolated.
+BlueAlly Customer Portal is a planned authenticated multi-tenant portal that will track each client organisation's progress through the [[blueally-framework-journey]], BlueAlly's 8-part AI transformation framework. It is distinct from [[blueally-microsites]], which is already deployed and serves as a simpler password-protected artifact delivery portal.
 
 ## Status
 
-As of 2026-05-21 the project exists on local filesystem only — no GitHub remote, no deployment, and no recorded last-commit date. Its status is described as *unknown*.
+Not yet deployed. [[clerk]] has been scaffolded in for multi-tenant auth but is not yet fully wired up.
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Front-end | [[react]] + [[vite]] |
-| Styling | [[tailwindcss]] |
-| Animation | [[framer-motion]] |
-| Back-end | [[express]] |
-| ORM | [[drizzle-orm]] |
-| Database | [[neon]] (serverless Postgres) |
-| Auth | [[clerk]] (scaffolded, not yet wired) |
-| AI | [[anthropic-sdk]] |
+[[react]], [[tailwindcss]], [[drizzle-orm]], [[neon]], [[framer-motion]], [[clerk]] (auth, scaffolded).
 
-## Features
+## Distinction from BlueAlly Microsites
 
-- **Framework journey tracking** — 8 discrete steps per organisation, with artifact storage
-- **Multi-tenant architecture** — organisations, framework steps, and artifacts as separate data models
-- **Sales rep contact widget** — embedded support touchpoint
-- **Activity log** — per-organisation event history
-- **Email campaign tables** — campaign tracking across 5 pages: `PortalHome`, `JourneyStep`, `Reports`, `Team`, and `Settings`
+[[blueally-microsites]] is the currently deployed client delivery portal (portal.[[gofasterwithai]].com), providing password-protected landing pages with 6 resource boxes linking to generated artifacts — it uses TypeScript config files rather than a database for client config. BlueAlly Customer Portal will be a more fully featured authenticated product tracking the structured 8-part framework journey over time.
 
-## Ecosystem Role
+## Ecosystem role
 
-The portal sits downstream in the [[blueally-pipeline]] as the customer-facing accountability and visibility layer. It is planned to merge into the main website (see [[aiwebsiteblueally-next]]) under a `/portal/` route in a future phase.
+Will become the durable home for a client's ongoing AI transformation journey within the [[blueally-pipeline]], complementing the artifact-delivery role fulfilled today by [[blueally-microsites]].
 
 ## Related
 
 - [[blueally-customer-portal-source]] — raw project inventory
-- [[blueally-framework-journey]] — the 8-part framework being tracked
-- [[blueally-pipeline]] — broader delivery pipeline context
-- [[aiwebsiteblueally-next]] — planned merge target
-- [[clerk]] — authentication provider
-- [[neon]] — database platform
-- [[drizzle-orm]] — ORM layer
-- [[anthropic-sdk]] — AI integration
+- [[blueally-framework-journey]] — the 8-part framework this portal tracks
+- [[blueally-microsites]] — the currently deployed artifact delivery portal
+- [[blueally-pipeline]] — the broader pipeline this portal is part of
+- [[clerk]] — auth platform scaffolded in

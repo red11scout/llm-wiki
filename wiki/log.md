@@ -109,3 +109,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-intelligence-source]], [[blueally-intelligence]]
 - updated: [[anthropic-sdk]], [[drizzle-orm]], [[neon]], [[react]], [[vite]], [[express]], [[zustand]], [[tailwindcss]], [[ai-catalyst]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly Microsites — Project Inventory
+- source: raw/notes/projects/blueally-microsites.md
+- created: [[blueally-microsites-source]], [[blueally-microsites]], [[jose]], [[glass-monolith-theme]]
+- updated: [[gofasterwithai]], [[blueally-pipeline]], [[blueally-customer-portal]]
+- contradictions: 0

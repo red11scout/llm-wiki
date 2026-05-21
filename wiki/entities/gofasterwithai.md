@@ -1,28 +1,28 @@
 ---
-title: GoFasterWithAI
+title: gofasterwithai
 kind: entity
-summary: BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com and AI Visual Intelligence Library at library.gofasterwithai.com.
-tags: [blueally-ip, infrastructure, deployment]
+summary: BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com, AI Visual Intelligence Library at library.gofasterwithai.com, and BlueAlly Microsites client portal at portal.gofasterwithai.com.
+tags: [blueally, domain, deployment]
 sources: 2
 updated: 2026-05-21
 ---
 
-GoFasterWithAI (`gofasterwithai.com`) is the branded domain under which BlueAlly hosts its deployed client-facing and internal pipeline applications. Each app is served from a named subdomain, creating a coherent product surface for the [[blueally-pipeline]] ecosystem.
+`gofasterwithai.com` is BlueAlly's primary branded domain for deployed client-facing pipeline applications. It serves as the public-facing home of BlueAlly's AI delivery toolchain.
 
-## Known subdomains
+## Hosted apps
 
-| Subdomain | Application |
+| Subdomain | App |
 |---|---|
-| `builder.gofasterwithai.com` | [[ai-architecture-studio]] |
-| `library.gofasterwithai.com` | [[ai-visual-intelligence-library]] |
+| builder.gofasterwithai.com | [[ai-architecture-studio]] |
+| library.gofasterwithai.com | [[ai-visual-intelligence-library]] |
+| portal.gofasterwithai.com | [[blueally-microsites]] — client delivery portal |
 
-## Ecosystem role
-
-The domain acts as the public-facing brand layer for BlueAlly's deployed tooling. Apps are built and deployed via [[vercel]] and surfaced under `gofasterwithai.com` subdomains for client delivery.
+The portal subdomain (`portal.gofasterwithai.com`) is the target production URL for [[blueally-microsites]], the final presentation layer of the [[blueally-pipeline]] where clients access all their generated artifacts.
 
 ## Related
 
-- [[blueally-pipeline]] — the delivery pipeline whose apps are hosted here
-- [[ai-architecture-studio]] — pipeline app at `builder.gofasterwithai.com`
-- [[ai-visual-intelligence-library]] — education platform at `library.gofasterwithai.com`
-- [[vercel]] — underlying deployment platform
+- [[blueally-pipeline]] — the pipeline whose apps are hosted here
+- [[ai-architecture-studio]] — builder subdomain
+- [[ai-visual-intelligence-library]] — library subdomain
+- [[blueally-microsites]] — portal subdomain
+- [[vercel]] — deployment platform for hosted apps

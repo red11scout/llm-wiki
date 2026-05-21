@@ -67,6 +67,7 @@
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
 - [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler, Mativ ROI Dashboard, and Meharry Test Bank.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps and personal projects as the bundler for React applications.
+- [[workflow]] — Archived BlueAlly workflow management tool with Claude SDK integration and Neon persistence; predecessor to aiworkflow, last committed 2026-02-12.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
 ## Concepts
@@ -131,3 +132,4 @@
 - [[researchapp-v2-source]] — Project inventory for ResearchApp v2, a Next.js rewrite of the AI Strategic Assessment Platform replacing the Express/Vite architecture; active, last committed 2026-02-16.
 - [[sheepdogsociety-source]] — Project inventory for Sheepdog Society, a deployed personal/church Next.js site for Acts 2028 with Clerk auth and Neon; last committed 2026-05-16.
 - [[smart-report-ai-source]] — Project inventory for SmartReportAI, a deployed BlueAlly AI assessment report generator co-occupying step 1 of the pipeline alongside researchapp; dual-deployed on Vercel and Replit, last committed 2026-03-25.
+- [[workflow-source]] — Project inventory for Workflow Compass, an archived BlueAlly workflow management tool with Claude SDK integration; predecessor to aiworkflow, last committed 2026-02-12.

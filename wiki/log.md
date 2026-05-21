@@ -259,3 +259,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[smart-report-ai-source]], [[smart-report-ai]]
 - updated: [[researchapp]], [[blueally-pipeline]], [[esbuild]]
 - contradictions: 1
+
+## [2026-05-21] ingest | Workflow (Workflow Compass) — Project Inventory
+- source: raw/notes/projects/workflow.md
+- created: [[workflow-source]], [[workflow]]
+- updated: [[aiworkflow]]
+- contradictions: 0

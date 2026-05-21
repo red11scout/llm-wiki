@@ -1,22 +1,22 @@
 ---
-title: CognoResearcher Project Inventory
+title: CognoResearcher — Project Inventory
 kind: source
 summary: Project inventory for CognoResearcher, an archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; last committed 2026-02-19.
-tags: [blueally, archived, assessment, research, pipeline]
+tags: [blueally, archived, assessment, multi-agent-pipeline, express, vite, react]
 sources: 1
 updated: 2026-05-21
 ---
 
 ---
-title: CognoResearcher Project Inventory
+title: CognoResearcher — Project Inventory
 kind: source
 summary: Project inventory for CognoResearcher, an archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; last committed 2026-02-19.
-tags: [blueally, archived, assessment, research, pipeline]
+tags: [blueally, archived, assessment, multi-agent-pipeline, express, vite, react]
 sources: 1
 updated: 2026-05-21
 ---
 
-Raw project inventory captured 2026-05-21 via local filesystem survey for the CognoResearcher repository.
+Raw capture from a local filesystem survey of the CognoResearcher project directory, taken 2026-05-21.
 
 ## Key facts
 
@@ -30,17 +30,18 @@ Raw project inventory captured 2026-05-21 via local filesystem survey for the Co
 
 [[react]], [[vite]], [[express]], [[tailwindcss]], [[drizzle-orm]], [[neon]], [[anthropic-sdk]], [[framer-motion]]
 
-## Summary
+## Description
 
-[[cognoresearcher]] is an enhanced AI Strategic Assessment Platform that combined cognitive analysis with strategic research capabilities in a single platform. It was built on the same Express/Vite/Drizzle stack as other early-generation BlueAlly tools, with Framer Motion animations and Claude SDK integration.
+Enhanced AI Strategic Assessment Platform combining cognitive analysis with research capabilities. Built on the same Express/Vite/Drizzle stack as other early-generation BlueAlly tools, with Framer Motion animations and [[anthropic-sdk]] (Claude SDK) integration.
 
-Its capabilities were eventually absorbed into [[researchapp]] and [[aiworkflow]], making it a conceptual predecessor to those step-1 and step-2 pipeline tools. It sits chronologically between [[cognition-two]] (last committed 2026-02-10) and [[ai-catalyst]] (last committed 2026-02-14) in the lineage of BlueAlly assessment platforms.
+## Ecosystem role
+
+An archived earlier-generation assessment tool that explored combining cognitive analysis with strategic research in a single platform. Its capabilities were eventually absorbed into [[researchapp]] and [[aiworkflow]] as the [[blueally-pipeline]] matured. Sits in the lineage between [[cognition-two]] and [[researchapp]] as a transitional platform.
 
 ## Related
 
 - [[cognoresearcher]] — entity page for this project
-- [[blueally-pipeline]] — the pipeline whose upstream assessment capability this tool prefigured
-- [[researchapp]] — absorbed CognoResearcher's research capabilities
-- [[aiworkflow]] — absorbed CognoResearcher's cognitive analysis capabilities
-- [[cognition-two]] — earlier-generation multi-agent predecessor
-- [[ai-catalyst]] — contemporaneous archived assessment platform
+- [[cognition-two]] — predecessor multi-agent platform
+- [[researchapp]] — successor step-1 pipeline tool that absorbed CognoResearcher's capabilities
+- [[aiworkflow]] — step-2 pipeline tool that inherited the workflow analysis responsibilities
+- [[blueally-pipeline]] — the broader delivery pipeline this project fed into

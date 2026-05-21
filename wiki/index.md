@@ -1,13 +1,16 @@
 # Index
 
-Catalog of every wiki page, grouped by kind. One line each: link + one-line summary.
-Updated on every ingest. See SCHEMA.md §6 for the format.
-
 ## Entities
-<!-- - [[slug]] — one-line summary -->
+- [[ai-architecture-studio]] — Deployed BlueAlly pipeline app (step 3) that ingests aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
+- [[aiworkflow]] — Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio.
+- [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
+- [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com.
+- [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
+- [[neon]] — Serverless Postgres database platform used as the database layer in AI Architecture Studio.
+- [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
 
 ## Concepts
-<!-- - [[slug]] — one-line summary -->
+- [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from workshop analysis through aiworkflow to AI Architecture Studio artifact generation.
 
 ## Sources
-<!-- - [[slug]] — one-line summary -->
+- [[ai-architecture-studio-source]] — Project inventory for AI Architecture Studio, a deployed BlueAlly pipeline app that transforms aiworkflow JSON into architecture diagrams, PRDs, and financial models.

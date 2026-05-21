@@ -12,27 +12,29 @@
 - [[aiwebsiteblueally]] — Current Replit-hosted BlueAlly AI marketing website; top-of-funnel entry point into the BlueAlly pipeline, planned for replacement by aiwebsiteblueally-next.
 - [[aiwebsiteblueally-next]] — Active Next.js rewrite of the BlueAlly AI marketing website, adding Payload CMS, Neon, and Claude SDK; planned production replacement for the Replit-hosted site, last committed 2026-03-03.
 - [[aiworkflow]] — BlueAlly's step-2 pipeline app that imports assessment JSON from researchapp and runs a 10-step guided analysis workflow, producing structured output consumed by AI Architecture Studio; last committed 2026-05-13.
-- [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including the BlueAlly AI Website (Next.js).
+- [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, and the BlueAlly AI Website (Next.js).
+- [[atlas]] — BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI infrastructure Bills of Materials, and ROI analysis; deployed at atlas.vercel.app.
 - [[blueally-presenting]] — BlueAlly web-native presentation utility; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing and blueally-workshop-experience.
 - [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing and blueally-presenting.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
-- [[drizzle-orm]] — TypeScript-native ORM library used in AI Catalyst, AI Executive Readout, AI Infrastructure Sizing, and BlueAlly AI Website (Next.js) for type-safe database access.
+- [[drizzle-orm]] — TypeScript-native ORM library used in AI Catalyst, AI Executive Readout, AI Infrastructure Sizing, Atlas, and BlueAlly AI Website (Next.js) for type-safe database access.
 - [[framer-motion]] — React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, and BlueAlly AI Website (Next.js) — for interactive animations.
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com and AI Visual Intelligence Library at library.gofasterwithai.com.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
-- [[neon]] — Serverless Postgres database platform used as the database layer in AI Architecture Studio, AI Executive Readout, AI Infrastructure Sizing, and BlueAlly AI Website (Next.js).
+- [[neon]] — Serverless Postgres database platform used as the database layer in AI Architecture Studio, AI Executive Readout, AI Infrastructure Sizing, Atlas, and BlueAlly AI Website (Next.js).
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
 - [[researchapp]] — Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
-- [[tailwindcss]] — Utility-first CSS framework used in AI Systems Presentation and BlueAlly AI Website (Next.js) for styling; part of the Next.js front-end stack across BlueAlly projects.
-- [[vercel]] — Cloud deployment platform used to host multiple BlueAlly apps, including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, and the BlueAlly AI Website (Next.js).
+- [[tailwindcss]] — Utility-first CSS framework used in AI Systems Presentation, Atlas, and BlueAlly AI Website (Next.js) for styling; part of the Next.js front-end stack across BlueAlly projects.
+- [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas for managing the multi-package BlueAlly Investment Intelligence Platform codebase.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, and the BlueAlly AI Website (Next.js).
 - [[zustand]] — Lightweight React state management library used in AI Executive Briefing, AI Infrastructure Sizing, and AI Systems Presentation for client-side state.
 
 ## Concepts
 - [[ai-literacy]] — Foundational understanding of AI concepts enabling executives to interpret, evaluate, and act on AI-generated assessments, architectures, and recommendations.
-- [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, and educational support.
+- [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, and educational support.
 - [[blueally-presentation-toolkit]] — BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, blueally-presenting, and AI Systems Presentation.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
 
@@ -48,3 +50,4 @@
 - [[ai-visual-intelligence-library-source]] — Project inventory for AI Visual Intelligence Library, a deployed BlueAlly interactive executive education platform for AI concepts with animated explainers and a Claude-grounded Ask drawer, last committed 2026-04-17.
 - [[aiwebsiteblueally-next-source]] — Project inventory for the BlueAlly AI Website Next.js rewrite, a Vercel-deployed marketing site with Payload CMS, Neon, and Claude SDK integration; last committed 2026-03-03.
 - [[aiworkflow-source]] — Project inventory for AI Workflow, BlueAlly's step-2 pipeline app that runs a 10-step guided analysis workflow on imported assessment JSON, last committed 2026-05-13.
+- [[atlas-source]] — Project inventory for Atlas, BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI BoMs, and ROI analysis as a Turborepo monorepo; last committed 2026-05-06.

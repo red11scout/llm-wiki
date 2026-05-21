@@ -2,64 +2,32 @@
 title: AI Architecture Studio
 kind: entity
 summary: Deployed BlueAlly pipeline app (step 3) that ingests aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
-tags: [blueally-pipeline, deployed, architecture, product]
-sources: 1
+tags: [blueally, pipeline, architecture, deployed, active]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: AI Architecture Studio
-kind: entity
-summary: Deployed BlueAlly pipeline app (step 3) that ingests aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models.
-tags: [blueally-pipeline, deployed, architecture, product]
-sources: 1
-updated: 2026-05-21
----
+AI Architecture Studio is a deployed BlueAlly pipeline application (step 3) hosted on [[gofasterwithai]] at `builder.gofasterwithai.com`. It consumes structured JSON output from [[aiworkflow]] and generates architecture diagrams, agentic workflows, Product Requirements Documents (PRDs), and financial models for enterprise AI programmes.
 
-AI Architecture Studio is a deployed web application occupying step 3 of the [[blueally-pipeline]]. It consumes JSON output produced by [[aiworkflow]] and transforms it into a suite of technical artifacts: system architecture diagrams, agentic workflow designs, data governance views, product requirement documents (PRDs), and financial models. It is accessible at `builder.gofasterwithai.com` (hosted via [[gofasterwithai]]) and maintained at `https://github.com/red11scout/ai-architecture-studio`.
+## Technical stack
 
-## Technical Stack
+- **Diagrams**: [[react-flow]] with Dagre layout for 3-layer architecture rendering
+- **PRD generation**: [[claude-sonnet]] (Anthropic LLM)
+- **Financial calculations**: [[hyperformula]] (deterministic spreadsheet engine)
+- **Database**: [[neon]] (serverless Postgres)
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js + React |
-| Styling | TailwindCSS |
-| ORM | Drizzle ORM |
-| Database | [[neon]] (serverless Postgres) |
-| AI | [[claude-sonnet]] (PRD generation only) |
-| Diagrams | [[react-flow]] + Dagre (3-layer rendering) |
-| Calculations | [[hyperformula]] (deterministic) |
-| Export | ExcelJS (6-sheet workbook) |
+## Role in the BlueAlly ecosystem
 
-## Features
-
-- **18 routes** covering all major artifact views
-- **5 DB tables** for persisting use-case data
-- **Per-use-case tabs**: Architecture, Workflow, Data & Governance, Financial, PRD, Roadmap
-- **ExcelJS export** with 6 sheets for downstream sharing
-- **3-layer diagram rendering** via [[react-flow]] with Dagre layout
-- **Deterministic financial calculations** via [[hyperformula]]
-- **PRD generation** via [[claude-sonnet]]
-
-## Ecosystem Role
-
-As step 3 of the [[blueally-pipeline]], AI Architecture Studio bridges workshop analysis (produced upstream by [[aiworkflow]]) and actionable technical delivery. Workshop JSON flows in; stakeholder-ready blueprints flow out. This makes it a core translation layer between business use-case prioritization and engineering execution.
-
-## Deployment
-
-- **Status**: Deployed
-- **Last commit**: 2026-05-20
-- **Vercel URL**: `ai-architecture-studio.vercel.app`
-- **Target domain**: `builder.gofasterwithai.com`
-- **Source**: `raw/notes/projects/ai-architecture-studio.md` (see [[ai-architecture-studio-source]])
+AI Architecture Studio sits at step 3 of the [[blueally-pipeline]], transforming the analysis output from [[aiworkflow]] into concrete technical and financial artefacts. Its technical outputs are complemented by [[atlas]], which provides the investment intelligence, infrastructure Bills of Materials, and ROI analysis needed to build full business cases.
 
 ## Related
 
-- [[aiworkflow]]
-- [[blueally-pipeline]]
-- [[gofasterwithai]]
-- [[neon]]
-- [[react-flow]]
-- [[hyperformula]]
-- [[claude-sonnet]]
-- [[ai-architecture-studio-source]]
+- [[ai-architecture-studio-source]] — Source inventory page
+- [[aiworkflow]] — Upstream step-2 analysis app whose JSON this tool consumes
+- [[atlas]] — Downstream investment intelligence platform that complements these outputs
+- [[blueally-pipeline]] — Pipeline context
+- [[react-flow]] — Diagram rendering library
+- [[claude-sonnet]] — LLM used for PRD generation
+- [[hyperformula]] — Financial calculation engine
+- [[neon]] — Database layer
+- [[gofasterwithai]] — Hosting domain

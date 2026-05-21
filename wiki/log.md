@@ -73,3 +73,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[aiworkflow-source]], [[shadcn-ui]]
 - updated: [[aiworkflow]], [[blueally-pipeline]], [[researchapp]]
 - contradictions: 1
+
+## [2026-05-21] ingest | Atlas — Project Inventory
+- source: raw/notes/projects/atlas.md
+- created: [[atlas-source]], [[atlas]], [[turborepo]]
+- updated: [[blueally-pipeline]], [[neon]], [[drizzle-orm]], [[vercel]], [[anthropic-sdk]], [[tailwindcss]], [[ai-architecture-studio]]
+- contradictions: 0

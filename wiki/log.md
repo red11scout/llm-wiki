@@ -235,3 +235,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[researchapp-v2-source]], [[researchapp-v2]]
 - updated: [[researchapp]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly AI Website (aiwebsiteblueally) — Project Inventory
+- source: raw/notes/projects/aiwebsiteblueally.md
+- created: [[aiwebsiteblueally-source]], [[replit]], [[sse-streaming]]
+- updated: [[aiwebsiteblueally]], [[aiwebsiteblueally-next]], [[blueally-pipeline]]
+- contradictions: 0

@@ -9,7 +9,7 @@
 - [[ai-infra-sizing]] — Deployed BlueAlly platform that right-sizes enterprise AI infrastructure using a deterministic calculation engine paired with Claude as an advisor-only layer; last committed 2026-04-07.
 - [[ai-systems-presentation]] — Deployed BlueAlly interactive web-native animated presentation on AI systems architecture, built with Next.js and Framer Motion; last committed 2026-03-26.
 - [[ai-visual-intelligence-library]] — Deployed BlueAlly interactive executive education platform for AI concepts, featuring animated explainers, system maps, a Claude-grounded Ask drawer, and a scalable concept-page grammar; last committed 2026-04-17.
-- [[aiwebsiteblueally]] — Current Replit-hosted BlueAlly AI marketing website; top-of-funnel entry point into the BlueAlly pipeline, planned for replacement by aiwebsiteblueally-next.
+- [[aiwebsiteblueally]] — Current Replit-hosted BlueAlly AI marketing website with a 14-section home page, 14 industry reports, and a Claude SSE chat widget; top-of-funnel entry point into the BlueAlly pipeline, planned for replacement by aiwebsiteblueally-next.
 - [[aiwebsiteblueally-next]] — Active Next.js rewrite of the BlueAlly AI marketing website, adding Payload CMS, Neon, and Claude SDK; planned production replacement for the Replit-hosted site, last committed 2026-03-03.
 - [[aiworkflow]] — BlueAlly's step-2 pipeline app that imports assessment JSON from researchapp and runs a 10-step guided analysis workflow, producing structured output consumed by AI Architecture Studio; last committed 2026-05-13.
 - [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps, personal projects, and external-client tools as the AI integration layer.
@@ -56,6 +56,7 @@
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
 - [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps and personal projects.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
+- [[replit]] — Browser-based collaborative IDE and hosting platform; hosts the current BlueAlly AI Website and CognitionTwo.
 - [[researchapp]] — Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline; a Next.js rewrite (researchapp-v2) is in active development as its planned replacement.
 - [[researchapp-v2]] — Active Next.js rewrite of BlueAlly's AI Strategic Assessment Platform, modernising from Express/Vite to Next.js App Router with Zustand; planned replacement for researchapp at step 1 of the BlueAlly pipeline; last committed 2026-02-16.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
@@ -83,6 +84,7 @@
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by CognitionTwo.
 - [[private-ai-investment-modeling]] — Financial modeling discipline for evaluating on-premises or private cloud AI deployments, encompassing hardware BoMs, cloud costs, operational expenditure, and ROI analysis.
 - [[roi-dashboard]] — Interactive visualization tool presenting return-on-investment analysis and business impact metrics to enterprise stakeholders, typically with animated data displays and static or pre-computed content.
+- [[sse-streaming]] — HTTP-based one-way push pattern used to stream LLM token output from a server to the browser in real time; used in the BlueAlly AI Website chat widget.
 
 ## Sources
 - [[ae-ai-workshop-source]] — Project inventory for the A+E Global Media AI Workshop, a standalone HTML executive presentation deliverable built by BlueAlly, last committed 2026-05-04.
@@ -95,6 +97,7 @@
 - [[ai-systems-presentation-source]] — Project inventory for AI Systems Presentation, a deployed BlueAlly web-native interactive animated presentation on AI systems architecture, last committed 2026-03-26.
 - [[ai-visual-intelligence-library-source]] — Project inventory for AI Visual Intelligence Library, a deployed BlueAlly interactive executive education platform for AI concepts with animated explainers and a Claude-grounded Ask drawer, last committed 2026-04-17.
 - [[aiwebsiteblueally-next-source]] — Project inventory for the BlueAlly AI Website Next.js rewrite, a Vercel-deployed marketing site with Payload CMS, Neon, and Claude SDK integration; last committed 2026-03-03.
+- [[aiwebsiteblueally-source]] — Project inventory for BlueAlly AI Website, the current Replit-hosted marketing site with a 14-section home page, 14 industry reports, and a Claude streaming chat widget; last committed 2026-03-03.
 - [[aiworkflow-source]] — Project inventory for AI Workflow, BlueAlly's step-2 pipeline app that runs a 10-step guided analysis workflow on imported assessment JSON, last committed 2026-05-13.
 - [[atlas-source]] — Project inventory for Atlas, BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI BoMs, and ROI analysis as a Turborepo monorepo; last committed 2026-05-06.
 - [[blueally-ai-app-source]] — Project inventory for BlueAlly AI App, a field-CTO partner tool for executives to frame AI use cases and generate consulting briefs using Claude; last committed 2026-05-07.

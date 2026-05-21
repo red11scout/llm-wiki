@@ -1,54 +1,40 @@
 ---
-title: BlueAlly AI Website (Next.js)
+title: BlueAlly AI Website Next.js Rewrite (aiwebsiteblueally-next)
 kind: entity
 summary: Active Next.js rewrite of the BlueAlly AI marketing website, adding Payload CMS, Neon, and Claude SDK; planned production replacement for the Replit-hosted site, last committed 2026-03-03.
-tags: [blueally, marketing, next-js, cms, active]
-sources: 1
+tags: [blueally, marketing, nextjs, payload-cms, neon, claude-sdk, pipeline]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: BlueAlly AI Website (Next.js)
-kind: entity
-summary: Active Next.js rewrite of the BlueAlly AI marketing website, adding Payload CMS, Neon, and Claude SDK; planned production replacement for the Replit-hosted site, last committed 2026-03-03.
-tags: [blueally, marketing, next-js, cms, active]
-sources: 1
-updated: 2026-05-21
----
+`aiwebsiteblueally-next` is the active rewrite of the BlueAlly AI marketing website, replacing the current [[replit]]-hosted [[aiwebsiteblueally]]. It is being built with [[nextjs]] and deployed to [[vercel]], with [[payload-cms]] for structured content management, [[neon]] for persistence, and the [[anthropic-sdk]] for AI features.
 
-BlueAlly AI Website (Next.js) is an active rewrite of BlueAlly's primary marketing website, migrating from a Replit-hosted prototype to a production-grade [[vercel]]-deployed Next.js application. It introduces [[payload-cms]] for structured content management, [[neon]] for database persistence, and [[anthropic-sdk]] (Claude SDK) for AI-powered features — while maintaining the site's top-of-funnel role driving prospects into the [[blueally-pipeline]].
+## Motivation for rewrite
 
-## Key details
+The original [[aiwebsiteblueally]] has no database, no CMS, and no auth — all content is static and form state is ephemeral. The rewrite addresses these gaps by adding:
 
-- **GitHub**: https://github.com/red11scout/blueally-ai-website
-- **Deployed**: aiwebsiteblueally-next.vercel.app
-- **Status**: active
-- **Last commit**: 2026-03-03
+- **[[payload-cms]]** — headless TypeScript-native CMS for managing industry reports and marketing content without code changes.
+- **[[neon]]** — serverless Postgres for persistent form submissions and lead capture.
+- **[[anthropic-sdk]]** — continued Claude integration, likely retaining the SSE chat widget (see [[sse-streaming]]).
 
-## Stack
+## Technical profile
 
-| Layer | Technology |
+| Field | Value |
 |---|---|
-| Framework | Next.js / React |
-| Styling | [[tailwindcss]] |
-| Animation | [[framer-motion]] |
-| CMS | [[payload-cms]] |
-| ORM | [[drizzle-orm]] |
-| Database | [[neon]] |
-| AI | [[anthropic-sdk]] |
-| Hosting | [[vercel]] |
+| Stack | [[nextjs]], [[react]], [[payload-cms]], [[neon]], [[anthropic-sdk]] |
+| Hosting | [[vercel]] (planned) |
+| Last commit | 2026-03-03 |
 
 ## Ecosystem role
 
-This project is the planned production successor to [[aiwebsiteblueally]], the current Replit-hosted marketing site. Once promoted, it will be the primary top-of-funnel touchpoint for [[blueally]] AI services, managing brand content via [[payload-cms]] and funneling prospects into the broader [[blueally-pipeline]].
+Will replace [[aiwebsiteblueally]] as the top-of-funnel entry point of the [[blueally-pipeline]], routing prospects to [[researchapp]] for step-1 custom AI assessments.
 
 ## Related
 
-- [[aiwebsiteblueally-next-source]] — project inventory source
-- [[aiwebsiteblueally]] — Replit-hosted predecessor
-- [[payload-cms]] — headless CMS powering content management
-- [[blueally-pipeline]] — downstream pipeline fed by marketing traffic
-- [[vercel]] — deployment platform
-- [[neon]] — serverless Postgres database layer
-- [[anthropic-sdk]] — Claude SDK integration
-- [[drizzle-orm]] — type-safe ORM
+- [[aiwebsiteblueally]] — current production site being replaced
+- [[blueally-pipeline]] — pipeline this site heads
+- [[researchapp]] — downstream step-1 assessment tool
+- [[payload-cms]] — CMS layer added in the rewrite
+- [[neon]] — database layer added in the rewrite
+- [[vercel]] — target hosting platform
+- [[aiwebsiteblueally-next-source]] — source inventory page

@@ -1,25 +1,21 @@
 ---
 title: Express
 kind: entity
-summary: Minimal Node.js web framework used as the back-end server layer in BlueAlly Customer Portal.
-tags: [nodejs, backend, web-framework]
-sources: 1
+summary: Minimal Node.js web framework used as the back-end server layer in BlueAlly apps.
+tags: [backend, nodejs, web-framework]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: Express
-kind: entity
-summary: Minimal Node.js web framework used as the back-end server layer in BlueAlly Customer Portal.
-tags: [nodejs, backend, web-framework]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in blueally-customer-portal-source
----
+Express is a minimal and unopinionated Node.js web framework commonly used to build REST APIs and server-side application layers. Within the BlueAlly ecosystem it provides the back-end server scaffolding for full-stack apps.
 
-Express is a minimal and flexible Node.js web application framework. Within the BlueAlly ecosystem it serves as the back-end server layer for [[blueally-customer-portal]].
+## BlueAlly usage
+
+- [[blueally-customer-portal]] — planned multi-tenant portal
+- [[blueally-intelligence]] — archived M&A intelligence platform (2026-02-13)
 
 ## Related
 
-- [[blueally-customer-portal]] — app using Express
-- [[blueally-customer-portal-source]] — source where Express was first mentioned
+- [[react]] — front-end layer paired with Express in these apps
+- [[neon]] — database layer used alongside Express
+- [[drizzle-orm]] — ORM used alongside Express for database access

@@ -1,27 +1,23 @@
 ---
 title: React
 kind: entity
-summary: JavaScript UI library used as the front-end framework for BlueAlly Customer Portal.
-tags: [frontend, javascript, ui-library]
-sources: 1
+summary: JavaScript UI library used as the front-end framework in multiple BlueAlly apps.
+tags: [frontend, javascript, ui]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: React
-kind: entity
-summary: JavaScript UI library used as the front-end framework for BlueAlly Customer Portal.
-tags: [frontend, javascript, ui-library]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in blueally-customer-portal-source
----
+React is a declarative JavaScript library for building user interfaces via a component model. It is the dominant front-end framework across the BlueAlly ecosystem.
 
-React is a declarative JavaScript library for building user interfaces. Within the BlueAlly ecosystem it is the front-end framework for [[blueally-customer-portal]], bundled via [[vite]].
+## BlueAlly usage
+
+- [[blueally-customer-portal]] — planned multi-tenant portal
+- [[blueally-intelligence]] — archived M&A intelligence platform (2026-02-13)
 
 ## Related
 
-- [[blueally-customer-portal]] — app built with React
-- [[vite]] — build tool used alongside React in this project
-- [[framer-motion]] — animation library layered on top of React across BlueAlly apps
-- [[shadcn-ui]] — component library built on React, used in other BlueAlly apps
+- [[vite]] — build tool paired with React in both [[blueally-customer-portal]] and [[blueally-intelligence]]
+- [[tailwindcss]] — utility-first CSS framework used alongside React across BlueAlly
+- [[shadcn-ui]] — React component library used in [[aiworkflow]]
+- [[framer-motion]] — React animation library used in presentation-layer apps
+- [[zustand]] — React state management library

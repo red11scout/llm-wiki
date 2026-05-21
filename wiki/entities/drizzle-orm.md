@@ -1,21 +1,24 @@
 ---
 title: Drizzle ORM
 kind: entity
-summary: TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
-tags: [database, typescript, orm]
+summary: TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access, and in the personal Four Cups project.
+tags: [orm, typescript, database, infrastructure]
 sources: 2
 updated: 2026-05-21
 ---
 
-Drizzle ORM is a TypeScript-native ORM used across the BlueAlly ecosystem as the type-safe database access layer, most commonly paired with [[neon]] (serverless Postgres).
+Drizzle ORM is a TypeScript-native ORM library that provides type-safe database access. It is used as the primary data-access layer in numerous BlueAlly applications, and also appears in [[fourcups]], a personal project by the same author.
 
-## BlueAlly apps using Drizzle ORM
+## Usage in BlueAlly
 
-- [[ai-executive-readout]] — Executive-level AI readout report generator
-- [[blueally-workshop-web]] — Workshop management hub
-- (and other BlueAlly apps using Neon as their database layer)
+Drizzle ORM is paired with [[neon]] (serverless Postgres) throughout the [[blueally-pipeline]], including in [[ai-executive-readout]], [[aiworkflow]], [[blueally-portal]], and other apps.
+
+## Usage outside BlueAlly
+
+- [[fourcups]] — personal/religious Next.js application using Drizzle ORM with [[neon]]
 
 ## Related
 
-- [[neon]] — Serverless Postgres platform most commonly paired with Drizzle in BlueAlly apps
-- [[vercel]] — Deployment platform for apps using Drizzle + Neon
+- [[neon]]
+- [[blueally-pipeline]]
+- [[fourcups]]

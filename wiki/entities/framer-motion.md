@@ -1,26 +1,25 @@
 ---
 title: Framer Motion
 kind: entity
-summary: React animation library used across multiple BlueAlly apps — including BlueAlly Workshop Experience — for interactive animations and the 3-layer animation system.
-tags: [animation, react, ui]
+summary: React animation library used across multiple BlueAlly apps for interactive animations, and also in the personal Four Cups project by the same author.
+tags: [animation, react, ui, frontend]
 sources: 2
 updated: 2026-05-21
 ---
 
-Framer Motion is a React animation library used extensively across the BlueAlly platform ecosystem to deliver polished, interactive animated experiences in web-native applications.
+Framer Motion is a React animation library used extensively across the BlueAlly suite for interactive animations and polished UI transitions. It is also used in [[fourcups]], a personal project by the same author, indicating it is a go-to animation library beyond the commercial BlueAlly context.
 
-## BlueAlly apps using Framer Motion
+## Usage in BlueAlly
 
-- [[ai-executive-briefing]] — Web-native executive AI strategy presentation
-- [[ai-executive-readout]] — Polished executive readout reports
-- [[ai-visual-intelligence-library]] — Animated concept explainers
-- [[blueally-microsites]] — Glass-morphism client landing pages with stagger animations (see [[glass-monolith-theme]])
-- [[blueally-workshop-experience]] — 3-layer animation system across 28 slides
-- [[blueally-presenting-workshop]] — Workshop delivery tool with animated slides
-- [[blueally-workshop-web]] — Workshop management hub animations
+Framer Motion underpins the 3-layer animation system in [[blueally-workshop-experience]], and is used in [[ai-executive-briefing]], [[ai-executive-readout]], [[blueally-workshop-web]], [[blueally-microsites]] (glass-monolith stagger animations), and several other apps across the [[blueally-pipeline]].
+
+## Usage outside BlueAlly
+
+- [[fourcups]] — personal/religious Next.js application; polished interaction design powered by Framer Motion
 
 ## Related
 
-- [[react]] — The UI framework Framer Motion extends
-- [[blueally-presentation-toolkit]] — The suite of presentation tools where Framer Motion is most prominent
-- [[glass-monolith-theme]] — Visual design theme that leverages Framer Motion stagger animations in BlueAlly Microsites
+- [[react]]
+- [[blueally-presentation-toolkit]]
+- [[glass-monolith-theme]]
+- [[fourcups]]

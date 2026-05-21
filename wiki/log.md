@@ -193,3 +193,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[concepts-blueally-source]], [[concepts-blueally]]
 - updated: [[ai-visual-intelligence-library]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Four Cups — Project Inventory
+- source: raw/notes/projects/fourcups.md
+- created: [[fourcups-source]], [[fourcups]]
+- updated: [[neon]], [[framer-motion]], [[drizzle-orm]]
+- contradictions: 0

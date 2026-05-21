@@ -36,14 +36,15 @@
 - [[cognoresearcher]] — Archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; predecessor to researchapp and aiworkflow, last committed 2026-02-19.
 - [[compass]] — Deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; a Turborepo monorepo last committed 2026-05-06.
 - [[concepts-blueally]] — Active BlueAlly internal concept exploration platform at concepts.blueally.ai; a Next.js/Neon app for organizing and managing AI concepts and their relationships; last committed 2026-04-16.
-- [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
+- [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access, and in the personal Four Cups project.
 - [[esbuild]] — Extremely fast JavaScript/TypeScript bundler and minifier; used in Claude Mem as the build tool for bundling the MCP server.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
-- [[framer-motion]] — React animation library used across multiple BlueAlly apps — including BlueAlly Workshop Experience — for interactive animations and the 3-layer animation system.
+- [[fourcups]] — Personal/religious Next.js app with Neon, Drizzle ORM, and Framer Motion; deployed at fourcups.vercel.app; not part of the BlueAlly ecosystem.
+- [[framer-motion]] — React animation library used across multiple BlueAlly apps for interactive animations, and also in the personal Four Cups project by the same author.
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio, AI Visual Intelligence Library, BlueAlly Microsites client portal, and BlueAlly Presenting.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
-- [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps.
+- [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps and personal projects by the same author.
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
 - [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
@@ -104,3 +105,4 @@
 - [[cognoresearcher-source]] — Project inventory for CognoResearcher, an archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; last committed 2026-02-19.
 - [[compass-source]] — Project inventory for Compass, a deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; last committed 2026-05-06.
 - [[concepts-blueally-source]] — Project inventory for Concepts BlueAlly, an active Next.js/Neon concept exploration platform at concepts.blueally.ai for organizing and managing AI concepts; last committed 2026-04-16.
+- [[fourcups-source]] — Project inventory for Four Cups, a personal/religious Next.js app with Neon, Drizzle ORM, and Framer Motion; deployed at fourcups.vercel.app, last committed 2026-05-04.

@@ -1,38 +1,29 @@
 ---
 title: BlueAlly Pipeline
 kind: concept
-summary: BlueAlly's multi-step AI delivery pipeline, progressing from workshop analysis through aiworkflow to AI Architecture Studio artifact generation, executive readout output, infrastructure sizing, and educational support via the AI Visual Intelligence Library.
+summary: BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, and educational support.
 tags: [blueally-ip, pipeline, architecture]
-sources: 2
+sources: 10
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end delivery system through which BlueAlly takes a client from initial AI use-case discovery through to polished executive artifacts and infrastructure recommendations. It is a multi-step, multi-tool flow where each app produces structured output consumed by the next.
+The BlueAlly Pipeline is the end-to-end delivery system for BlueAlly's AI services, spanning from top-of-funnel prospect acquisition through structured workshop analysis, architecture generation, and executive reporting. Each stage is a discrete deployed application feeding the next.
 
 ## Pipeline stages
 
-1. **Workshop analysis** — [[ai-catalyst]] (archived predecessor) → [[aiworkflow]] (current): ingests survey and research data, produces structured use-case JSON.
-2. **Artifact generation** — [[ai-architecture-studio]]: consumes aiworkflow JSON, produces architecture diagrams, agentic workflow maps, PRDs, and financial models.
-3. **Executive readout** — [[ai-executive-readout]]: generates polished executive-level reports from pipeline outputs.
-4. **Infrastructure sizing** — [[ai-infra-sizing]]: right-sizes enterprise AI infrastructure using deterministic calculation with Claude as an advisor layer.
-5. **Executive communication** — [[blueally-presentation-toolkit]]: web-native presentations and workshop experiences for delivering pipeline findings to clients.
-6. **Education & literacy** — [[ai-visual-intelligence-library]]: provides foundational [[ai-literacy]] content so executives can interpret and act on pipeline outputs.
+1. **Top-of-funnel**: [[aiwebsiteblueally-next]] (Next.js marketing site, replacing [[aiwebsiteblueally]]) drives prospects into the pipeline.
+2. **Workshop analysis**: [[ai-catalyst]] (archived) → [[aiworkflow]] (active) — structured use-case analysis producing JSON output.
+3. **Artifact generation**: [[ai-architecture-studio]] — ingests aiworkflow JSON, generates architecture diagrams, agentic workflows, PRDs, and financial models.
+4. **Executive output**: [[ai-executive-readout]] — polished executive-level AI readout reports.
+5. **Infrastructure sizing**: [[ai-infra-sizing]] — right-sizes enterprise AI infrastructure.
+6. **Education & enablement**: [[ai-visual-intelligence-library]] — interactive AI concept education for executives.
 
-## Upstream data sources (AI Catalyst era)
+## Supporting tools
 
-- [[cognition-two]] — use-case cognition data
-- [[researchapp]] — research data
-
-## Hosting
-
-Deployed apps are served under the [[gofasterwithai]] domain via [[vercel]].
+- [[blueally-presentation-toolkit]] — web-native presentation suite (AI Executive Briefing, blueally-workshop-experience, blueally-presenting, AI Systems Presentation) used to communicate pipeline outputs.
+- [[gofasterwithai]] — branded deployment domain for pipeline apps.
 
 ## Related
 
-- [[aiworkflow]] — current step-2 pipeline app
-- [[ai-architecture-studio]] — step-3 artifact generator
-- [[ai-executive-readout]] — downstream executive report generator
-- [[ai-infra-sizing]] — infrastructure sizing tool
-- [[blueally-presentation-toolkit]] — presentation layer
-- [[ai-visual-intelligence-library]] — educational layer
-- [[multi-agent-pipeline]] — architectural pattern used in the pipeline
+- [[multi-agent-pipeline]] — architectural pattern used within pipeline stages
+- [[ai-literacy]] — capability the pipeline builds in client organizations

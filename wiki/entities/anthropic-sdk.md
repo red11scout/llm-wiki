@@ -1,31 +1,23 @@
 ---
 title: Anthropic SDK
 kind: entity
-summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer.
-tags: [anthropic, sdk, llm, claude]
-sources: 1
+summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including the BlueAlly AI Website (Next.js).
+tags: [ai, anthropic, sdk, claude]
+sources: 5
 updated: 2026-05-21
 ---
 
----
-title: Anthropic SDK
-kind: entity
-summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer.
-tags: [anthropic, sdk, llm, claude]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-infra-sizing-source
----
+The Anthropic SDK is Anthropic's official library for programmatic access to Claude language models. Across the BlueAlly ecosystem it is the standard AI integration layer, wiring Claude capabilities into pipeline apps, readout tools, education platforms, and the marketing website.
 
-The Anthropic SDK is the official client library for programmatic access to Anthropic's Claude family of models. Within the BlueAlly ecosystem it appears as the AI integration layer in multiple deployed applications.
+## BlueAlly apps using the Anthropic SDK
 
-## Known BlueAlly usage
-
-- [[ai-infra-sizing]] — Claude used as an advisor-only layer on top of a deterministic calculation engine
-- [[ai-executive-readout]] — listed in stack as Claude SDK for report generation
+- [[ai-architecture-studio]] — uses Claude for PRD generation
+- [[ai-executive-readout]] — uses Claude SDK for readout report generation
+- [[ai-infra-sizing]] — uses Claude as an advisor-only layer alongside deterministic calculations
+- [[ai-visual-intelligence-library]] — powers the Claude-grounded Ask drawer
+- [[aiwebsiteblueally-next]] — Claude SDK integrated into the Next.js marketing website rewrite
 
 ## Related
 
-- [[claude-sonnet]]
-- [[ai-infra-sizing]]
-- [[ai-executive-readout]]
+- [[claude-sonnet]] — specific Claude model used in AI Architecture Studio for PRD generation
+- [[blueally-pipeline]] — pipeline of apps relying on this SDK

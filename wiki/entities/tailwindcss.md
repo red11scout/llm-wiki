@@ -1,24 +1,20 @@
 ---
-title: Tailwind CSS
+title: TailwindCSS
 kind: entity
-summary: Utility-first CSS framework used in AI Systems Presentation for styling; part of the Next.js front-end stack.
-tags: [css, front-end, tooling]
-sources: 1
+summary: Utility-first CSS framework used in AI Systems Presentation and BlueAlly AI Website (Next.js) for styling; part of the Next.js front-end stack across BlueAlly projects.
+tags: [css, styling, front-end]
+sources: 3
 updated: 2026-05-21
 ---
 
----
-title: Tailwind CSS
-kind: entity
-summary: Utility-first CSS framework used in AI Systems Presentation for styling; part of the Next.js front-end stack.
-tags: [css, front-end, tooling]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-systems-presentation-source
----
+TailwindCSS is a utility-first CSS framework used for styling across BlueAlly's Next.js applications. It provides rapid, consistent UI development without leaving the markup.
 
-Tailwind CSS is a utility-first CSS framework that composes styles directly in markup via class names. It is used in [[ai-systems-presentation]] as the styling layer alongside Next.js and React.
+## BlueAlly apps using TailwindCSS
+
+- [[ai-systems-presentation]] — interactive animated AI systems architecture presentation
+- [[aiwebsiteblueally-next]] — Next.js rewrite of the BlueAlly AI marketing website
 
 ## Related
 
-- [[ai-systems-presentation]]
+- [[framer-motion]] — animation library often co-deployed with Tailwind in BlueAlly apps
+- [[vercel]] — deployment platform for these apps

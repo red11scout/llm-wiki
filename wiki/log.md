@@ -61,3 +61,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-visual-intelligence-library-source]], [[ai-visual-intelligence-library]], [[ai-literacy]]
 - updated: [[gofasterwithai]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly AI Website (Next.js) — Project Inventory
+- source: raw/notes/projects/aiwebsiteblueally-next.md
+- created: [[aiwebsiteblueally-next-source]], [[aiwebsiteblueally-next]], [[aiwebsiteblueally]], [[payload-cms]]
+- updated: [[vercel]], [[neon]], [[drizzle-orm]], [[anthropic-sdk]], [[tailwindcss]], [[framer-motion]], [[blueally-pipeline]]
+- contradictions: 0

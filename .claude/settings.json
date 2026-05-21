@@ -1,0 +1,47 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "tsx scripts/session-start.mts",
+        "timeout": 10000
+      }
+    ],
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "tsx scripts/maybe-ingest.mts \"$TOOL_INPUT\"",
+        "timeout": 60000,
+        "matcher": {
+          "toolName": "Write|Edit",
+          "inputContains": "raw/"
+        }
+      }
+    ],
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "tsx scripts/contradiction-check.mts \"$TOOL_INPUT\"",
+        "timeout": 15000,
+        "matcher": {
+          "toolName": "Write|Edit",
+          "inputContains": "wiki/"
+        }
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "echo 'Before stopping: Have you updated wiki/log.md and committed changes?'",
+        "timeout": 3000
+      }
+    ],
+    "SessionEnd": [
+      {
+        "type": "command",
+        "command": "tsx scripts/crystallize.mts",
+        "timeout": 120000
+      }
+    ]
+  }
+}

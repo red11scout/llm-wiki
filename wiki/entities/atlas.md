@@ -2,59 +2,32 @@
 title: Atlas
 kind: entity
 summary: BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI infrastructure Bills of Materials, and ROI analysis; deployed at atlas.vercel.app.
-tags: [blueally, financial-modeling, infrastructure, investment-analysis, active]
-sources: 1
+tags: [blueally, private-ai, financial-modeling, investment, infrastructure]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: Atlas
-kind: entity
-summary: BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI infrastructure Bills of Materials, and ROI analysis; deployed at atlas.vercel.app.
-tags: [blueally, financial-modeling, infrastructure, investment-analysis, active]
-sources: 1
-updated: 2026-05-21
----
-
-Atlas is BlueAlly's AI Investment Intelligence Platform, deployed at atlas.vercel.app. It provides enterprises with token usage projections, Private AI infrastructure Bills of Materials (BoMs), and ROI analysis to support business-case development for AI infrastructure investments. It is built as a [[turborepo]] monorepo and integrates the [[anthropic-sdk]] for intelligent financial modeling and infrastructure cost planning.
-
-## Role in the BlueAlly ecosystem
-
-Atlas serves as the financial planning layer of the [[blueally-pipeline]]. Where [[ai-architecture-studio]] produces technical architecture outputs (diagrams, PRDs, agentic workflows), Atlas provides the complementary investment analysis and infrastructure cost modeling — together they enable enterprises to move from technical design to funded business case.
-
-Atlas is also conceptually related to [[ai-infra-sizing]], which right-sizes AI infrastructure using a deterministic calculation engine; Atlas extends that concern into investment justification and ROI territory.
+Atlas is BlueAlly's AI Investment Intelligence Platform. It provides enterprises with token usage projections, Private AI infrastructure Bills of Materials (BoMs), and ROI analysis to support AI investment decisions. It is deployed as a Turborepo monorepo at atlas.vercel.app.
 
 ## Technical stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js / React |
-| Styling | [[tailwindcss]] |
-| ORM | [[drizzle-orm]] |
-| Database | [[neon]] (serverless Postgres) |
-| AI integration | [[anthropic-sdk]] |
-| Monorepo tooling | [[turborepo]] |
-| Deployment | [[vercel]] (atlas.vercel.app) |
+- **Build system**: [[turborepo]] monorepo
+- **Deployment**: [[vercel]]
 
-## Key capabilities
+## Ecosystem role
 
-- **Token usage projections** — forecasts AI token consumption for capacity and cost planning
-- **Private AI infrastructure BoMs** — structured Bills of Materials for on-premise or private-cloud AI deployments
-- **ROI analysis** — investment return modeling to support enterprise business cases
+Atlas is one of three financial and infrastructure planning tools in the [[blueally-pipeline]]:
 
-## Metadata
+- **Atlas** — token usage projections, Private AI BoMs, and ROI analysis
+- [[ai-infra-sizing]] — deterministic right-sizing engine with Claude advisor layer
+- [[blueally-private-ai-investment-planner]] — financial implication modeling for private AI deployments (hardware, cloud, operational costs) with Claude advisory
 
-- **GitHub**: https://github.com/red11scout/atlas
-- **Status**: active
-- **Last commit**: 2026-05-06
+Together they address the [[private-ai-investment-modeling]] domain for enterprises evaluating on-premises or private cloud AI.
 
 ## Related
 
-- [[atlas-source]] — Source inventory page for Atlas
-- [[ai-architecture-studio]] — Complementary technical architecture output tool
-- [[ai-infra-sizing]] — Related infrastructure right-sizing platform
-- [[blueally-pipeline]] — Pipeline context
-- [[turborepo]] — Monorepo tooling
-- [[neon]] — Shared database platform
-- [[drizzle-orm]] — Shared ORM
-- [[anthropic-sdk]] — AI integration layer
+- [[atlas-source]] — raw project inventory
+- [[blueally-private-ai-investment-planner]] — companion financial planning tool
+- [[ai-infra-sizing]] — companion right-sizing platform
+- [[private-ai-investment-modeling]] — concept page for the modeling approach
+- [[blueally-pipeline]] — overall delivery pipeline

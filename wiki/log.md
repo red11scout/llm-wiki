@@ -133,3 +133,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-presenting-source]], [[tiptap]], [[knowledge-graph-presentation]]
 - updated: [[blueally-presenting]], [[blueally-presentation-toolkit]], [[turborepo]], [[gofasterwithai]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly Private AI Investment Planner — Project Inventory
+- source: raw/notes/projects/blueally-private-ai-investment-planner.md
+- created: [[blueally-private-ai-investment-planner-source]], [[blueally-private-ai-investment-planner]], [[private-ai-investment-modeling]]
+- updated: [[atlas]], [[ai-infra-sizing]], [[blueally-pipeline]], [[vercel]]
+- contradictions: 0

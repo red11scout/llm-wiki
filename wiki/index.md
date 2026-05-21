@@ -23,6 +23,7 @@
 - [[blueally-portal]] — Active BlueAlly AI Workshop Portal built with Next.js and Neon, providing authenticated workshop participants access to session materials and outputs; last committed 2026-04-24.
 - [[blueally-presenting]] — Deployed BlueAlly AI-powered knowledge graph presentation platform; a Turborepo monorepo with Tiptap, Anthropic SDK, and Neon replacing PowerPoint with connected, reusable content nodes; last committed 2026-04-03.
 - [[blueally-presenting-workshop]] — Deployed BlueAlly Modern AI Systems Workshop platform with 49 slides across 8 sections, presenter mode, and Claude-powered editing; deployed at blueally-workshop.vercel.app, last committed 2026-04-06.
+- [[blueally-private-ai-investment-planner]] — Deployed BlueAlly Next.js tool for modeling the financial implications of private AI infrastructure deployments — hardware, cloud, and operational costs — with Claude-powered advisory; last committed 2026-05-06.
 - [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing, blueally-presenting, and blueally-presenting-workshop.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
@@ -42,7 +43,7 @@
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
-- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), and BlueAlly Presenting Workshop.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, and BlueAlly Private AI Investment Planner.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state.
 
@@ -56,6 +57,7 @@
 - [[glass-monolith-theme]] — BlueAlly Microsites visual design theme featuring glass-morphism aesthetics; applied to client landing pages with Framer Motion stagger animations.
 - [[knowledge-graph-presentation]] — Architectural pattern that models presentation content as a graph of connected nodes and edges, enabling content reuse across presentations rather than isolation in individual slide decks.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
+- [[private-ai-investment-modeling]] — Financial modeling discipline for evaluating on-premises or private cloud AI deployments, encompassing hardware BoMs, cloud costs, operational expenditure, and ROI analysis.
 
 ## Sources
 - [[ae-ai-workshop-source]] — Project inventory for the A+E Global Media AI Workshop, a standalone HTML executive presentation deliverable built by BlueAlly, last committed 2026-05-04.
@@ -79,3 +81,4 @@
 - [[blueally-portal-source]] — Project inventory for BlueAlly Portal, an active Next.js/Neon workshop participant portal providing authenticated access to session materials and outputs; last committed 2026-04-24.
 - [[blueally-presenting-source]] — Project inventory for BlueAlly Presenting, a deployed AI-powered knowledge graph presentation platform built as a Turborepo monorepo with Tiptap and Anthropic SDK; last committed 2026-04-03.
 - [[blueally-presenting-workshop-source]] — Project inventory for BlueAlly Presenting Workshop, a deployed Next.js workshop delivery tool with 49 slides across 8 sections, presenter mode, and Claude-powered editing; last committed 2026-04-06.
+- [[blueally-private-ai-investment-planner-source]] — Project inventory for BlueAlly Private AI Investment Planner, a deployed Next.js tool for modeling financial implications of private AI infrastructure deployments with Claude-powered advisory; last committed 2026-05-06.

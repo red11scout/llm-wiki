@@ -2,55 +2,32 @@
 title: AI Infrastructure Sizing
 kind: entity
 summary: Deployed BlueAlly platform that right-sizes enterprise AI infrastructure using a deterministic calculation engine paired with Claude as an advisor-only layer; last committed 2026-04-07.
-tags: [blueally, infrastructure, sizing, deployed]
-sources: 1
+tags: [blueally, infrastructure, private-ai, financial-modeling]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: AI Infrastructure Sizing
-kind: entity
-summary: Deployed BlueAlly platform that right-sizes enterprise AI infrastructure using a deterministic calculation engine paired with Claude as an advisor-only layer; last committed 2026-04-07.
-tags: [blueally, infrastructure, sizing, deployed]
-sources: 1
-updated: 2026-05-21
----
+AI Infrastructure Sizing is a deployed BlueAlly platform that helps enterprises determine the correct scale of AI infrastructure before committing to a deployment. It uses a deterministic calculation engine as the authoritative sizing source, with Claude ([[anthropic-sdk]]) serving as an advisor-only layer that provides narrative guidance on top of the calculated outputs. Last committed 2026-04-07.
 
-AI Infrastructure Sizing is a deployed BlueAlly web application that helps enterprises right-size their AI infrastructure deployments. It combines a deterministic calculation engine for quantitative hardware and cloud modeling with Claude (via [[anthropic-sdk]]) serving strictly as an advisor layer that generates recommendations on top of those calculations — a deliberate separation of deterministic logic from AI-generated guidance (see also [[hyperformula]] for a similar deterministic-first pattern in [[ai-architecture-studio]]).
+## Ecosystem role
 
-## Repository & deployment
+AI Infrastructure Sizing is one of three financial and infrastructure planning tools in the [[blueally-pipeline]]:
 
-- **GitHub**: https://github.com/red11scout/ai-infra-sizing
-- **Deployed**: ai-infra-sizing.vercel.app (hosted on [[vercel]])
-- **Last commit**: 2026-04-07
-- **Status**: deployed
+- **AI Infrastructure Sizing** — deterministic right-sizing engine with Claude advisor layer
+- [[atlas]] — token usage projections, Private AI BoMs, and ROI analysis
+- [[blueally-private-ai-investment-planner]] — financial implication modeling for private AI deployments (hardware, cloud, operational costs) with Claude advisory
 
-## Stack
+Together they address the [[private-ai-investment-modeling]] domain for enterprises evaluating on-premises or private cloud AI.
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js + React |
-| Styling | Tailwind CSS |
-| ORM | [[drizzle-orm]] |
-| Database | [[neon]] (serverless Postgres) |
-| AI | [[anthropic-sdk]] (advisor layer only) |
-| State | [[zustand]] (sizing configuration state) |
+## Technical stack
 
-## Role in the BlueAlly ecosystem
-
-AI Infrastructure Sizing is a specialized tool within the [[blueally-pipeline]], focused on infrastructure planning. It complements upstream assessment and architecture tools — particularly [[ai-architecture-studio]] — by translating identified AI deployment candidates into concrete hardware and cloud sizing recommendations. It sits downstream in the delivery workflow, consuming outputs from the discovery and architecture phases and producing actionable infrastructure plans.
-
-## Design pattern: deterministic engine + AI advisor
-
-A notable design decision is the strict separation between the deterministic calculation engine (which owns all quantitative outputs) and Claude (which only provides advisory narrative on top of those results). This mirrors the approach used in [[ai-architecture-studio]] with [[hyperformula]] for financial modeling, suggesting an emerging BlueAlly pattern of using LLMs as explainers rather than calculators in quantitative tools.
+- **Deployment**: [[vercel]]
+- **AI layer**: [[anthropic-sdk]] (advisor-only)
 
 ## Related
 
-- [[blueally-pipeline]]
-- [[ai-architecture-studio]]
-- [[ai-infra-sizing-source]]
-- [[vercel]]
-- [[neon]]
-- [[drizzle-orm]]
-- [[zustand]]
-- [[anthropic-sdk]]
+- [[ai-infra-sizing-source]] — raw project inventory
+- [[atlas]] — companion investment intelligence platform
+- [[blueally-private-ai-investment-planner]] — companion financial planning tool
+- [[private-ai-investment-modeling]] — concept page for the modeling approach
+- [[blueally-pipeline]] — overall delivery pipeline

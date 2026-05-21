@@ -2,27 +2,25 @@
 title: Neon
 kind: entity
 summary: Serverless Postgres database platform used as the database layer across multiple BlueAlly apps, personal projects, and external-client tools by the same author.
-tags: [database, postgres, serverless]
+tags: [infrastructure, database, serverless]
 sources: 2
 updated: 2026-05-21
 ---
 
-Neon is a serverless Postgres database platform that serves as the consistent persistence layer across the BlueAlly ecosystem, personal projects, and external-client tools built by the same author. It is almost always accessed via [[drizzle-orm]] for type-safe queries.
+Neon is a serverless Postgres platform used as the primary database layer across the author's project portfolio. It provides instant provisioning, autoscaling, and a familiar SQL interface with no persistent connection management overhead.
 
-## Used in
+## Usage across projects
 
-### BlueAlly ecosystem
-- [[ai-executive-readout]], [[aiworkflow]], [[blueally-portal]], [[blueally-microsites]], [[blueally-presenting]], [[atlas]], [[compass]], [[concepts-blueally]], [[blueally-workshop-web]], [[blueally-private-ai-investment-planner]], [[blueally-ai-app]], [[blueally-ai-solution-navigator]], [[chrisbot]], [[aiwebsiteblueally-next]] — and more
+Neon appears as the database layer in the majority of BlueAlly apps (see [[blueally-pipeline]]), personal projects, and external-client deliveries:
 
-### Personal projects
-- [[fourcups]] — personal/religious Next.js app
-- [[godwin-family-tracker]] — personal family task-scoring app
-
-### External-client projects
-- [[ga-staff-scheduler]] — external-client staff scheduling app
+- **BlueAlly pipeline apps**: [[aiworkflow]], [[ai-executive-readout]], [[ai-infra-sizing]], [[blueally-portal]], [[blueally-microsites]], [[atlas]], [[compass]], and others
+- **Internal tools**: [[knowledge-capture]], [[concepts-blueally]], [[blueally-intelligence]] (archived)
+- **Personal projects**: [[fourcups]], [[chrisbot]] (archived)
+- **External-client projects**: [[ga-staff-scheduler]], [[meharry-testbank]]
 
 ## Related
 
-- [[drizzle-orm]] — the ORM layer used on top of Neon in virtually all cases
-- [[vercel]] — deployment platform hosting most apps that use Neon
-- [[express]] — back-end server layer in earlier-generation apps using Neon
+- [[drizzle-orm]]
+- [[nextjs]]
+- [[vercel]]
+- [[blueally-pipeline]]

@@ -49,6 +49,8 @@
 - [[knowledge-capture]] — Active BlueAlly internal Next.js/Neon platform for structured knowledge organization, storage, and retrieval; not deployed, last committed 2026-04-09.
 - [[mativ-holdings]] — Manufacturing enterprise client of BlueAlly; recipient of a custom ROI analysis dashboard deliverable.
 - [[mativ-roi-dashboard]] — Deployed external-client interactive ROI analysis dashboard built for Mativ Holdings using Next.js, Framer Motion, and static content; last committed 2026-03-24.
+- [[meharry-medical-college]] — Historically Black medical school in Nashville, TN; external client for the Meharry Test Bank educational platform delivered by the same author as the BlueAlly ecosystem.
+- [[meharry-testbank]] — Deployed external-client educational test bank platform built for Meharry Medical College, providing structured test questions and assessment materials with Neon persistence; last committed 2026-04-07.
 - [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps, personal projects, and external-client tools by the same author.
 - [[nextjs]] — React-based full-stack web framework by Vercel; used across the majority of BlueAlly apps, personal projects, and external-client tools as the primary application framework.
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
@@ -59,7 +61,7 @@
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps, personal projects, and external-client tools for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
-- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler and Mativ ROI Dashboard.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler, Mativ ROI Dashboard, and Meharry Test Bank.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps and personal projects as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
@@ -118,3 +120,4 @@
 - [[godwin-family-tracker-source]] — Project inventory for Godwin Family Tracker, a personal daily task-scoring app for 6 children with deterministic scoring, WebSocket live updates, and Claude-generated encouragement; not deployed, last committed 2026-02-24.
 - [[knowledge-capture-source]] — Project inventory for Knowledge Capture, an active BlueAlly internal Next.js/Neon platform for structured knowledge organization and retrieval; not deployed, last committed 2026-04-09.
 - [[mativ-roi-dashboard-source]] — Project inventory for Mativ ROI Dashboard, a deployed external-client interactive ROI analysis dashboard built for Mativ Holdings with Next.js, Framer Motion, and static content; last committed 2026-03-24.
+- [[meharry-testbank-source]] — Project inventory for Meharry Test Bank, a deployed external-client educational test bank platform built for Meharry Medical College using Next.js, Neon, and Drizzle ORM; last committed 2026-04-07.

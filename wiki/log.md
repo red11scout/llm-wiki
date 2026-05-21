@@ -223,3 +223,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[mativ-roi-dashboard-source]], [[mativ-roi-dashboard]], [[mativ-holdings]], [[roi-dashboard]], [[nextjs]]
 - updated: [[vercel]], [[framer-motion]], [[tailwindcss]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Meharry Test Bank — Project Inventory
+- source: raw/notes/projects/meharry-testbank.md
+- created: [[meharry-testbank-source]], [[meharry-testbank]], [[meharry-medical-college]]
+- updated: [[neon]], [[drizzle-orm]], [[vercel]]
+- contradictions: 0

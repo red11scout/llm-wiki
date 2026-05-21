@@ -67,3 +67,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[aiwebsiteblueally-next-source]], [[aiwebsiteblueally-next]], [[aiwebsiteblueally]], [[payload-cms]]
 - updated: [[vercel]], [[neon]], [[drizzle-orm]], [[anthropic-sdk]], [[tailwindcss]], [[framer-motion]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | AI Workflow Project Inventory
+- source: raw/notes/projects/aiworkflow.md
+- created: [[aiworkflow-source]], [[shadcn-ui]]
+- updated: [[aiworkflow]], [[blueally-pipeline]], [[researchapp]]
+- contradictions: 1

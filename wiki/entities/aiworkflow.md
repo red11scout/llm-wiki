@@ -1,24 +1,47 @@
 ---
-title: aiworkflow
+title: AI Workflow
 kind: entity
-summary: Upstream BlueAlly pipeline app (step 2) that produces structured JSON output consumed by AI Architecture Studio; successor to AI Catalyst.
-tags: [blueally-ip, pipeline]
+summary: BlueAlly's step-2 pipeline app that imports assessment JSON from researchapp and runs a 10-step guided analysis workflow, producing structured output consumed by AI Architecture Studio; last committed 2026-05-13.
+tags: [blueally-pipeline, workflow-orchestration, active]
 sources: 2
 updated: 2026-05-21
 ---
 
-aiworkflow is the step-2 application in the [[blueally-pipeline]]. It produces structured JSON output that is consumed downstream by [[ai-architecture-studio]]. It is the direct successor to [[ai-catalyst]], inheriting and refining the multi-agent pipeline architecture and reconciled use case data model that AI Catalyst pioneered.
+AI Workflow is BlueAlly's core step-2 pipeline application — an orchestration platform that imports assessment JSON from [[researchapp]] (served at discover.movefasterwithai.com) and guides users through a 10-step interactive analysis workflow, ultimately producing shareable reports and structured JSON output consumed by [[ai-architecture-studio]].
 
-## Ecosystem role
+## Pipeline position
 
-- **Predecessor**: [[ai-catalyst]] — the earlier-generation workshop analysis platform that aiworkflow supersedes
-- **Downstream consumer**: [[ai-architecture-studio]] — ingests aiworkflow JSON to generate architecture diagrams, PRDs, and financial models
-- **Pipeline position**: step 2 of the [[blueally-pipeline]]
+AI Workflow sits between the upstream assessment layer ([[researchapp]]) and the downstream technical artifact generation layer ([[ai-architecture-studio]]) within the [[blueally-pipeline]]. It is the successor to [[ai-catalyst]] as the primary workshop analysis engine.
+
+## 10-step workflow
+
+1. **Upload** — ingest JSON from discover.movefasterwithai.com
+2. **Themes** — identify key organizational themes
+3. **Functions** — map business functions
+4. **Friction** — surface friction points
+5. **Use Cases** — enumerate AI use cases
+6. **Benefits** — quantify anticipated benefits
+7. **Workflows** — define target workflows
+8. **Readiness** — assess organizational readiness
+9. **Matrix** — prioritize use cases across dimensions
+10. **Dashboard** — present shareable output
+
+## Technical profile
+
+- **Stack**: React, Vite, Express, [[tailwindcss]], [[drizzle-orm]], [[neon]], [[anthropic-sdk]]
+- **UI components**: 20 [[shadcn-ui]] components, 4 layout components
+- **Scale**: 56 TypeScript files, 12 pages
+- **API pattern**: section-based updates via PUT API with automatic X-Owner-Token header management
+- **Deployed**: not deployed as a public endpoint
+- **Status**: active
+- **Last commit**: 2026-05-13
+- **GitHub**: https://github.com/red11scout/aiworkflow
 
 ## Related
 
-- [[blueally-pipeline]] — The broader multi-step delivery pipeline
-- [[ai-architecture-studio]] — Step 3; consumes aiworkflow output
-- [[ai-catalyst]] — Predecessor platform superseded by aiworkflow
-- [[multi-agent-pipeline]] — Architectural pattern pioneered by AI Catalyst and carried forward
-- [[ai-architecture-studio-source]] — Source inventory for the downstream consumer
+- [[aiworkflow-source]] — project inventory source
+- [[blueally-pipeline]] — pipeline context
+- [[researchapp]] — upstream data provider
+- [[ai-architecture-studio]] — downstream consumer
+- [[ai-catalyst]] — predecessor application
+- [[neon]], [[drizzle-orm]], [[anthropic-sdk]], [[tailwindcss]], [[shadcn-ui]]

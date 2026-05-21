@@ -1,26 +1,28 @@
 ---
 title: ResearchApp
 kind: entity
-summary: Upstream BlueAlly data source integrated by AI Catalyst to supply research data into the workshop analysis pipeline.
-tags: [blueally-ip, pipeline]
-sources: 1
+summary: Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline.
+tags: [blueally-pipeline, assessment, upstream]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: ResearchApp
-kind: entity
-summary: Upstream BlueAlly data source integrated by AI Catalyst to supply research data into the workshop analysis pipeline.
-tags: [blueally-ip, pipeline]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-catalyst-source
----
+ResearchApp (also identified as smart-report-ai) is an upstream BlueAlly data source hosted at discover.movefasterwithai.com. It generates structured assessment JSON that is imported by [[aiworkflow]] as the starting payload for the 10-step guided analysis workflow, making it the effective entry point of the analytical portion of the [[blueally-pipeline]].
 
-ResearchApp is an upstream BlueAlly application whose data is ingested and reconciled by [[ai-catalyst]] as part of the workshop analysis pipeline. Details beyond its role as a data source are not yet documented.
+## Ecosystem role
+
+ResearchApp feeds directly into [[aiworkflow]] (step 2 of the pipeline). The assessment JSON it produces represents the raw client data — survey responses, organizational signals — that aiworkflow then analyzes across themes, functions, friction, use cases, benefits, workflows, readiness, matrix, and dashboard stages.
+
+## Integration details
+
+- Hosted at: discover.movefasterwithai.com
+- Also known as: smart-report-ai
+- Output format: JSON (consumed by [[aiworkflow]] via Upload step)
+- Originally also integrated by [[ai-catalyst]] (predecessor to aiworkflow)
 
 ## Related
 
-- [[ai-catalyst]] — Downstream platform that consumes ResearchApp data
-- [[cognition-two]] — Sibling upstream data source also consumed by AI Catalyst
-- [[blueally-pipeline]] — Broader pipeline ecosystem
+- [[aiworkflow]] — primary downstream consumer
+- [[ai-catalyst]] — legacy downstream consumer
+- [[blueally-pipeline]] — pipeline context
+- [[cognition-two]] — peer upstream data source (integrated by AI Catalyst)

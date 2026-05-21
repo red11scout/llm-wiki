@@ -2,29 +2,40 @@
 title: AI Visual Intelligence Library
 kind: entity
 summary: Deployed BlueAlly interactive executive education platform for AI concepts, featuring animated explainers, system maps, a Claude-grounded Ask drawer, and a scalable concept-page grammar; last committed 2026-04-17.
-tags: [blueally, education, ai-literacy, deployed]
+tags: [blueally, education, deployed, next-js, framer-motion]
 sources: 2
 updated: 2026-05-21
 ---
 
-The AI Visual Intelligence Library is a deployed BlueAlly interactive executive education platform that teaches AI concepts through animated explainers, system maps, and a Claude-grounded Ask drawer. It is hosted at `library.gofasterwithai.com` under the [[gofasterwithai]] domain.
+AI Visual Intelligence Library is a deployed BlueAlly interactive executive education platform that teaches AI concepts through animated explainers, system maps, a scalable concept-page grammar, and a Claude-grounded Ask drawer for on-demand Q&A. It lives under the [[gofasterwithai]] domain and serves as the primary educational layer in the BlueAlly client delivery experience.
 
-## Key details
+## Technical profile
 
-- **Deployed**: yes — `library.gofasterwithai.com`
-- **Last commit**: 2026-04-17
-- **Features**: animated concept explainers, system maps, scalable concept-page grammar, Claude-grounded Ask drawer
+| Attribute | Value |
+|-----------|-------|
+| Status | deployed |
+| Domain | gofasterwithai.com |
+| Stack | Next.js, React, Framer Motion, Anthropic SDK |
+| Last commit | 2026-04-17 |
+
+## Features
+
+- Animated concept explainers with a consistent concept-page grammar
+- System maps for visualizing AI architectures and relationships
+- Claude-grounded Ask drawer for executive Q&A against concept content
+- Scalable content structure suitable for ongoing concept addition
 
 ## Ecosystem role
 
-The library is the customer-facing education layer within the [[blueally-pipeline]], supporting [[ai-literacy]] for executive audiences. It complements the internal [[claude-sdk-enablement]] effort represented by [[blueally-enablement-notebooks]], which provides hands-on SDK training for team members and clients rather than conceptual education.
+AI Visual Intelligence Library is a key educational touchpoint in the [[blueally-pipeline]], delivering AI literacy to executives encountered during engagements. Content for the library may be organized and managed upstream via [[concepts-blueally]], BlueAlly's internal concept exploration platform. It is also part of the [[blueally-presentation-toolkit]] suite.
 
 ## Related
 
-- [[gofasterwithai]]
-- [[anthropic-sdk]]
-- [[ai-literacy]]
-- [[blueally-pipeline]]
-- [[claude-sdk-enablement]]
-- [[blueally-enablement-notebooks]]
-- [[ai-visual-intelligence-library-source]]
+- [[ai-visual-intelligence-library-source]] — raw project inventory source
+- [[concepts-blueally]] — internal concept exploration platform that may feed content into this library
+- [[blueally-pipeline]] — broader pipeline context
+- [[blueally-presentation-toolkit]] — suite of BlueAlly presentation and education tools
+- [[gofasterwithai]] — hosting domain
+- [[anthropic-sdk]] — AI integration layer for the Ask drawer
+- [[framer-motion]] — animation library
+- [[ai-literacy]] — the core educational goal this platform serves

@@ -187,3 +187,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[compass-source]], [[compass]], [[forensic-ai-opportunity-analysis]]
 - updated: [[blueally-pipeline]], [[vercel]], [[turborepo]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Concepts BlueAlly — Project Inventory
+- source: raw/notes/projects/concepts-blueally.md
+- created: [[concepts-blueally-source]], [[concepts-blueally]]
+- updated: [[ai-visual-intelligence-library]]
+- contradictions: 0

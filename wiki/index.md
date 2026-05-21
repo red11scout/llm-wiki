@@ -35,6 +35,7 @@
 - [[cognition-two]] — Deployed BlueAlly multi-agent cognitive analysis platform on Replit; earliest-generation implementation of the multi-agent pipeline pattern, predecessor to AI Catalyst; last committed 2026-02-10.
 - [[cognoresearcher]] — Archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; predecessor to researchapp and aiworkflow, last committed 2026-02-19.
 - [[compass]] — Deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; a Turborepo monorepo last committed 2026-05-06.
+- [[concepts-blueally]] — Active BlueAlly internal concept exploration platform at concepts.blueally.ai; a Next.js/Neon app for organizing and managing AI concepts and their relationships; last committed 2026-04-16.
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[esbuild]] — Extremely fast JavaScript/TypeScript bundler and minifier; used in Claude Mem as the build tool for bundling the MCP server.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
@@ -102,3 +103,4 @@
 - [[cognitiontwo-source]] — Project inventory for CognitionTwo, a deployed multi-agent cognitive analysis platform on Replit that pioneered the multi-agent architecture pattern later adopted by AI Catalyst and aiworkflow; last committed 2026-02-10.
 - [[cognoresearcher-source]] — Project inventory for CognoResearcher, an archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; last committed 2026-02-19.
 - [[compass-source]] — Project inventory for Compass, a deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; last committed 2026-05-06.
+- [[concepts-blueally-source]] — Project inventory for Concepts BlueAlly, an active Next.js/Neon concept exploration platform at concepts.blueally.ai for organizing and managing AI concepts; last committed 2026-04-16.

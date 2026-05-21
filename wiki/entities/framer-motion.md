@@ -2,28 +2,25 @@
 title: Framer Motion
 kind: entity
 summary: React animation library used across multiple BlueAlly apps — including BlueAlly Workshop Experience — for interactive animations and the 3-layer animation system.
-tags: [library, animation, react, blueally]
+tags: [animation, react, ui]
 sources: 2
 updated: 2026-05-21
 ---
 
-Framer Motion is a React animation library used as the animation layer of record across the BlueAlly ecosystem. It drives interactive transitions, stagger effects, and complex multi-layer animation pipelines throughout BlueAlly's presentation and delivery tools.
+Framer Motion is a React animation library used extensively across the BlueAlly platform ecosystem to deliver polished, interactive animated experiences in web-native applications.
 
-## Usage in BlueAlly apps
+## BlueAlly apps using Framer Motion
 
-- [[ai-executive-briefing]] — interactive animated strategy presentation
-- [[ai-executive-readout]] — polished executive readout reports
-- [[ai-systems-presentation]] — animated AI systems architecture presentation
-- [[aiwebsiteblueally-next]] — Next.js marketing site rewrite
-- [[blueally-customer-portal]] — multi-tenant customer portal (scaffolded)
-- [[blueally-portal]] — workshop participant portal
-- [[blueally-presenting-workshop]] — 49-slide workshop delivery platform
-- [[blueally-workshop-experience]] — 28-slide live workshop presentation platform; powers a 3-layer animation system with 12 slide type renderers
-- [[blueally-microsites]] — client delivery portal (Framer Motion stagger animations in the glass-monolith theme)
+- [[ai-executive-briefing]] — Web-native executive AI strategy presentation
+- [[ai-executive-readout]] — Polished executive readout reports
+- [[ai-visual-intelligence-library]] — Animated concept explainers
+- [[blueally-microsites]] — Glass-morphism client landing pages with stagger animations (see [[glass-monolith-theme]])
+- [[blueally-workshop-experience]] — 3-layer animation system across 28 slides
+- [[blueally-presenting-workshop]] — Workshop delivery tool with animated slides
+- [[blueally-workshop-web]] — Workshop management hub animations
 
 ## Related
 
-- [[react]]
-- [[blueally-presentation-toolkit]]
-- [[glass-monolith-theme]]
-- [[zustand]]
+- [[react]] — The UI framework Framer Motion extends
+- [[blueally-presentation-toolkit]] — The suite of presentation tools where Framer Motion is most prominent
+- [[glass-monolith-theme]] — Visual design theme that leverages Framer Motion stagger animations in BlueAlly Microsites

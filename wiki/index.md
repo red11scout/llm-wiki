@@ -26,6 +26,7 @@
 - [[blueally-private-ai-investment-planner]] — Deployed BlueAlly Next.js tool for modeling the financial implications of private AI infrastructure deployments — hardware, cloud, and operational costs — with Claude-powered advisory; last committed 2026-05-06.
 - [[blueally-workbench]] — Deployed BlueAlly AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; a domain-specific vertical tool last committed 2026-04-16.
 - [[blueally-workshop-experience]] — Deployed BlueAlly interactive animated presentation platform for live AI workshops; 28 slides across 7 sections with a 3-layer animation system and no database; last committed 2026-03-28.
+- [[blueally-workshop-web]] — Deployed BlueAlly workshop management hub providing scheduling, content management, and participant interaction with Next.js, Neon, and Framer Motion; last committed 2026-03-16.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
 - [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
@@ -44,7 +45,7 @@
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
-- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, and BlueAlly Workbench.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, BlueAlly Workbench, and BlueAlly Workshop Web.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
@@ -87,3 +88,4 @@
 - [[blueally-private-ai-investment-planner-source]] — Project inventory for BlueAlly Private AI Investment Planner, a deployed Next.js tool for modeling financial implications of private AI infrastructure deployments with Claude-powered advisory; last committed 2026-05-06.
 - [[blueally-workbench-source]] — Project inventory for BlueAlly Workbench, a deployed AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; last committed 2026-04-16.
 - [[blueally-workshop-experience-source]] — Project inventory for BlueAlly Workshop Experience, a deployed Next.js interactive animated presentation platform for live AI workshops with 28 slides across 7 sections; last committed 2026-03-28.
+- [[blueally-workshop-web-source]] — Project inventory for BlueAlly Workshop Hub, a deployed Next.js workshop management platform providing scheduling, content management, and participant interaction with Neon and Framer Motion; last committed 2026-03-16.

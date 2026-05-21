@@ -12,11 +12,12 @@
 - [[aiwebsiteblueally]] — Current Replit-hosted BlueAlly AI marketing website; top-of-funnel entry point into the BlueAlly pipeline, planned for replacement by aiwebsiteblueally-next.
 - [[aiwebsiteblueally-next]] — Active Next.js rewrite of the BlueAlly AI marketing website, adding Payload CMS, Neon, and Claude SDK; planned production replacement for the Replit-hosted site, last committed 2026-03-03.
 - [[aiworkflow]] — BlueAlly's step-2 pipeline app that imports assessment JSON from researchapp and runs a 10-step guided analysis workflow, producing structured output consumed by AI Architecture Studio; last committed 2026-05-13.
-- [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), and BlueAlly Customer Portal.
+- [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Customer Portal, and BlueAlly Enablement Notebooks.
 - [[atlas]] — BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI infrastructure Bills of Materials, and ROI analysis; deployed at atlas.vercel.app.
 - [[blueally-ai-app]] — Deployed BlueAlly field-CTO partner tool that helps executives frame AI use cases and generate structured consulting briefs using Claude; last committed 2026-05-07.
 - [[blueally-ai-solution-navigator]] — Deployed BlueAlly decision-support tool that guides enterprises through AI solution selection using a structured process backed by Claude intelligence; last committed 2026-05-07.
 - [[blueally-customer-portal]] — Planned authenticated multi-tenant customer portal for the BlueAlly ecosystem, tracking each organisation's 8-part AI transformation framework journey; not yet deployed.
+- [[blueally-enablement-notebooks]] — Archived BlueAlly Python/Jupyter NYC Tourist Assistant project used as internal Claude SDK enablement training material; last committed 2025-06-11.
 - [[blueally-presenting]] — BlueAlly web-native presentation utility; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing and blueally-workshop-experience.
 - [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing and blueally-presenting.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
@@ -44,6 +45,7 @@
 - [[blueally-framework-journey]] — BlueAlly's 8-part structured framework for tracking a customer organisation's AI transformation progress; the core data model of the BlueAlly Customer Portal.
 - [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, educational support, and customer portal.
 - [[blueally-presentation-toolkit]] — BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, blueally-presenting, and AI Systems Presentation.
+- [[claude-sdk-enablement]] — BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
 - [[consulting-brief]] — Structured, AI-generated document that frames an executive's business challenge as an actionable AI opportunity; primary output artifact of BlueAlly AI App.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
 
@@ -63,3 +65,4 @@
 - [[blueally-ai-app-source]] — Project inventory for BlueAlly AI App, a field-CTO partner tool for executives to frame AI use cases and generate consulting briefs using Claude; last committed 2026-05-07.
 - [[blueally-ai-solution-navigator-source]] — Project inventory for BlueAlly AI Solution Navigator, a deployed decision-support tool guiding enterprises through AI solution selection using Claude intelligence; last committed 2026-05-07.
 - [[blueally-customer-portal-source]] — Project inventory for BlueAlly Customer Portal, a planned authenticated multi-tenant portal tracking customer AI transformation journeys through an 8-part framework; not yet deployed, last status unknown.
+- [[blueally-enablement-notebooks-source]] — Project inventory for BlueAlly Enablement Notebooks, an archived Python/Jupyter NYC Tourist Assistant used for internal Claude SDK enablement training; last committed 2025-06-11.

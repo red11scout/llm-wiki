@@ -97,3 +97,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-customer-portal-source]], [[blueally-customer-portal]], [[blueally-framework-journey]], [[clerk]], [[vite]], [[express]], [[react]]
 - updated: [[neon]], [[drizzle-orm]], [[framer-motion]], [[tailwindcss]], [[anthropic-sdk]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly Enablement Notebooks Source
+- source: raw/notes/projects/blueally-enablement-notebooks.md
+- created: [[blueally-enablement-notebooks-source]], [[blueally-enablement-notebooks]], [[claude-sdk-enablement]]
+- updated: [[anthropic-sdk]], [[ai-visual-intelligence-library]]
+- contradictions: 0

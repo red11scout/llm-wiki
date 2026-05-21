@@ -1,35 +1,38 @@
 ---
 title: BlueAlly Presentation Toolkit
 kind: concept
-summary: BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, and blueally-presenting.
-tags: [blueally, presentation, toolkit]
-sources: 1
+summary: BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, blueally-presenting, and AI Systems Presentation.
+tags: [blueally, presentation, web-native]
+sources: 5
 updated: 2026-05-21
 ---
 
----
-title: BlueAlly Presentation Toolkit
-kind: concept
-summary: BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, and blueally-presenting.
-tags: [blueally, presentation, toolkit]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-executive-briefing-source
----
+The BlueAlly Presentation Toolkit is the collection of web-native presentation applications that BlueAlly has built and deployed as replacements for traditional static slide decks (e.g., PowerPoint). Each tool in the toolkit uses [[framer-motion]] for animations and [[zustand]] for state management, and is deployed via [[vercel]].
 
-The BlueAlly Presentation Toolkit is an informal grouping of web-native presentation applications that BlueAlly has built as alternatives to static PowerPoint slides for executive and workshop audiences. The shift to web-native formats enables animations, interactivity, and presenter controls that static slide decks cannot provide.
+## Members
 
-## Known members
+| App | Purpose |
+|---|---|
+| [[ai-executive-briefing]] | Interactive executive AI strategy presentation, built with Next.js and Framer Motion |
+| [[blueally-workshop-experience]] | Web-native workshop presentation application |
+| [[blueally-presenting]] | General-purpose web-native presentation utility |
+| [[ai-systems-presentation]] | Animated presentation on AI systems architecture; reusable template for technical topics |
 
-- [[ai-executive-briefing]] — Interactive animated AI strategy briefing for executive audiences.
-- [[blueally-workshop-experience]] — (stub) Workshop-oriented presentation experience; see source for context.
-- [[blueally-presenting]] — (stub) Presentation utility; see source for context.
+## Shared patterns
 
-## Relationship to the pipeline
+All toolkit members share a consistent front-end approach: Next.js + React for structure, [[framer-motion]] for transitions and animations, and [[zustand]] for client-side navigation state. None require a database layer for the presentation experience itself.
 
-These tools are distinct from the analytical [[blueally-pipeline]] (which runs [[aiworkflow]] → [[ai-architecture-studio]]). The presentation toolkit handles *communication* of AI strategy rather than generation of analytical artifacts.
+## Ecosystem role
+
+The toolkit represents BlueAlly's deliberate platform shift away from static slide decks toward interactive, web-delivered presentations. Individual toolkit apps are reused and adapted across client engagements (e.g., [[a-e-global-media]]) and internal tooling demonstrations.
 
 ## Related
 
 - [[ai-executive-briefing]]
+- [[blueally-workshop-experience]]
+- [[blueally-presenting]]
+- [[ai-systems-presentation]]
+- [[framer-motion]]
+- [[zustand]]
+- [[vercel]]
 - [[blueally-pipeline]]

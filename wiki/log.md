@@ -49,3 +49,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-infra-sizing-source]], [[ai-infra-sizing]], [[anthropic-sdk]]
 - updated: [[blueally-pipeline]], [[vercel]], [[neon]], [[drizzle-orm]], [[zustand]]
 - contradictions: 0
+
+## [2026-05-21] ingest | AI Systems Presentation — Project Inventory
+- source: raw/notes/projects/ai-systems-presentation.md
+- created: [[ai-systems-presentation-source]], [[ai-systems-presentation]], [[tailwindcss]]
+- updated: [[blueally-presentation-toolkit]], [[framer-motion]], [[zustand]], [[vercel]]
+- contradictions: 0

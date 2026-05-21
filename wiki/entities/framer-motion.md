@@ -1,22 +1,26 @@
 ---
 title: Framer Motion
 kind: entity
-summary: React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout — for interactive slide and presentation animations.
-tags: [library, animation, react]
-sources: 2
+summary: React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation — for interactive slide and presentation animations.
+tags: [react, animation, front-end]
+sources: 4
 updated: 2026-05-21
 ---
 
-Framer Motion is a React animation library used across the BlueAlly presentation and output toolchain to deliver polished, interactive animations in web-native applications.
+Framer Motion is a React animation library that provides declarative, physics-based animations and transitions. It is a core dependency across the [[blueally-presentation-toolkit]] and several downstream output tools.
 
-## Usage in BlueAlly
+## Usage in BlueAlly apps
 
-- [[ai-executive-briefing]] — powers interactive slide animations in the web-native executive AI strategy presentation.
-- [[ai-executive-readout]] — powers polished presentation animations in the executive-level AI readout report platform.
+- [[ai-executive-briefing]] — slide transitions and interactive animations in the executive AI strategy presentation
+- [[ai-executive-readout]] — animations in polished executive-level AI readout reports
+- [[ai-systems-presentation]] — slide transitions and animations in the AI systems architecture presentation
+- [[blueally-workshop-experience]] — workshop presentation animations (part of the presentation toolkit)
 
 ## Related
 
+- [[blueally-presentation-toolkit]]
 - [[ai-executive-briefing]]
 - [[ai-executive-readout]]
-- [[blueally-presentation-toolkit]]
-- [[blueally-pipeline]]
+- [[ai-systems-presentation]]
+- [[zustand]]
+- [[vercel]]

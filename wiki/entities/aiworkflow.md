@@ -2,46 +2,29 @@
 title: AI Workflow
 kind: entity
 summary: BlueAlly's step-2 pipeline app that imports assessment JSON from researchapp and runs a 10-step guided analysis workflow, producing structured output consumed by AI Architecture Studio; last committed 2026-05-13.
-tags: [blueally-pipeline, workflow-orchestration, active]
+tags: [blueally, pipeline, workflow, deployed]
 sources: 2
 updated: 2026-05-21
 ---
 
-AI Workflow is BlueAlly's core step-2 pipeline application — an orchestration platform that imports assessment JSON from [[researchapp]] (served at discover.movefasterwithai.com) and guides users through a 10-step interactive analysis workflow, ultimately producing shareable reports and structured JSON output consumed by [[ai-architecture-studio]].
+AI Workflow is BlueAlly's step-2 pipeline application. It imports the assessment JSON produced by [[researchapp]] and runs a structured 10-step guided analysis workflow, producing the output artifact consumed by [[ai-architecture-studio]] in step 3. It uses [[shadcn-ui]] for its 20 UI components and was last committed 2026-05-13.
 
-## Pipeline position
+## Ecosystem role
 
-AI Workflow sits between the upstream assessment layer ([[researchapp]]) and the downstream technical artifact generation layer ([[ai-architecture-studio]]) within the [[blueally-pipeline]]. It is the successor to [[ai-catalyst]] as the primary workshop analysis engine.
+AI Workflow occupies the analytical core of the [[blueally-pipeline]], transforming raw assessment data into structured, actionable output. Its guided cognitive analysis capability traces back to [[cognoresearcher]], an archived early-generation platform that explored combining cognitive analysis with strategic research before the concerns were separated into discrete pipeline steps.
 
-## 10-step workflow
+## Technical details
 
-1. **Upload** — ingest JSON from discover.movefasterwithai.com
-2. **Themes** — identify key organizational themes
-3. **Functions** — map business functions
-4. **Friction** — surface friction points
-5. **Use Cases** — enumerate AI use cases
-6. **Benefits** — quantify anticipated benefits
-7. **Workflows** — define target workflows
-8. **Readiness** — assess organizational readiness
-9. **Matrix** — prioritize use cases across dimensions
-10. **Dashboard** — present shareable output
-
-## Technical profile
-
-- **Stack**: React, Vite, Express, [[tailwindcss]], [[drizzle-orm]], [[neon]], [[anthropic-sdk]]
-- **UI components**: 20 [[shadcn-ui]] components, 4 layout components
-- **Scale**: 56 TypeScript files, 12 pages
-- **API pattern**: section-based updates via PUT API with automatic X-Owner-Token header management
-- **Deployed**: not deployed as a public endpoint
-- **Status**: active
-- **Last commit**: 2026-05-13
-- **GitHub**: https://github.com/red11scout/aiworkflow
+- **UI components**: [[shadcn-ui]] (20 components)
+- **Upstream input**: assessment JSON from [[researchapp]]
+- **Downstream output**: structured JSON consumed by [[ai-architecture-studio]]
+- **Last committed**: 2026-05-13
 
 ## Related
 
-- [[aiworkflow-source]] — project inventory source
-- [[blueally-pipeline]] — pipeline context
-- [[researchapp]] — upstream data provider
-- [[ai-architecture-studio]] — downstream consumer
-- [[ai-catalyst]] — predecessor application
-- [[neon]], [[drizzle-orm]], [[anthropic-sdk]], [[tailwindcss]], [[shadcn-ui]]
+- [[aiworkflow-source]] — raw project inventory
+- [[blueally-pipeline]] — end-to-end pipeline context
+- [[researchapp]] — step-1 upstream data source
+- [[ai-architecture-studio]] — step-3 downstream consumer
+- [[cognoresearcher]] — archived predecessor whose cognitive analysis capabilities were absorbed here
+- [[ai-catalyst]] — contemporaneous archived assessment platform

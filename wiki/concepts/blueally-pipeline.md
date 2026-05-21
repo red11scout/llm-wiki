@@ -7,29 +7,27 @@ sources: 2
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end sequence of tools and services through which BlueAlly delivers AI transformation engagements to enterprise clients. Each step produces structured output consumed by the next, forming a traceable chain from initial marketing contact through polished executive deliverable.
+The BlueAlly Pipeline is the end-to-end delivery system through which BlueAlly takes enterprise clients from initial awareness through AI strategy execution. Each step produces a structured artifact consumed by the next step, creating a traceable chain of AI-generated deliverables.
 
 ## Pipeline stages
 
-1. **Top-of-funnel** — [[aiwebsiteblueally]] / [[aiwebsiteblueally-next]] capture inbound interest.
-2. **Assessment** — [[researchapp]] generates structured assessment JSON (discover.movefasterwithai.com).
-3. **Workflow analysis** — [[aiworkflow]] imports assessment JSON and runs a 10-step guided analysis, producing output consumed downstream.
-4. **Architecture generation** — [[ai-architecture-studio]] ingests aiworkflow JSON to produce architecture diagrams, agentic workflows, PRDs, and financial models.
-5. **Executive readout** — [[ai-executive-readout]] generates polished executive-level reports from pipeline outputs.
-6. **Infrastructure sizing** — [[ai-infra-sizing]] right-sizes AI infrastructure requirements deterministically.
-7. **Investment intelligence** — [[atlas]] provides token usage projections, Private AI BoMs, and ROI analysis.
-8. **Workshop delivery** — [[blueally-workshop-web]] manages workshop scheduling, content, and participant interaction; [[blueally-workshop-experience]] and [[blueally-presenting-workshop]] deliver live session content; [[blueally-portal]] provides authenticated participant access to materials.
-9. **Executive education** — [[ai-visual-intelligence-library]] supports AI literacy through animated explainers.
-10. **Client portal** — [[blueally-microsites]] delivers password-protected landing pages linking clients to all generated artifacts.
-11. **Customer journey tracking** — [[blueally-customer-portal]] (planned) tracks each organisation's progress through the [[blueally-framework-journey]].
+1. **Top-of-funnel** — [[aiwebsiteblueally]] / [[aiwebsiteblueally-next]] (marketing entry point)
+2. **Assessment** — [[researchapp]] generates assessment JSON (`discover.movefasterwithai.com`)
+3. **Guided analysis** — [[aiworkflow]] runs 10-step workflow on assessment JSON
+4. **Artifact generation** — [[ai-architecture-studio]] produces architecture diagrams, PRDs, financial models
+5. **Executive readout** — [[ai-executive-readout]] generates polished executive reports
+6. **Infrastructure sizing** — [[ai-infra-sizing]] right-sizes enterprise AI infrastructure
+7. **Investment intelligence** — [[atlas]] provides token projections, Private AI BoMs, ROI analysis
+8. **Education** — [[ai-visual-intelligence-library]] delivers animated AI concept explainers
+9. **Customer portal** — [[blueally-customer-portal]] tracks the [[blueally-framework-journey]]
+10. **Client delivery** — [[blueally-microsites]] provides password-protected artifact landing pages
 
-## Presentation toolkit
+## Lineage and predecessors
 
-Several tools serve the presentation and communication layer across pipeline stages; see [[blueally-presentation-toolkit]] for a consolidated view.
+The pipeline's assessment and cognitive analysis capabilities evolved from a series of archived early-generation tools: [[cognition-two]] → [[cognoresearcher]] → [[ai-catalyst]], before stabilising into the current [[researchapp]] + [[aiworkflow]] split. [[cognoresearcher]] in particular explored unifying cognitive analysis with strategic research in a single platform, an experiment whose lessons shaped the present step-1/step-2 separation of concerns.
 
 ## Related
 
-- [[blueally-framework-journey]] — The 8-part AI transformation framework the pipeline operationalises
-- [[blueally-presentation-toolkit]] — Web-native presentation tools within the pipeline
-- [[deterministic-scoring]] — Design pattern applied at multiple pipeline stages
-- [[multi-agent-pipeline]] — Architectural pattern pioneered by [[ai-catalyst]] and carried forward
+- [[blueally-framework-journey]] — 8-part transformation framework tracked through the portal
+- [[blueally-presentation-toolkit]] — companion suite of web-native presentation tools
+- [[multi-agent-pipeline]] — architectural pattern used in earlier-generation pipeline stages

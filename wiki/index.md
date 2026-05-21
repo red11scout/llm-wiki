@@ -33,6 +33,7 @@
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
 - [[cognition-two]] — Deployed BlueAlly multi-agent cognitive analysis platform on Replit; earliest-generation implementation of the multi-agent pipeline pattern, predecessor to AI Catalyst; last committed 2026-02-10.
+- [[cognoresearcher]] — Archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; predecessor to researchapp and aiworkflow, last committed 2026-02-19.
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[esbuild]] — Extremely fast JavaScript/TypeScript bundler and minifier; used in Claude Mem as the build tool for bundling the MCP server.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
@@ -97,3 +98,4 @@
 - [[chrisbot-source]] — Project inventory for ChrisBot, an archived BlueAlly conversational AI chatbot built with Claude SDK and Neon for persistent message storage; last committed 2026-02-25.
 - [[claude-mem-source]] — Project inventory for Claude Mem, a memory compression MCP server for Claude Code using Express, SQLite, and esbuild to persist context across sessions; last committed 2026-02-10.
 - [[cognitiontwo-source]] — Project inventory for CognitionTwo, a deployed multi-agent cognitive analysis platform on Replit that pioneered the multi-agent architecture pattern later adopted by AI Catalyst and aiworkflow; last committed 2026-02-10.
+- [[cognoresearcher-source]] — Project inventory for CognoResearcher, an archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; last committed 2026-02-19.

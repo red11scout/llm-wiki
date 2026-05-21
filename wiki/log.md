@@ -175,3 +175,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[cognitiontwo-source]], [[cognition-two]]
 - updated: [[cognition-two]], [[ai-catalyst]], [[multi-agent-pipeline]]
 - contradictions: 1
+
+## [2026-05-21] ingest | CognoResearcher Project Inventory
+- source: raw/notes/projects/cognoresesearcher.md
+- created: [[cognoresearcher-source]], [[cognoresearcher]]
+- updated: [[researchapp]], [[aiworkflow]], [[blueally-pipeline]]
+- contradictions: 0

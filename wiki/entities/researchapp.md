@@ -2,27 +2,20 @@
 title: ResearchApp
 kind: entity
 summary: Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline.
-tags: [blueally-pipeline, assessment, upstream]
+tags: [blueally, pipeline, assessment]
 sources: 2
 updated: 2026-05-21
 ---
 
-ResearchApp (also identified as smart-report-ai) is an upstream BlueAlly data source hosted at discover.movefasterwithai.com. It generates structured assessment JSON that is imported by [[aiworkflow]] as the starting payload for the 10-step guided analysis workflow, making it the effective entry point of the analytical portion of the [[blueally-pipeline]].
+ResearchApp is the step-1 upstream tool in the [[blueally-pipeline]], deployed at `discover.movefasterwithai.com` (also known as `smart-report-ai`). It generates structured assessment JSON that is consumed by [[aiworkflow]] as the entry point into the guided analysis pipeline.
 
 ## Ecosystem role
 
-ResearchApp feeds directly into [[aiworkflow]] (step 2 of the pipeline). The assessment JSON it produces represents the raw client data — survey responses, organizational signals — that aiworkflow then analyzes across themes, functions, friction, use cases, benefits, workflows, readiness, matrix, and dashboard stages.
-
-## Integration details
-
-- Hosted at: discover.movefasterwithai.com
-- Also known as: smart-report-ai
-- Output format: JSON (consumed by [[aiworkflow]] via Upload step)
-- Originally also integrated by [[ai-catalyst]] (predecessor to aiworkflow)
+ResearchApp is the first formal step in the BlueAlly pipeline, producing the assessment JSON artifact that drives all downstream stages. Its research and assessment capabilities trace conceptually back to [[cognoresearcher]], an archived earlier-generation platform that combined cognitive analysis with strategic research before those concerns were separated into discrete pipeline steps.
 
 ## Related
 
-- [[aiworkflow]] — primary downstream consumer
-- [[ai-catalyst]] — legacy downstream consumer
-- [[blueally-pipeline]] — pipeline context
-- [[cognition-two]] — peer upstream data source (integrated by AI Catalyst)
+- [[blueally-pipeline]] — end-to-end pipeline that ResearchApp feeds as step 1
+- [[aiworkflow]] — step-2 consumer of ResearchApp's assessment JSON output
+- [[cognoresearcher]] — archived predecessor whose research capabilities were absorbed here
+- [[ai-architecture-studio]] — step-3 downstream tool in the same pipeline

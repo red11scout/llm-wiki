@@ -145,3 +145,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[blueally-workbench-source]], [[blueally-workbench]], [[deterministic-scoring]], [[assortment-optimization]]
 - updated: [[vercel]], [[drizzle-orm]], [[neon]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | BlueAlly Workshop Experience — Project Inventory
+- source: raw/notes/projects/blueally-workshop-experience.md
+- created: [[blueally-workshop-experience-source]]
+- updated: [[blueally-workshop-experience]], [[blueally-presentation-toolkit]], [[framer-motion]], [[zustand]]
+- contradictions: 1

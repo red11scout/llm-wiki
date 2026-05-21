@@ -25,13 +25,13 @@
 - [[blueally-presenting-workshop]] — Deployed BlueAlly Modern AI Systems Workshop platform with 49 slides across 8 sections, presenter mode, and Claude-powered editing; deployed at blueally-workshop.vercel.app, last committed 2026-04-06.
 - [[blueally-private-ai-investment-planner]] — Deployed BlueAlly Next.js tool for modeling the financial implications of private AI infrastructure deployments — hardware, cloud, and operational costs — with Claude-powered advisory; last committed 2026-05-06.
 - [[blueally-workbench]] — Deployed BlueAlly AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; a domain-specific vertical tool last committed 2026-04-16.
-- [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing, blueally-presenting, and blueally-presenting-workshop.
+- [[blueally-workshop-experience]] — Deployed BlueAlly interactive animated presentation platform for live AI workshops; 28 slides across 7 sections with a 3-layer animation system and no database; last committed 2026-03-28.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
 - [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps.
-- [[framer-motion]] — React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, BlueAlly AI Website (Next.js), BlueAlly Customer Portal, BlueAlly Portal, and BlueAlly Presenting Workshop — for interactive animations.
+- [[framer-motion]] — React animation library used across multiple BlueAlly apps — including BlueAlly Workshop Experience — for interactive animations and the 3-layer animation system.
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio, AI Visual Intelligence Library, BlueAlly Microsites client portal, and BlueAlly Presenting.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
@@ -46,14 +46,14 @@
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
 - [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, and BlueAlly Workbench.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
-- [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state.
+- [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
 ## Concepts
 - [[ai-literacy]] — Foundational understanding of AI concepts enabling executives to interpret, evaluate, and act on AI-generated assessments, architectures, and recommendations.
 - [[assortment-optimization]] — Retail/e-commerce discipline of selecting the optimal product mix for a sales channel; the domain problem addressed by BlueAlly Workbench for Amazon SKU decisions.
 - [[blueally-framework-journey]] — BlueAlly's 8-part structured framework for tracking a customer organisation's AI transformation progress; the core data model of the BlueAlly Customer Portal.
 - [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, educational support, customer portal, and client delivery via BlueAlly Microsites.
-- [[blueally-presentation-toolkit]] — BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, blueally-presenting, blueally-presenting-workshop, and AI Systems Presentation.
+- [[blueally-presentation-toolkit]] — BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, BlueAlly Workshop Experience, blueally-presenting, blueally-presenting-workshop, and AI Systems Presentation.
 - [[claude-sdk-enablement]] — BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
 - [[consulting-brief]] — Structured, AI-generated document that frames an executive's business challenge as an actionable AI opportunity; primary output artifact of BlueAlly AI App.
 - [[deterministic-scoring]] — An AI design pattern that applies fixed, rule-based scoring criteria to produce consistent, auditable results rather than relying solely on probabilistic LLM output.
@@ -86,3 +86,4 @@
 - [[blueally-presenting-workshop-source]] — Project inventory for BlueAlly Presenting Workshop, a deployed Next.js workshop delivery tool with 49 slides across 8 sections, presenter mode, and Claude-powered editing; last committed 2026-04-06.
 - [[blueally-private-ai-investment-planner-source]] — Project inventory for BlueAlly Private AI Investment Planner, a deployed Next.js tool for modeling financial implications of private AI infrastructure deployments with Claude-powered advisory; last committed 2026-05-06.
 - [[blueally-workbench-source]] — Project inventory for BlueAlly Workbench, a deployed AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; last committed 2026-04-16.
+- [[blueally-workshop-experience-source]] — Project inventory for BlueAlly Workshop Experience, a deployed Next.js interactive animated presentation platform for live AI workshops with 28 slides across 7 sections; last committed 2026-03-28.

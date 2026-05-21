@@ -12,7 +12,7 @@
 - [[aiwebsiteblueally]] — Current Replit-hosted BlueAlly AI marketing website; top-of-funnel entry point into the BlueAlly pipeline, planned for replacement by aiwebsiteblueally-next.
 - [[aiwebsiteblueally-next]] — Active Next.js rewrite of the BlueAlly AI marketing website, adding Payload CMS, Neon, and Claude SDK; planned production replacement for the Replit-hosted site, last committed 2026-03-03.
 - [[aiworkflow]] — BlueAlly's step-2 pipeline app that imports assessment JSON from researchapp and runs a 10-step guided analysis workflow, producing structured output consumed by AI Architecture Studio; last committed 2026-05-13.
-- [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps and external-client tools as the AI integration layer.
+- [[anthropic-sdk]] — Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps, personal projects, and external-client tools as the AI integration layer.
 - [[atlas]] — BlueAlly's AI Investment Intelligence Platform providing token usage projections, Private AI infrastructure Bills of Materials, and ROI analysis; deployed at atlas.vercel.app.
 - [[blueally-ai-app]] — Deployed BlueAlly field-CTO partner tool that helps executives frame AI use cases and generate structured consulting briefs using Claude; last committed 2026-05-07.
 - [[blueally-ai-solution-navigator]] — Deployed BlueAlly decision-support tool that guides enterprises through AI solution selection using a structured process backed by Claude intelligence; last committed 2026-05-07.
@@ -36,26 +36,27 @@
 - [[cognoresearcher]] — Archived BlueAlly AI Strategic Assessment Platform combining cognitive analysis with research capabilities; predecessor to researchapp and aiworkflow, last committed 2026-02-19.
 - [[compass]] — Deployed BlueAlly AI Opportunity Research Platform providing forensic AI use case discovery and financial validation for CFOs; a Turborepo monorepo last committed 2026-05-06.
 - [[concepts-blueally]] — Active BlueAlly internal concept exploration platform at concepts.blueally.ai; a Next.js/Neon app for organizing and managing AI concepts and their relationships; last committed 2026-04-16.
-- [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps, the personal Four Cups project, and the external-client GA Staff Scheduler for type-safe database access.
+- [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps, personal projects, and external-client tools for type-safe database access.
 - [[esbuild]] — Extremely fast JavaScript/TypeScript bundler and minifier; used in Claude Mem as the build tool for bundling the MCP server.
-- [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
+- [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps and personal projects, including Claude Mem as an MCP server HTTP layer.
 - [[fourcups]] — Personal/religious Next.js app with Neon, Drizzle ORM, and Framer Motion; deployed at fourcups.vercel.app; not part of the BlueAlly ecosystem.
 - [[framer-motion]] — React animation library used across multiple BlueAlly apps, personal projects, and external-client tools for interactive animations and smooth UI transitions.
 - [[ga-staff-scheduler]] — Deployed external-client staff scheduling app built with Next.js, Claude SDK for AI-powered schedule optimization, Neon, and Framer Motion; last committed 2026-03-31.
+- [[godwin-family-tracker]] — Personal daily task-scoring app for the 6 Godwin children, with deterministic 1–5 scoring across 3 dimensions, WebSocket live updates, PIN auth, and Claude-generated encouragement; not deployed, last committed 2026-02-24.
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio, AI Visual Intelligence Library, BlueAlly Microsites client portal, and BlueAlly Presenting.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
 - [[neon]] — Serverless Postgres database platform used as the database layer across multiple BlueAlly apps, personal projects, and external-client tools by the same author.
 - [[payload-cms]] — Headless TypeScript-native CMS used in the BlueAlly AI Website (Next.js) rewrite for structured content management.
-- [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps.
+- [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps and personal projects.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
 - [[researchapp]] — Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
-- [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps for styling.
+- [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps and personal projects for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas, BlueAlly Presenting, and Compass for managing multi-package BlueAlly platform codebases.
 - [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler.
-- [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
+- [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps and personal projects as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state, including BlueAlly Workshop Experience for presentation state management.
 
 ## Concepts
@@ -109,3 +110,4 @@
 - [[concepts-blueally-source]] — Project inventory for Concepts BlueAlly, an active Next.js/Neon concept exploration platform at concepts.blueally.ai for organizing and managing AI concepts; last committed 2026-04-16.
 - [[fourcups-source]] — Project inventory for Four Cups, a personal/religious Next.js app with Neon, Drizzle ORM, and Framer Motion; deployed at fourcups.vercel.app, last committed 2026-05-04.
 - [[ga-staff-scheduler-source]] — Project inventory for GA Staff Scheduler, a deployed external-client Next.js staff scheduling app with Claude SDK-powered schedule optimization and Neon persistence; last committed 2026-03-31.
+- [[godwin-family-tracker-source]] — Project inventory for Godwin Family Tracker, a personal daily task-scoring app for 6 children with deterministic scoring, WebSocket live updates, and Claude-generated encouragement; not deployed, last committed 2026-02-24.

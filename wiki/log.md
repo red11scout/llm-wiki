@@ -205,3 +205,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ga-staff-scheduler-source]], [[ga-staff-scheduler]], [[ai-powered-scheduling]]
 - updated: [[neon]], [[drizzle-orm]], [[framer-motion]], [[anthropic-sdk]], [[vercel]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Godwin Family Tracker — Project Inventory
+- source: raw/notes/projects/godwin-family-tracker.md
+- created: [[godwin-family-tracker-source]], [[godwin-family-tracker]]
+- updated: [[react]], [[vite]], [[express]], [[tailwindcss]], [[drizzle-orm]], [[neon]], [[anthropic-sdk]], [[deterministic-scoring]], [[fourcups]]
+- contradictions: 0

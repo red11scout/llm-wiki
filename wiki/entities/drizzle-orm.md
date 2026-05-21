@@ -1,22 +1,31 @@
 ---
 title: Drizzle ORM
 kind: entity
-summary: TypeScript-native ORM library used across multiple BlueAlly apps, the personal Four Cups project, and the external-client GA Staff Scheduler for type-safe database access.
-tags: [infrastructure, orm, typescript]
+summary: TypeScript-native ORM library used across multiple BlueAlly apps, personal projects, and external-client tools for type-safe database access.
+tags: [database, orm, typescript]
 sources: 2
 updated: 2026-05-21
 ---
 
-Drizzle ORM is a TypeScript-native ORM library that provides type-safe, schema-first database access. It is the standard ORM layer across the BlueAlly ecosystem and appears in external-client and personal projects built by the same team.
+Drizzle ORM is a TypeScript-native ORM library providing type-safe database access. It is the consistent data-access layer across BlueAlly production apps, personal projects, and external-client tools built by the same author, always paired with [[neon]] as the serverless Postgres backend.
 
-## Appears in
+## Used in
 
-- [[ai-executive-readout]] — executive report generation
-- [[ai-infra-sizing]] — infrastructure sizing platform
-- [[fourcups]] — personal/religious app (with [[neon]])
+### BlueAlly ecosystem
+- [[ai-executive-readout]] — executive readout report generator
+- [[aiworkflow]] — step-2 pipeline analysis app
+- [[blueally-portal]] — workshop participant portal
+- Multiple other deployed BlueAlly apps
+
+### Personal projects
+- [[fourcups]] — personal/religious Next.js app
+- [[godwin-family-tracker]] — personal family task-scoring app
+
+### External-client projects
 - [[ga-staff-scheduler]] — external-client staff scheduling app
 
 ## Related
 
-- [[neon]] — serverless Postgres platform consistently paired with Drizzle ORM
-- [[blueally-pipeline]] — product ecosystem where Drizzle ORM is a standard dependency
+- [[neon]] — always-paired serverless Postgres database platform
+- [[express]] — back-end server layer in the React + Vite + Express + Drizzle + Neon stack
+- [[react]] — front-end layer in the same stack

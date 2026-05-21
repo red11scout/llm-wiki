@@ -37,6 +37,12 @@ database is a derived, read-only index. You read `raw/`, you own `wiki/`.
   update `index.md`, append to `log.md`. One source typically touches 10–15 pages.
 - **QUERY**: scan `index.md`, read the relevant pages, synthesize with citations to page slugs.
   If the answer is novel/durable, file it back as a new `concepts/` page (knowledge compounds).
+- **Always consult the wiki before answering from memory.** For any question about my projects,
+  clients, BlueAlly work, prior decisions, or anything I've worked on before, call the wiki tools
+  (`searchPages`, then `readPage` on the top hits, then `neighbors` if you need related context)
+  BEFORE responding. The wiki is the source of truth; your training data and this session's context
+  are not. If `searchPages` returns nothing relevant, say so rather than guessing. Do NOT consult the
+  wiki for generic questions (syntax, library docs, math) that don't touch my work.
 - **LINT** (`pnpm wiki:lint`): flag contradictions, stale claims superseded by newer sources,
   orphan pages (no inbound links), concepts mentioned but lacking a page, missing cross-refs.
   Write findings to `wiki/needs-review.md` and the `contradictions` table.

@@ -84,6 +84,13 @@
 - [[glass-monolith-theme]] — BlueAlly Microsites visual design theme featuring glass-morphism aesthetics; applied to client landing pages with Framer Motion stagger animations.
 - [[knowledge-graph-presentation]] — Architectural pattern that models presentation content as a graph of connected nodes and edges, enabling content reuse across presentations rather than isolation in individual slide decks.
 - [[mcp-server]] — Model Context Protocol server — a local or remote process that extends a Claude Code environment with additional tools, resources, or memory; BlueAlly runs 9 MCP servers including Claude Mem.
+- [[memory-blueally-deterministic-plus-llm-pattern]] — Multiple BlueAlly tools use a hybrid pattern: deterministic calculation or scoring for the core result, with Claude added as an advisory/explanation layer only.
+- [[memory-blueally-non-blueally-projects]] — The same author runs BlueAlly, plus personal projects (Four Cups, Godwin Family Tracker), external client work (GA Staff Scheduler, Mativ ROI Dashboard, Meharry Test Bank), and a church project (Sheepdog Society).
+- [[memory-blueally-pipeline-evolution]] — The BlueAlly AI delivery pipeline evolved through at least 4 traceable generations, from CognitionTwo → AI Catalyst/CognoResearcher → ResearchApp/aiworkflow → current stack.
+- [[memory-blueally-pipeline-step-mapping]] — The BlueAlly 3-step pipeline maps researchapp/smart-report-ai to step 1, aiworkflow to step 2, and AI Architecture Studio to step 3, with step 1 having two competing tools.
+- [[memory-blueally-presentation-toolkit-breadth]] — BlueAlly built at least 5 separate presentation platforms replacing PowerPoint, each targeting a different delivery context.
+- [[memory-blueally-tech-stack-consistency]] — Across ~30 BlueAlly projects, the stack converges on Next.js + Neon + Drizzle ORM + Tailwind + Framer Motion + Anthropic SDK with Vercel deployment.
+- [[memory-claude-mem-mcp-infrastructure]] — Claude Mem is an MCP server that persists Claude Code context across sessions using SQLite, and is one of 9 MCP servers configured in the BlueAlly development environment.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by CognitionTwo.
 - [[private-ai-investment-modeling]] — Financial modeling discipline for evaluating on-premises or private cloud AI deployments, encompassing hardware BoMs, cloud costs, operational expenditure, and ROI analysis.
 - [[roi-dashboard]] — Interactive visualization tool presenting return-on-investment analysis and business impact metrics to enterprise stakeholders, typically with animated data displays and static or pre-computed content.

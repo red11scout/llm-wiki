@@ -1,7 +1,7 @@
 ---
 title: BlueAlly Consistently Pairs Deterministic Engines with Claude as Advisor
 kind: concept
-summary: Multiple BlueAlly tools use a hybrid pattern: deterministic calculation or scoring for the core result, with Claude added as an advisory/explanation layer only.
+summary: "Multiple BlueAlly tools use a hybrid pattern: deterministic calculation or scoring for the core result, with Claude added as an advisory/explanation layer only."
 tags: [memory, blueally, deterministic-scoring, claude, architecture, patterns, enterprise]
 sources: 0
 updated: 2026-05-21

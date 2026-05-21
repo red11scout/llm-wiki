@@ -229,3 +229,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[meharry-testbank-source]], [[meharry-testbank]], [[meharry-medical-college]]
 - updated: [[neon]], [[drizzle-orm]], [[vercel]]
 - contradictions: 0
+
+## [2026-05-21] ingest | ResearchApp v2 — Project Inventory
+- source: raw/notes/projects/researchapp-v2.md
+- created: [[researchapp-v2-source]], [[researchapp-v2]]
+- updated: [[researchapp]], [[blueally-pipeline]]
+- contradictions: 0

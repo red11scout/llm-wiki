@@ -57,7 +57,7 @@
 - [[react]] — JavaScript UI library used as the front-end framework in multiple BlueAlly apps and personal projects.
 - [[react-flow]] — Node-based diagram library used in AI Architecture Studio for 3-layer architecture diagram rendering with Dagre layout.
 - [[replit]] — Browser-based collaborative IDE and hosting platform; hosts the current BlueAlly AI Website and CognitionTwo.
-- [[researchapp]] — Upstream BlueAlly data source at discover.movefasterwithai.com (smart-report-ai) that generates assessment JSON consumed by AI Workflow as step 1 input into the BlueAlly pipeline; a Next.js rewrite (researchapp-v2) is in active development as its planned replacement.
+- [[researchapp]] — BlueAlly's original Express/Vite AI Strategic Assessment Platform deployed at discover.movefasterwithai.com; step-1 pipeline entry point generating assessment JSON consumed by aiworkflow; last committed 2026-02-23.
 - [[researchapp-v2]] — Active Next.js rewrite of BlueAlly's AI Strategic Assessment Platform, modernising from Express/Vite to Next.js App Router with Zustand; planned replacement for researchapp at step 1 of the BlueAlly pipeline; last committed 2026-02-16.
 - [[shadcn-ui]] — Open-source React component library built on Radix UI and Tailwind CSS; used in AI Workflow for its 20 UI components.
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps, personal projects, and external-client tools for styling.
@@ -125,4 +125,5 @@
 - [[knowledge-capture-source]] — Project inventory for Knowledge Capture, an active BlueAlly internal Next.js/Neon platform for structured knowledge organization and retrieval; not deployed, last committed 2026-04-09.
 - [[mativ-roi-dashboard-source]] — Project inventory for Mativ ROI Dashboard, a deployed external-client interactive ROI analysis dashboard built for Mativ Holdings with Next.js, Framer Motion, and static content; last committed 2026-03-24.
 - [[meharry-testbank-source]] — Project inventory for Meharry Test Bank, a deployed external-client educational test bank platform built for Meharry Medical College using Next.js, Neon, and Drizzle ORM; last committed 2026-04-07.
+- [[researchapp-source]] — Project inventory for ResearchApp, BlueAlly's original Express/Vite AI Strategic Assessment Platform at discover.movefasterwithai.com; step-1 pipeline entry point, last committed 2026-02-23.
 - [[researchapp-v2-source]] — Project inventory for ResearchApp v2, a Next.js rewrite of the AI Strategic Assessment Platform replacing the Express/Vite architecture; active, last committed 2026-02-16.

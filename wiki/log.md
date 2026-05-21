@@ -13,3 +13,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-architecture-studio-source]], [[ai-architecture-studio]], [[blueally-pipeline]], [[aiworkflow]], [[gofasterwithai]], [[neon]], [[react-flow]], [[hyperformula]], [[claude-sonnet]]
 - updated: none
 - contradictions: 0
+
+## [2026-05-21] ingest | A+E Global Media AI Workshop — Project Inventory
+- source: raw/notes/projects/ae-ai-workshop.md
+- created: [[ae-ai-workshop-source]], [[a-e-global-media]]
+- updated: [[blueally-pipeline]]
+- contradictions: 1

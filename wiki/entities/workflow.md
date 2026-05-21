@@ -1,44 +1,40 @@
 ---
-title: Workflow (Workflow Compass)
+title: Workflow Compass
 kind: entity
 summary: Archived BlueAlly workflow management tool with Claude SDK integration and Neon persistence; predecessor to aiworkflow, last committed 2026-02-12.
-tags: [blueally, archived, workflow]
-sources: 1
+tags: [blueally, archived, workflow, pipeline-predecessor]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: Workflow (Workflow Compass)
-kind: entity
-summary: Archived BlueAlly workflow management tool with Claude SDK integration and Neon persistence; predecessor to aiworkflow, last committed 2026-02-12.
-tags: [blueally, archived, workflow]
-sources: 1
-updated: 2026-05-21
----
+Workflow Compass is an archived BlueAlly workflow management application that provided workflow orchestration capabilities with [[anthropic-sdk]] (Claude SDK) integration, [[framer-motion]] animations, and [[neon]] database persistence. It was never deployed to production and was last committed on 2026-02-12.
 
-Workflow Compass is an archived BlueAlly workflow management tool that explored workflow orchestration with Claude SDK integration, Framer Motion animations, and Neon database persistence. It was not deployed publicly and represents an experimental predecessor to the production [[aiworkflow]] platform.
+## Technical stack
 
-## Overview
+- **Framework**: [[react]] + [[vite]]
+- **Back end**: [[express]]
+- **Styling**: [[tailwindcss]]
+- **Database ORM**: [[drizzle-orm]] on [[neon]]
+- **AI layer**: [[anthropic-sdk]]
+- **Animations**: [[framer-motion]]
 
-| Field | Value |
-|---|---|
-| GitHub | https://github.com/red11scout/workflow |
-| Deployed | Not deployed |
-| Status | Archived |
-| Last commit | 2026-02-12 |
+## Repository
 
-## Stack
+- **Directory**: `/Users/drewgodwin/workflow/`
+- **GitHub**: https://github.com/red11scout/workflow
+- **Status**: archived, not deployed
+- **Last commit**: 2026-02-12
 
-[[react]], [[vite]], [[express]], [[tailwindcss]], [[drizzle-orm]], [[neon]], [[anthropic-sdk]], [[framer-motion]]
+## Ecosystem role
 
-## Ecosystem Role
+Workflow Compass is the direct predecessor to [[aiworkflow]], BlueAlly's current step-2 pipeline app. It explored workflow management patterns — including Claude SDK-driven orchestration and Neon persistence — that were later refined and expanded into aiworkflow's 10-step guided analysis workflow. Within the broader BlueAlly lineage, it follows [[cognoresearcher]] and precedes [[aiworkflow]].
 
-Workflow Compass is a direct predecessor to [[aiworkflow]] in the [[blueally-pipeline]]. It explored workflow management patterns — including Claude SDK orchestration and Neon persistence — that were later refined and expanded into aiworkflow's current 10-step guided analysis workflow. It is part of a lineage of iterative prototyping that includes [[cognoresearcher]] and [[ai-catalyst]] as parallel exploratory tools before the pipeline stabilized.
+See [[workflow-source]] for the full project inventory.
 
 ## Related
 
-- [[aiworkflow]] — Production successor; 10-step guided analysis platform at step 2 of the BlueAlly pipeline
-- [[ai-catalyst]] — Parallel archived predecessor; 8-agent pipeline and 4-dimension survey system
-- [[cognoresearcher]] — Another archived predecessor combining cognitive analysis with research
-- [[blueally-pipeline]] — The broader delivery pipeline context
-- [[workflow-source]] — Source inventory page for this project
+- [[aiworkflow]] — Current successor; 10-step guided workflow platform
+- [[cognoresearcher]] — Earlier BlueAlly assessment platform in the same lineage
+- [[ai-catalyst]] — Parallel archived predecessor focused on multi-agent pipeline patterns
+- [[blueally-pipeline]] — Overall BlueAlly delivery pipeline context
+- [[workflow-source]] — Source inventory page

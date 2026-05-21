@@ -271,3 +271,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[cognoresearcher-source]]
 - updated: [[cognoresearcher]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Workflow Compass — Project Inventory
+- source: raw/notes/projects/workflow.md
+- created: [[workflow-source]]
+- updated: [[workflow]], [[aiworkflow]]
+- contradictions: 0

@@ -253,3 +253,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[sheepdogsociety-source]], [[sheepdogsociety]]
 - updated: [[clerk]]
 - contradictions: 0
+
+## [2026-05-21] ingest | SmartReportAI Source
+- source: raw/notes/projects/smart-report-ai.md
+- created: [[smart-report-ai-source]], [[smart-report-ai]]
+- updated: [[researchapp]], [[blueally-pipeline]], [[esbuild]]
+- contradictions: 1

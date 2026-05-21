@@ -2,44 +2,39 @@
 title: BlueAlly Pipeline
 kind: concept
 summary: BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, educational support, customer portal, and client delivery via BlueAlly Microsites.
-tags: [blueally, pipeline, architecture]
+tags: [blueally-pipeline, architecture, consulting]
 sources: 2
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end delivery system through which BlueAlly takes a prospective enterprise client from first awareness through to a complete AI transformation engagement. Each step is a distinct deployed application, with structured data (primarily JSON) flowing downstream between steps.
+The BlueAlly Pipeline is the end-to-end multi-step AI delivery process that takes a prospective enterprise client from initial discovery through structured assessment, analysis, technical artifact generation, executive reporting, and ongoing enablement. Each step is operationalized by one or more deployed applications.
 
-## Pipeline stages
+## Pipeline steps
 
-| Step | App | Role |
+| Step | App(s) | Role |
 |---|---|---|
-| 0 — Top of funnel | [[aiwebsiteblueally]] | Marketing website; 14-section homepage, 14 industry reports, Claude chat widget via [[sse-streaming]] |
-| 1 — Assessment | [[researchapp]] | Generates assessment JSON from a custom client discovery process |
-| 2 — Analysis | [[aiworkflow]] | Imports assessment JSON; runs 10-step guided analysis workflow |
-| 3 — Artifact generation | [[ai-architecture-studio]] | Consumes aiworkflow JSON; produces architecture diagrams, agentic workflow maps, PRDs, and financial models |
-| 4 — Executive readout | [[ai-executive-readout]] | Generates polished executive-level readout reports |
-| 5 — Infrastructure sizing | [[ai-infra-sizing]] | Right-sizes enterprise AI infrastructure |
-| 6 — Investment intelligence | [[atlas]] | Token usage projections, Private AI BoMs, and ROI analysis |
-| 7 — Education | [[ai-visual-intelligence-library]] | Interactive executive education on AI concepts |
-| 8 — Customer portal | [[blueally-customer-portal]] | Tracks 8-part AI transformation journey (planned) |
-| 9 — Client delivery | [[blueally-microsites]] | Multi-tenant password-protected portal linking clients to all artifacts |
+| Top-of-funnel | [[aiwebsiteblueally]], [[aiwebsiteblueally-next]] | Marketing entry point |
+| Step 1 — Assessment | [[researchapp]], [[smart-report-ai]], [[researchapp-v2]] | AI strategic assessment; generates JSON output |
+| Step 2 — Analysis | [[aiworkflow]] | 10-step guided analysis on assessment JSON |
+| Step 3 — Artifacts | [[ai-architecture-studio]] | Architecture diagrams, PRDs, financial models |
+| Executive reporting | [[ai-executive-readout]] | Polished executive-level AI readout reports |
+| Infrastructure sizing | [[ai-infra-sizing]] | Right-sizes enterprise AI infrastructure |
+| Investment intelligence | [[atlas]], [[compass]] | Token projections, BoMs, ROI, forensic opportunity analysis |
+| Education | [[ai-visual-intelligence-library]] | Interactive executive AI concept education |
+| Customer portal | [[blueally-customer-portal]] | Tracks 8-part [[blueally-framework-journey]] |
+| Client delivery | [[blueally-microsites]] | Password-protected multi-tenant artifact portal |
 
-## Top-of-funnel detail
+> **Step-1 note**: [[researchapp]] and [[smart-report-ai]] both co-occupy step 1 and are both deployed at discover.movefasterwithai.com; their exact relationship is flagged for human review.
 
-[[aiwebsiteblueally]] (currently hosted on [[replit]]) serves as the entry gate. Its 14 industry-report pages include CTAs linking directly to [[researchapp]], bridging marketing content to the custom assessment flow. This site is being replaced by [[aiwebsiteblueally-next]] on [[vercel]] with [[payload-cms]] for content management.
+## Key data flows
 
-## Supporting tools
-
-Several tools operate alongside the pipeline rather than in a strict sequence:
-
-- [[compass]] — forensic AI opportunity research for CFOs
-- [[blueally-ai-app]] — field-CTO use-case framing and consulting brief generation
-- [[blueally-ai-solution-navigator]] — AI solution selection decision support
-- [[blueally-private-ai-investment-planner]] — private AI infrastructure financial modeling
-- [[blueally-portal]] — authenticated workshop participant access
+- Step-1 apps ([[researchapp]] / [[smart-report-ai]]) → assessment JSON → [[aiworkflow]]
+- [[aiworkflow]] → structured output → [[ai-architecture-studio]]
+- [[ai-architecture-studio]] → artifacts → [[ai-executive-readout]], [[blueally-microsites]]
 
 ## Related
 
-- [[blueally-framework-journey]] — the 8-part transformation model tracked by the customer portal
-- [[multi-agent-pipeline]] — architectural pattern used within several pipeline steps
-- [[deterministic-scoring]] — scoring approach used in multiple steps for auditability
+- [[blueally-framework-journey]] — 8-part transformation framework tracked by the customer portal
+- [[multi-agent-pipeline]] — Architectural pattern used within several pipeline apps
+- [[deterministic-scoring]] — Scoring pattern used in pipeline assessment tools
+- [[consulting-brief]] — Key output artifact of [[blueally-ai-app]], adjacent to the pipeline

@@ -2,49 +2,31 @@
 title: ResearchApp
 kind: entity
 summary: BlueAlly's original Express/Vite AI Strategic Assessment Platform deployed at discover.movefasterwithai.com; step-1 pipeline entry point generating assessment JSON consumed by aiworkflow; last committed 2026-02-23.
-tags: [blueally, pipeline, assessment, express, vite]
+tags: [blueally-pipeline, assessment, deployed]
 sources: 2
 updated: 2026-05-21
 ---
 
-ResearchApp is BlueAlly's original AI Strategic Assessment Platform, deployed at discover.movefasterwithai.com. It is the entry point — step 1 — of the [[blueally-pipeline]], running AI-powered strategic assessments and exporting structured JSON that flows into [[aiworkflow]] (step 2) and ultimately [[ai-architecture-studio]] (step 3 via aiworkflow). It is the tool from which the full pipeline concept originated.
+ResearchApp is BlueAlly's original step-1 AI Strategic Assessment Platform, built on [[express]] and [[vite]], deployed at discover.movefasterwithai.com on [[replit]]. It generates assessment JSON that is consumed by [[aiworkflow]] for deeper guided analysis and subsequently by [[ai-architecture-studio]] for technical artifact generation.
 
-## Status
+> **Note**: [[smart-report-ai]] also co-occupies the step-1 pipeline position and is also deployed at discover.movefasterwithai.com. The exact relationship between the two apps at that URL is flagged for human review — see `needs-review.md`.
 
-- **Deployed**: discover.movefasterwithai.com (also referenced as smart-report-ai)
+## Technical stack
+
+- **Framework**: [[express]] (back-end), [[vite]] (front-end bundler)
+- **Hosting**: [[replit]] at discover.movefasterwithai.com
 - **Last commit**: 2026-02-23
-- **GitHub**: https://github.com/red11scout/researchapp
-- **Lifecycle**: Active but planned for replacement by [[researchapp-v2]]
+- **Status**: Deployed
 
-## Stack
+## Ecosystem role
 
-| Layer | Technology |
-|---|---|
-| Front-end | [[react]] + [[vite]] |
-| Styling | [[tailwindcss]] |
-| Back-end | [[express]] |
-| ORM | [[drizzle-orm]] |
-| Database | [[neon]] |
-| AI | [[anthropic-sdk]] |
-| Animation | [[framer-motion]] |
-
-## Capabilities
-
-- AI-powered use case discovery, financial modeling, and multi-agent analysis
-- Enriched use case fields — all optional for backward compatibility with older JSON consumers downstream
-- Retry loops with read-back verification for save reliability
-- Framer Motion animations throughout the assessment UI
-
-## Pipeline role
-
-ResearchApp is the origin of the [[blueally-pipeline]] concept. Its exported assessment JSON is the canonical input format consumed by [[aiworkflow]], whose 10-step guided analysis produces structured output for [[ai-architecture-studio]]. The Express/Vite architecture is being modernized in [[researchapp-v2]], a Next.js App Router rewrite.
+ResearchApp is the step-1 entry point of the [[blueally-pipeline]], alongside [[smart-report-ai]] (also step 1) and [[researchapp-v2]] (the active Next.js rewrite planned to replace it). Its assessment JSON output flows into [[aiworkflow]] (step 2) and then into [[ai-architecture-studio]] (step 3).
 
 ## Related
 
-- [[researchapp-source]] — Source inventory page
-- [[researchapp-v2]] — Active Next.js rewrite planned as its replacement
-- [[aiworkflow]] — Step-2 downstream consumer
-- [[ai-architecture-studio]] — Step-3 downstream consumer
-- [[blueally-pipeline]] — The overarching pipeline this app initiates
-- [[anthropic-sdk]] — AI integration layer
-- [[neon]] — Database platform
+- [[researchapp-v2]] — Active Next.js rewrite planned to replace this app
+- [[smart-report-ai]] — Co-occupant of step-1 pipeline position at the same deployment URL
+- [[aiworkflow]] — Downstream step-2 consumer of ResearchApp JSON
+- [[ai-architecture-studio]] — Step-3 consumer of aiworkflow output
+- [[blueally-pipeline]] — The multi-step delivery pipeline this tool anchors
+- [[researchapp-source]] — Raw project inventory for this app

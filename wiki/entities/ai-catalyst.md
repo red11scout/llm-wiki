@@ -2,31 +2,38 @@
 title: AI Catalyst
 kind: entity
 summary: Archived BlueAlly AI Use Case Workshop Platform with an 8-agent pipeline and 4-dimension survey system; predecessor to aiworkflow, last committed 2026-02-14.
-tags: [blueally, archived, multi-agent-pipeline, workshop]
+tags: [blueally, multi-agent, archived, workshop]
 sources: 2
 updated: 2026-05-21
 ---
 
-AI Catalyst was BlueAlly's early AI Use Case Workshop Platform. It featured an 8-agent analysis pipeline and a 4-dimension survey system for assessing client AI readiness. It was the direct predecessor to [[aiworkflow]] and has since been archived. Its last commit date of 2026-02-14 places it in the same early-exploration era as [[blueally-intelligence]] (archived 2026-02-13), both representing pre-pipeline experimental BlueAlly tooling.
+AI Catalyst is an archived BlueAlly AI Use Case Workshop Platform. It introduced an 8-agent pipeline and a 4-dimension survey system for analysing enterprise AI use cases. It was the direct successor to [[cognition-two]] and was itself superseded by [[aiworkflow]].
 
-## Stack
+## Origin
 
-Details sourced from [[ai-catalyst-source]].
+AI Catalyst combined two upstream inputs:
+- The multi-agent architecture pioneered by [[cognition-two]] (Document, Strategy, Financial, and Orchestrator agents)
+- Assessment data from [[researchapp]]
 
-## Ecosystem role
-
-AI Catalyst was the first structured attempt within BlueAlly to automate workshop analysis via a [[multi-agent-pipeline]]. It consumed data from [[cognition-two]] as an upstream source. It was superseded by [[aiworkflow]], which provides a more refined 10-step guided analysis workflow integrated into the core [[blueally-pipeline]].
+This synthesis extended the agent count to 8 and added a structured 4-dimension survey layer on top of the CognitionTwo architecture.
 
 ## Status
 
-- **Status**: archived
-- **Last commit**: 2026-02-14
+Archived. Last committed 2026-02-14. Superseded by [[aiworkflow]] (step 2 of the [[blueally-pipeline]]).
+
+## Pipeline Position
+
+AI Catalyst occupies the middle generation in the BlueAlly multi-agent lineage:
+
+1. [[cognition-two]] — original multi-agent platform
+2. **AI Catalyst** — 8-agent pipeline + survey system (this project)
+3. [[aiworkflow]] — current 10-step guided analysis workflow
 
 ## Related
 
-- [[ai-catalyst-source]] — source inventory page
-- [[aiworkflow]] — successor tool that replaced AI Catalyst in the pipeline
-- [[blueally-pipeline]] — overall pipeline AI Catalyst fed into
-- [[multi-agent-pipeline]] — architectural pattern pioneered by AI Catalyst within BlueAlly
-- [[cognition-two]] — upstream data source integrated by AI Catalyst
-- [[blueally-intelligence]] — contemporaneous archived tool (last commit 2026-02-13)
+- [[ai-catalyst-source]] — Source inventory page
+- [[multi-agent-pipeline]] — Architectural pattern
+- [[cognition-two]] — Predecessor platform
+- [[aiworkflow]] — Successor platform
+- [[researchapp]] — Data source integrated into this platform
+- [[blueally-pipeline]] — Full pipeline context

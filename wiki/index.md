@@ -32,7 +32,7 @@
 - [[claude-mem]] — BlueAlly developer infrastructure tool; a memory compression MCP server for Claude Code that persists context across sessions using Express, SQLite, and esbuild; last committed 2026-02-10.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
-- [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
+- [[cognition-two]] — Deployed BlueAlly multi-agent cognitive analysis platform on Replit; earliest-generation implementation of the multi-agent pipeline pattern, predecessor to AI Catalyst; last committed 2026-02-10.
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[esbuild]] — Extremely fast JavaScript/TypeScript bundler and minifier; used in Claude Mem as the build tool for bundling the MCP server.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
@@ -65,7 +65,7 @@
 - [[glass-monolith-theme]] — BlueAlly Microsites visual design theme featuring glass-morphism aesthetics; applied to client landing pages with Framer Motion stagger animations.
 - [[knowledge-graph-presentation]] — Architectural pattern that models presentation content as a graph of connected nodes and edges, enabling content reuse across presentations rather than isolation in individual slide decks.
 - [[mcp-server]] — Model Context Protocol server — a local or remote process that extends a Claude Code environment with additional tools, resources, or memory; BlueAlly runs 9 MCP servers including Claude Mem.
-- [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
+- [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by CognitionTwo.
 - [[private-ai-investment-modeling]] — Financial modeling discipline for evaluating on-premises or private cloud AI deployments, encompassing hardware BoMs, cloud costs, operational expenditure, and ROI analysis.
 
 ## Sources
@@ -96,3 +96,4 @@
 - [[blueally-workshop-web-source]] — Project inventory for BlueAlly Workshop Hub, a deployed Next.js workshop management platform providing scheduling, content management, and participant interaction with Neon and Framer Motion; last committed 2026-03-16.
 - [[chrisbot-source]] — Project inventory for ChrisBot, an archived BlueAlly conversational AI chatbot built with Claude SDK and Neon for persistent message storage; last committed 2026-02-25.
 - [[claude-mem-source]] — Project inventory for Claude Mem, a memory compression MCP server for Claude Code using Express, SQLite, and esbuild to persist context across sessions; last committed 2026-02-10.
+- [[cognitiontwo-source]] — Project inventory for CognitionTwo, a deployed multi-agent cognitive analysis platform on Replit that pioneered the multi-agent architecture pattern later adopted by AI Catalyst and aiworkflow; last committed 2026-02-10.

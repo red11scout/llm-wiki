@@ -169,3 +169,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[claude-mem-source]], [[claude-mem]], [[claude-code]], [[mcp-server]], [[esbuild]]
 - updated: [[express]]
 - contradictions: 0
+
+## [2026-05-21] ingest | CognitionTwo — Project Inventory
+- source: raw/notes/projects/cognitiontwo.md
+- created: [[cognitiontwo-source]], [[cognition-two]]
+- updated: [[cognition-two]], [[ai-catalyst]], [[multi-agent-pipeline]]
+- contradictions: 1

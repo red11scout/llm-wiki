@@ -1,38 +1,36 @@
 ---
 title: Multi-Agent Pipeline
 kind: concept
-summary: Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
-tags: [architecture, multi-agent, pipeline, blueally-ip]
-sources: 1
+summary: Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by CognitionTwo.
+tags: [architecture, multi-agent, blueally-pattern]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: Multi-Agent Pipeline
-kind: concept
-summary: Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
-tags: [architecture, multi-agent, pipeline, blueally-ip]
-sources: 1
-updated: 2026-05-21
----
+A multi-agent pipeline is an architectural pattern where multiple specialized AI agents execute in sequential and/or parallel stages, each handling a distinct sub-task, with outputs composed or orchestrated into a final result. Within BlueAlly, this pattern has been a core design principle across successive generations of the analysis platform.
 
-A multi-agent pipeline is an architectural pattern in which multiple specialized AI agents are composed into a directed execution graph, with some agents running sequentially and others in parallel. Each agent handles a discrete concern; outputs from earlier agents feed later ones.
+## BlueAlly Lineage
 
-## BlueAlly usage
+The pattern was introduced in [[cognition-two]], which fielded four agents:
 
-[[ai-catalyst]] pioneered this pattern within the BlueAlly ecosystem. Its 8-agent pipeline runs:
+- **Document Agent** — ingestion and parsing
+- **Strategy Agent** — strategic analysis (parallel)
+- **Financial Agent** — financial analysis (parallel)
+- **Orchestrator Agent** — synthesis and coordination
 
-1. **Import Reconciliation** — merges data from [[researchapp]] and [[cognition-two]]
-2. **Survey Gen** — generates survey content
-3. **Challenge** + **Validate** — run in parallel
-4. **Prioritize** — ranks use cases
-5. **Workflow** + **Lineage** — run in parallel
-6. **Synthesis** — final consolidation
+This design was carried forward and expanded in [[ai-catalyst]] (8 agents, 4-dimension survey system), and the multi-step guided workflow principle continues in [[aiworkflow]] (10-step analysis).
 
-This design influenced the architecture of the successor platform [[aiworkflow]] and, by extension, the broader [[blueally-pipeline]].
+## Pattern Characteristics
+
+- **Parallelism**: Independent agent tasks (e.g., Strategy + Financial) run concurrently to reduce latency.
+- **Specialization**: Each agent has a narrow, well-defined responsibility.
+- **Orchestration**: A coordinating layer (Orchestrator agent or pipeline runner) assembles agent outputs.
+- **Auditability**: Intermediate agent outputs can be inspected between stages.
 
 ## Related
 
-- [[ai-catalyst]] — First BlueAlly implementation of this pattern
-- [[aiworkflow]] — Successor that carries forward the pipeline concept
-- [[blueally-pipeline]] — The end-to-end delivery pipeline informed by this architecture
+- [[cognition-two]] — Originating BlueAlly implementation
+- [[ai-catalyst]] — Second-generation BlueAlly multi-agent platform
+- [[aiworkflow]] — Current-generation analysis workflow
+- [[blueally-pipeline]] — Full delivery pipeline context
+- [[deterministic-scoring]] — Complementary pattern (rule-based scoring alongside probabilistic agents)

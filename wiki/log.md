@@ -163,3 +163,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[chrisbot-source]], [[chrisbot]]
 - updated: [[anthropic-sdk]], [[claude-sdk-enablement]], [[neon]]
 - contradictions: 0
+
+## [2026-05-21] ingest | Claude Mem — Project Inventory
+- source: raw/notes/projects/claude-mem.md
+- created: [[claude-mem-source]], [[claude-mem]], [[claude-code]], [[mcp-server]], [[esbuild]]
+- updated: [[express]]
+- contradictions: 0

@@ -1,21 +1,22 @@
 ---
 title: Express
 kind: entity
-summary: Minimal Node.js web framework used as the back-end server layer in BlueAlly apps.
-tags: [backend, nodejs, web-framework]
+summary: Minimal Node.js web framework used as the back-end server layer in BlueAlly apps, including Claude Mem as an MCP server HTTP layer.
+tags: [backend, nodejs, framework]
 sources: 2
 updated: 2026-05-21
 ---
 
-Express is a minimal and unopinionated Node.js web framework commonly used to build REST APIs and server-side application layers. Within the BlueAlly ecosystem it provides the back-end server scaffolding for full-stack apps.
+Express is a minimal, unopinionated Node.js web framework. Within the BlueAlly ecosystem it serves as the back-end server layer in several apps and tools.
 
-## BlueAlly usage
+## Usage in BlueAlly
 
-- [[blueally-customer-portal]] — planned multi-tenant portal
-- [[blueally-intelligence]] — archived M&A intelligence platform (2026-02-13)
+- **[[blueally-intelligence]]** — back-end server layer for the M&A intelligence platform.
+- **[[claude-mem]]** — HTTP layer for the memory compression [[mcp-server]] running inside the [[claude-code]] development environment.
 
 ## Related
 
-- [[react]] — front-end layer paired with Express in these apps
-- [[neon]] — database layer used alongside Express
-- [[drizzle-orm]] — ORM used alongside Express for database access
+- [[claude-mem]]
+- [[blueally-intelligence]]
+- [[neon]]
+- [[react]]

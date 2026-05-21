@@ -2,38 +2,41 @@
 title: BlueAlly Pipeline
 kind: concept
 summary: BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, educational support, customer portal, and client delivery via BlueAlly Microsites.
-tags: [blueally, pipeline, delivery]
+tags: [blueally-ip, pipeline, architecture]
 sources: 2
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end sequence of tools and touchpoints BlueAlly uses to take an enterprise client from initial AI interest through to delivered, actionable AI strategy artifacts.
+The BlueAlly Pipeline is the end-to-end delivery system through which BlueAlly takes a client from initial AI interest to a fully realised AI strategy. It is a multi-step, multi-app sequence, with each step consuming structured outputs from the previous one.
 
-## Pipeline stages
+## Core pipeline steps
 
-1. **Top-of-funnel** — [[aiwebsiteblueally]] / [[aiwebsiteblueally-next]] (marketing site)
-2. **Assessment** — [[researchapp]] generates assessment JSON (step 1)
-3. **Workshop analysis** — [[aiworkflow]] runs 10-step guided analysis on assessment JSON (step 2)
-4. **Artifact generation** — [[ai-architecture-studio]] produces architecture diagrams, PRDs, and financial models (step 3)
-5. **Executive readout** — [[ai-executive-readout]] generates polished readout reports
-6. **Infrastructure planning** — [[ai-infra-sizing]] right-sizes AI infrastructure; [[atlas]] provides investment intelligence and BoMs; [[blueally-private-ai-investment-planner]] models full financial implications of private AI deployments
-7. **Education** — [[ai-visual-intelligence-library]] provides executive AI literacy
-8. **Portal & delivery** — [[blueally-portal]] (workshop participant access), [[blueally-customer-portal]] (transformation journey tracking), [[blueally-microsites]] (multi-tenant client delivery)
+1. **Top-of-funnel entry** — [[aiwebsiteblueally]] / [[aiwebsiteblueally-next]] (marketing site)
+2. **Assessment** — [[researchapp]] generates assessment JSON (discover.movefasterwithai.com)
+3. **Analysis workflow** — [[aiworkflow]] runs a 10-step guided analysis on the assessment JSON
+4. **Artifact generation** — [[ai-architecture-studio]] produces architecture diagrams, PRDs, and financial models
+5. **Executive readout** — [[ai-executive-readout]] generates polished executive-level reports
+6. **Infrastructure sizing** — [[ai-infra-sizing]] right-sizes enterprise AI infrastructure
+7. **Investment intelligence** — [[atlas]] provides token projections, BoMs, and ROI analysis
+8. **Education** — [[ai-visual-intelligence-library]] provides animated AI concept explainers
+9. **Customer portal** — [[blueally-customer-portal]] tracks the client's [[blueally-framework-journey]]
+10. **Client delivery** — [[blueally-microsites]] serves password-protected landing pages linking clients to all artifacts
 
-## Supporting tools
+## Presentation toolkit
 
-- [[blueally-ai-app]] — field-CTO consulting brief generator
-- [[blueally-ai-solution-navigator]] — AI solution selection decision support
-- [[blueally-presenting]] / [[blueally-presenting-workshop]] / [[ai-executive-briefing]] / [[ai-systems-presentation]] — [[blueally-presentation-toolkit]]
+Running in parallel, the [[blueally-presentation-toolkit]] covers workshop and executive presentation delivery: [[ai-executive-briefing]], [[blueally-workshop-experience]], [[blueally-presenting]], [[blueally-presenting-workshop]], and [[ai-systems-presentation]].
 
-## Financial and infrastructure planning cluster
+## Vertical / domain-specific tools
 
-Three tools collectively address [[private-ai-investment-modeling]] for enterprises:
-- [[ai-infra-sizing]] — deterministic right-sizing
-- [[atlas]] — token projections, BoMs, ROI
-- [[blueally-private-ai-investment-planner]] — hardware, cloud, and operational cost modeling with Claude advisory
+Beyond the core pipeline, BlueAlly delivers domain-specific vertical applications that demonstrate the platform's extensibility:
+
+- [[blueally-workbench]] — AI-powered SKU research desk for Amazon assortment optimization (retail/e-commerce)
+- [[blueally-ai-app]] — field-CTO partner tool for framing AI use cases
+- [[blueally-ai-solution-navigator]] — enterprise AI solution selection guidance
 
 ## Related
 
-- [[blueally-framework-journey]] — 8-part transformation framework tracked through the portal
-- [[multi-agent-pipeline]] — architectural pattern used in pipeline stages
+- [[blueally-framework-journey]]
+- [[multi-agent-pipeline]]
+- [[ai-literacy]]
+- [[consulting-brief]]

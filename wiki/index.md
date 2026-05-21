@@ -24,6 +24,7 @@
 - [[blueally-presenting]] — Deployed BlueAlly AI-powered knowledge graph presentation platform; a Turborepo monorepo with Tiptap, Anthropic SDK, and Neon replacing PowerPoint with connected, reusable content nodes; last committed 2026-04-03.
 - [[blueally-presenting-workshop]] — Deployed BlueAlly Modern AI Systems Workshop platform with 49 slides across 8 sections, presenter mode, and Claude-powered editing; deployed at blueally-workshop.vercel.app, last committed 2026-04-06.
 - [[blueally-private-ai-investment-planner]] — Deployed BlueAlly Next.js tool for modeling the financial implications of private AI infrastructure deployments — hardware, cloud, and operational costs — with Claude-powered advisory; last committed 2026-05-06.
+- [[blueally-workbench]] — Deployed BlueAlly AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; a domain-specific vertical tool last committed 2026-04-16.
 - [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing, blueally-presenting, and blueally-presenting-workshop.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
 - [[clerk]] — Authentication and user-management platform scaffolded into BlueAlly Customer Portal for multi-tenant auth; not yet fully wired up as of the first source mention.
@@ -43,17 +44,19 @@
 - [[tailwindcss]] — Utility-first CSS framework used across multiple BlueAlly apps for styling.
 - [[tiptap]] — Headless, framework-agnostic rich text editor built on ProseMirror; used in BlueAlly Presenting for content authoring within the knowledge graph platform.
 - [[turborepo]] — High-performance monorepo build system by Vercel used in Atlas and BlueAlly Presenting for managing multi-package BlueAlly platform codebases.
-- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, and BlueAlly Private AI Investment Planner.
+- [[vercel]] — Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, and BlueAlly Workbench.
 - [[vite]] — Fast front-end build tool and dev server used in BlueAlly apps as the bundler for React applications.
 - [[zustand]] — Lightweight React state management library used across multiple BlueAlly apps for client-side state.
 
 ## Concepts
 - [[ai-literacy]] — Foundational understanding of AI concepts enabling executives to interpret, evaluate, and act on AI-generated assessments, architectures, and recommendations.
+- [[assortment-optimization]] — Retail/e-commerce discipline of selecting the optimal product mix for a sales channel; the domain problem addressed by BlueAlly Workbench for Amazon SKU decisions.
 - [[blueally-framework-journey]] — BlueAlly's 8-part structured framework for tracking a customer organisation's AI transformation progress; the core data model of the BlueAlly Customer Portal.
 - [[blueally-pipeline]] — BlueAlly's multi-step AI delivery pipeline, progressing from top-of-funnel marketing through workshop analysis, aiworkflow, AI Architecture Studio artifact generation, executive readout, infrastructure sizing, investment intelligence, educational support, customer portal, and client delivery via BlueAlly Microsites.
 - [[blueally-presentation-toolkit]] — BlueAlly's suite of web-native presentation tools replacing PowerPoint, including AI Executive Briefing, blueally-workshop-experience, blueally-presenting, blueally-presenting-workshop, and AI Systems Presentation.
 - [[claude-sdk-enablement]] — BlueAlly's practice of training team members and clients to use the Anthropic Claude SDK through hands-on examples and structured learning materials.
 - [[consulting-brief]] — Structured, AI-generated document that frames an executive's business challenge as an actionable AI opportunity; primary output artifact of BlueAlly AI App.
+- [[deterministic-scoring]] — An AI design pattern that applies fixed, rule-based scoring criteria to produce consistent, auditable results rather than relying solely on probabilistic LLM output.
 - [[glass-monolith-theme]] — BlueAlly Microsites visual design theme featuring glass-morphism aesthetics; applied to client landing pages with Framer Motion stagger animations.
 - [[knowledge-graph-presentation]] — Architectural pattern that models presentation content as a graph of connected nodes and edges, enabling content reuse across presentations rather than isolation in individual slide decks.
 - [[multi-agent-pipeline]] — Architectural pattern where multiple specialized AI agents execute sequentially and/or in parallel stages; pioneered within BlueAlly by AI Catalyst.
@@ -82,3 +85,4 @@
 - [[blueally-presenting-source]] — Project inventory for BlueAlly Presenting, a deployed AI-powered knowledge graph presentation platform built as a Turborepo monorepo with Tiptap and Anthropic SDK; last committed 2026-04-03.
 - [[blueally-presenting-workshop-source]] — Project inventory for BlueAlly Presenting Workshop, a deployed Next.js workshop delivery tool with 49 slides across 8 sections, presenter mode, and Claude-powered editing; last committed 2026-04-06.
 - [[blueally-private-ai-investment-planner-source]] — Project inventory for BlueAlly Private AI Investment Planner, a deployed Next.js tool for modeling financial implications of private AI infrastructure deployments with Claude-powered advisory; last committed 2026-05-06.
+- [[blueally-workbench-source]] — Project inventory for BlueAlly Workbench, a deployed AI-powered SKU research desk for Amazon assortment decisions with deterministic scoring; last committed 2026-04-16.

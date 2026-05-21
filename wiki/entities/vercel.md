@@ -1,32 +1,33 @@
 ---
 title: Vercel
 kind: entity
-summary: Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, BlueAlly AI Website (Next.js), BlueAlly Presenting Workshop, BlueAlly Private AI Investment Planner, BlueAlly Workbench, BlueAlly Workshop Web, and Compass.
-tags: [infrastructure, deployment, hosting, cloud]
+summary: Cloud deployment platform hosting multiple BlueAlly apps, personal projects, and external-client tools including GA Staff Scheduler.
+tags: [infrastructure, deployment, cloud]
 sources: 2
 updated: 2026-05-21
 ---
 
-Vercel is the cloud deployment platform used across the BlueAlly ecosystem. The majority of BlueAlly's deployed Next.js applications are hosted on Vercel.
+Vercel is the primary cloud deployment platform used across the BlueAlly ecosystem and for related external-client and personal projects. It provides edge-native hosting, serverless functions, and seamless Next.js integration.
 
-## BlueAlly apps deployed on Vercel
+## Deployed apps
 
-- [[ai-executive-briefing]] — Interactive executive AI strategy presentation
-- [[ai-executive-readout]] — Executive-level AI readout report generator
-- [[ai-infra-sizing]] — Enterprise AI infrastructure right-sizing platform
-- [[ai-systems-presentation]] — Interactive AI systems architecture presentation
-- [[atlas]] — AI Investment Intelligence Platform (atlas.vercel.app)
-- [[blueally-ai-app]] — Field-CTO partner tool for AI use case framing
-- [[blueally-ai-solution-navigator]] — AI solution selection decision-support tool
-- [[aiwebsiteblueally-next]] — BlueAlly AI marketing website (Next.js rewrite)
-- [[blueally-presenting-workshop]] — Workshop delivery platform (blueally-workshop.vercel.app)
-- [[blueally-private-ai-investment-planner]] — Private AI infrastructure financial modeling tool
-- [[blueally-workbench]] — AI-powered SKU research desk for Amazon assortment decisions
-- [[blueally-workshop-web]] — Workshop management hub
-- [[compass]] — AI Opportunity Research Platform for CFOs (compass.vercel.app)
+- [[ai-executive-briefing]] — interactive AI strategy presentation
+- [[ai-executive-readout]] — executive readout reports
+- [[ai-infra-sizing]] — infrastructure sizing platform
+- [[ai-systems-presentation]] — AI systems architecture presentation
+- [[atlas]] — AI investment intelligence platform (atlas.vercel.app)
+- [[blueally-ai-app]] — field-CTO partner tool
+- [[blueally-ai-solution-navigator]] — AI solution selection tool
+- [[aiwebsiteblueally-next]] — marketing site rewrite
+- [[blueally-presenting-workshop]] — workshop delivery tool (blueally-workshop.vercel.app)
+- [[blueally-private-ai-investment-planner]] — private AI investment planner
+- [[blueally-workbench]] — SKU research desk
+- [[blueally-workshop-web]] — workshop management hub
+- [[compass]] — AI opportunity research platform
+- [[fourcups]] — personal app (fourcups.vercel.app)
+- [[ga-staff-scheduler]] — external-client staff scheduling app (ga-staff-scheduler.vercel.app)
 
 ## Related
 
-- [[turborepo]] — Monorepo build system used in some Vercel-deployed apps
-- [[neon]] — Serverless Postgres database backing many Vercel-deployed apps
-- [[blueally-pipeline]] — The delivery pipeline these apps collectively implement
+- [[gofasterwithai]] — BlueAlly branded domain also served via Vercel-hosted apps
+- [[blueally-pipeline]] — the product ecosystem predominantly deployed on Vercel

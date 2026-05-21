@@ -1,24 +1,22 @@
 ---
 title: Drizzle ORM
 kind: entity
-summary: TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access, and in the personal Four Cups project.
-tags: [orm, typescript, database, infrastructure]
+summary: TypeScript-native ORM library used across multiple BlueAlly apps, the personal Four Cups project, and the external-client GA Staff Scheduler for type-safe database access.
+tags: [infrastructure, orm, typescript]
 sources: 2
 updated: 2026-05-21
 ---
 
-Drizzle ORM is a TypeScript-native ORM library that provides type-safe database access. It is used as the primary data-access layer in numerous BlueAlly applications, and also appears in [[fourcups]], a personal project by the same author.
+Drizzle ORM is a TypeScript-native ORM library that provides type-safe, schema-first database access. It is the standard ORM layer across the BlueAlly ecosystem and appears in external-client and personal projects built by the same team.
 
-## Usage in BlueAlly
+## Appears in
 
-Drizzle ORM is paired with [[neon]] (serverless Postgres) throughout the [[blueally-pipeline]], including in [[ai-executive-readout]], [[aiworkflow]], [[blueally-portal]], and other apps.
-
-## Usage outside BlueAlly
-
-- [[fourcups]] — personal/religious Next.js application using Drizzle ORM with [[neon]]
+- [[ai-executive-readout]] — executive report generation
+- [[ai-infra-sizing]] — infrastructure sizing platform
+- [[fourcups]] — personal/religious app (with [[neon]])
+- [[ga-staff-scheduler]] — external-client staff scheduling app
 
 ## Related
 
-- [[neon]]
-- [[blueally-pipeline]]
-- [[fourcups]]
+- [[neon]] — serverless Postgres platform consistently paired with Drizzle ORM
+- [[blueally-pipeline]] — product ecosystem where Drizzle ORM is a standard dependency

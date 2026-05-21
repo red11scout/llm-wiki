@@ -199,3 +199,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[fourcups-source]], [[fourcups]]
 - updated: [[neon]], [[framer-motion]], [[drizzle-orm]]
 - contradictions: 0
+
+## [2026-05-21] ingest | GA Staff Scheduler — Project Inventory
+- source: raw/notes/projects/ga-staff-scheduler.md
+- created: [[ga-staff-scheduler-source]], [[ga-staff-scheduler]], [[ai-powered-scheduling]]
+- updated: [[neon]], [[drizzle-orm]], [[framer-motion]], [[anthropic-sdk]], [[vercel]]
+- contradictions: 0

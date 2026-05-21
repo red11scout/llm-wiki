@@ -31,3 +31,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-catalyst-source]], [[ai-catalyst]], [[drizzle-orm]], [[researchapp]], [[cognition-two]], [[multi-agent-pipeline]]
 - updated: [[aiworkflow]], [[blueally-pipeline]]
 - contradictions: 0
+
+## [2026-05-21] ingest | AI Executive Briefing — Project Inventory
+- source: raw/notes/projects/ai-executive-briefing.md
+- created: [[ai-executive-briefing-source]], [[ai-executive-briefing]], [[framer-motion]], [[zustand]], [[vercel]], [[blueally-presentation-toolkit]], [[blueally-workshop-experience]], [[blueally-presenting]]
+- updated: [[blueally-pipeline]]
+- contradictions: 0

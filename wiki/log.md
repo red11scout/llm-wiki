@@ -265,3 +265,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[workflow-source]], [[workflow]]
 - updated: [[aiworkflow]]
 - contradictions: 0
+
+## [2026-05-21] ingest | CognoResearcher — Project Inventory
+- source: raw/notes/projects/cognoresesearcher.md
+- created: [[cognoresearcher-source]]
+- updated: [[cognoresearcher]]
+- contradictions: 0

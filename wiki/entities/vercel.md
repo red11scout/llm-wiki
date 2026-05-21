@@ -1,25 +1,27 @@
 ---
 title: Vercel
 kind: entity
-summary: Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, and the BlueAlly AI Website (Next.js).
-tags: [deployment, cloud, hosting, blueally]
+summary: Cloud deployment platform hosting multiple BlueAlly apps including AI Executive Briefing, AI Executive Readout, AI Infrastructure Sizing, AI Systems Presentation, Atlas, BlueAlly AI App, BlueAlly AI Solution Navigator, and the BlueAlly AI Website (Next.js).
+tags: [hosting, deployment, cloud, infrastructure]
 sources: 8
 updated: 2026-05-21
 ---
 
-Vercel is the standard cloud deployment platform across the BlueAlly application stack, hosting the majority of the deployed pipeline applications.
+Vercel is a cloud deployment platform and the standard hosting layer for BlueAlly's deployed application portfolio.
 
-## BlueAlly apps hosted on Vercel
+## BlueAlly deployments
 
-- [[ai-executive-briefing]] — web-native executive strategy presentation
-- [[ai-executive-readout]] — executive report generation tool
-- [[ai-infra-sizing]] — AI infrastructure sizing platform
-- [[ai-systems-presentation]] — AI systems architecture presentation
-- [[atlas]] — AI investment intelligence platform (atlas.vercel.app)
-- [[blueally-ai-app]] — consulting brief generator (blueally-ai-app.vercel.app)
+- [[ai-executive-briefing]] — interactive executive AI strategy presentation
+- [[ai-executive-readout]] — executive-level AI readout report generator
+- [[ai-infra-sizing]] — enterprise AI infrastructure sizing platform
+- [[ai-systems-presentation]] — web-native AI systems architecture presentation
+- [[atlas]] — AI Investment Intelligence Platform (atlas.vercel.app)
+- [[blueally-ai-app]] — field-CTO partner tool
+- [[blueally-ai-solution-navigator]] — AI solution decision-support tool (blueally-ai-solution-navigator.vercel.app)
 - [[aiwebsiteblueally-next]] — Next.js marketing site rewrite
 
 ## Related
 
-- [[gofasterwithai]] — BlueAlly's branded domain hosting additional deployed pipeline apps
-- [[blueally-pipeline]] — the delivery pipeline whose apps are deployed here
+- [[neon]] — Serverless Postgres database used alongside Vercel across BlueAlly apps
+- [[gofasterwithai]] — BlueAlly branded domain for pipeline-facing deployments
+- [[blueally-pipeline]] — The multi-step delivery pipeline these deployments support

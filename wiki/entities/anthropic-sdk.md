@@ -1,24 +1,25 @@
 ---
 title: Anthropic SDK
 kind: entity
-summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, BlueAlly AI App, and the BlueAlly AI Website (Next.js).
-tags: [sdk, ai, anthropic, claude, blueally]
+summary: Anthropic's official SDK for programmatic access to Claude models; used across multiple BlueAlly apps as the AI integration layer, including Atlas, AI Executive Readout, AI Infrastructure Sizing, BlueAlly AI App, BlueAlly AI Solution Navigator, and the BlueAlly AI Website (Next.js).
+tags: [ai, sdk, anthropic, claude, infrastructure]
 sources: 8
 updated: 2026-05-21
 ---
 
-The Anthropic SDK is Anthropic's official library for programmatic access to Claude language models. Within the BlueAlly ecosystem it is the standard AI integration layer, used across multiple deployed applications.
+The Anthropic SDK is Anthropic's official library for programmatic access to Claude language models. Within BlueAlly it is the standard AI integration layer across the deployed application suite.
 
-## Usage in BlueAlly apps
+## BlueAlly usage
 
-- [[atlas]] — investment intelligence and ROI analysis
+- [[atlas]] — token usage projections and ROI analysis
 - [[ai-executive-readout]] — executive report generation
-- [[ai-infra-sizing]] — Claude as advisor-only layer alongside deterministic calculations
-- [[blueally-ai-app]] — generates structured [[consulting-brief]]s from executive-supplied business challenges
-- [[aiwebsiteblueally-next]] — AI integration in the Next.js marketing site rewrite
+- [[ai-infra-sizing]] — Claude as advisor-only layer for infrastructure sizing
+- [[blueally-ai-app]] — consulting brief generation
+- [[blueally-ai-solution-navigator]] — structured solution-selection decision support
+- [[aiwebsiteblueally-next]] — Next.js marketing site AI features
 
 ## Related
 
-- [[claude-sonnet]] — specific Claude model used in [[ai-architecture-studio]] for PRD generation
-- [[blueally-pipeline]] — the delivery pipeline whose apps rely on this SDK
-- [[blueally-ai-app]] — newest consumer of the SDK
+- [[claude-sonnet]] — Specific Claude model used in AI Architecture Studio for PRD generation
+- [[multi-agent-pipeline]] — Architectural pattern underpinning AI Catalyst's 8-agent design
+- [[blueally-pipeline]] — The delivery pipeline these apps belong to

@@ -55,3 +55,9 @@ Greppable: `grep "^## \[" log.md | tail -5`. See SCHEMA.md §7.
 - created: [[ai-systems-presentation-source]], [[ai-systems-presentation]], [[tailwindcss]]
 - updated: [[blueally-presentation-toolkit]], [[framer-motion]], [[zustand]], [[vercel]]
 - contradictions: 0
+
+## [2026-05-21] ingest | AI Visual Intelligence Library — Project Inventory
+- source: raw/notes/projects/ai-visual-intelligence-library.md
+- created: [[ai-visual-intelligence-library-source]], [[ai-visual-intelligence-library]], [[ai-literacy]]
+- updated: [[gofasterwithai]], [[blueally-pipeline]]
+- contradictions: 0

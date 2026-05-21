@@ -1,36 +1,38 @@
 ---
 title: BlueAlly Pipeline
 kind: concept
-summary: BlueAlly's multi-step AI delivery pipeline, progressing from workshop analysis through aiworkflow to AI Architecture Studio artifact generation, executive readout output, and infrastructure sizing.
-tags: [blueally, pipeline, architecture, delivery]
-sources: 7
+summary: BlueAlly's multi-step AI delivery pipeline, progressing from workshop analysis through aiworkflow to AI Architecture Studio artifact generation, executive readout output, infrastructure sizing, and educational support via the AI Visual Intelligence Library.
+tags: [blueally-ip, pipeline, architecture]
+sources: 2
 updated: 2026-05-21
 ---
 
-The BlueAlly Pipeline is the end-to-end AI delivery workflow BlueAlly uses to take enterprise clients from initial AI opportunity discovery through to concrete, deployed artifacts. It is composed of a sequence of specialized tools, each consuming outputs from the prior step.
+The BlueAlly Pipeline is the end-to-end delivery system through which BlueAlly takes a client from initial AI use-case discovery through to polished executive artifacts and infrastructure recommendations. It is a multi-step, multi-tool flow where each app produces structured output consumed by the next.
 
 ## Pipeline stages
 
-1. **Workshop & discovery** — [[ai-catalyst]] (archived predecessor) / [[aiworkflow]] captures use-case data and produces structured JSON
-2. **Architecture generation** — [[ai-architecture-studio]] ingests the aiworkflow JSON and generates architecture diagrams, agentic workflows, PRDs, and financial models
-3. **Executive readout** — [[ai-executive-readout]] takes pipeline outputs and produces polished executive-level reports
-4. **Infrastructure sizing** — [[ai-infra-sizing]] translates identified AI deployments into concrete hardware and cloud infrastructure sizing recommendations
+1. **Workshop analysis** — [[ai-catalyst]] (archived predecessor) → [[aiworkflow]] (current): ingests survey and research data, produces structured use-case JSON.
+2. **Artifact generation** — [[ai-architecture-studio]]: consumes aiworkflow JSON, produces architecture diagrams, agentic workflow maps, PRDs, and financial models.
+3. **Executive readout** — [[ai-executive-readout]]: generates polished executive-level reports from pipeline outputs.
+4. **Infrastructure sizing** — [[ai-infra-sizing]]: right-sizes enterprise AI infrastructure using deterministic calculation with Claude as an advisor layer.
+5. **Executive communication** — [[blueally-presentation-toolkit]]: web-native presentations and workshop experiences for delivering pipeline findings to clients.
+6. **Education & literacy** — [[ai-visual-intelligence-library]]: provides foundational [[ai-literacy]] content so executives can interpret and act on pipeline outputs.
 
-## Supporting tools
+## Upstream data sources (AI Catalyst era)
 
-- [[blueally-presentation-toolkit]] — web-native presentation layer used at workshop and readout stages
-- [[a-e-global-media]] — example client engagement delivered through the pipeline
+- [[cognition-two]] — use-case cognition data
+- [[researchapp]] — research data
 
-## Design patterns
+## Hosting
 
-A recurring pattern across pipeline tools is the use of a **deterministic engine paired with an LLM advisor layer**: [[ai-architecture-studio]] uses [[hyperformula]] for financial calculations while [[ai-infra-sizing]] uses its own deterministic sizing engine — in both cases Claude (via [[anthropic-sdk]]) provides advisory narrative rather than owning quantitative outputs.
+Deployed apps are served under the [[gofasterwithai]] domain via [[vercel]].
 
 ## Related
 
-- [[aiworkflow]]
-- [[ai-catalyst]]
-- [[ai-architecture-studio]]
-- [[ai-executive-readout]]
-- [[ai-infra-sizing]]
-- [[blueally-presentation-toolkit]]
-- [[multi-agent-pipeline]]
+- [[aiworkflow]] — current step-2 pipeline app
+- [[ai-architecture-studio]] — step-3 artifact generator
+- [[ai-executive-readout]] — downstream executive report generator
+- [[ai-infra-sizing]] — infrastructure sizing tool
+- [[blueally-presentation-toolkit]] — presentation layer
+- [[ai-visual-intelligence-library]] — educational layer
+- [[multi-agent-pipeline]] — architectural pattern used in the pipeline

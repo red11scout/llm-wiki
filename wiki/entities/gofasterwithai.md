@@ -1,26 +1,28 @@
 ---
-title: Go Faster with AI
+title: GoFasterWithAI
 kind: entity
-summary: BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com.
-tags: [blueally-ip, deployment, brand]
-sources: 1
+summary: BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com and AI Visual Intelligence Library at library.gofasterwithai.com.
+tags: [blueally-ip, infrastructure, deployment]
+sources: 2
 updated: 2026-05-21
 ---
 
----
-title: Go Faster with AI
-kind: entity
-summary: BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com.
-tags: [blueally-ip, deployment, brand]
-sources: 1
-updated: 2026-05-21
-needsReview: surfaced in ai-architecture-studio-source
----
+GoFasterWithAI (`gofasterwithai.com`) is the branded domain under which BlueAlly hosts its deployed client-facing and internal pipeline applications. Each app is served from a named subdomain, creating a coherent product surface for the [[blueally-pipeline]] ecosystem.
 
-`gofasterwithai.com` is BlueAlly's branded deployment domain. The subdomain `builder.gofasterwithai.com` hosts [[ai-architecture-studio]], the step-3 app in the [[blueally-pipeline]]. Further subdomains or products hosted here have not yet been documented in ingested sources.
+## Known subdomains
+
+| Subdomain | Application |
+|---|---|
+| `builder.gofasterwithai.com` | [[ai-architecture-studio]] |
+| `library.gofasterwithai.com` | [[ai-visual-intelligence-library]] |
+
+## Ecosystem role
+
+The domain acts as the public-facing brand layer for BlueAlly's deployed tooling. Apps are built and deployed via [[vercel]] and surfaced under `gofasterwithai.com` subdomains for client delivery.
 
 ## Related
 
-- [[ai-architecture-studio]]
-- [[blueally-pipeline]]
-- [[ai-architecture-studio-source]]
+- [[blueally-pipeline]] — the delivery pipeline whose apps are hosted here
+- [[ai-architecture-studio]] — pipeline app at `builder.gofasterwithai.com`
+- [[ai-visual-intelligence-library]] — education platform at `library.gofasterwithai.com`
+- [[vercel]] — underlying deployment platform

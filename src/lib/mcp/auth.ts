@@ -17,8 +17,8 @@ export function validateBearerToken(authHeader: string | null): AuthResult {
     return { authenticated: false, scope: "public" };
   }
 
-  const token = authHeader.slice(7);
-  const expected = process.env.WIKI_MCP_TOKEN;
+  const token = authHeader.slice(7).trim();
+  const expected = process.env.WIKI_MCP_TOKEN?.trim();
 
   if (!expected) {
     return { authenticated: false, scope: "public" };

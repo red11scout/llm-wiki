@@ -1,24 +1,26 @@
 ---
 title: Framer Motion
 kind: entity
-summary: React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, BlueAlly AI Website (Next.js), and BlueAlly Customer Portal — for interactive animations.
-tags: [animation, react, frontend, ui]
-sources: 6
+summary: React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, BlueAlly AI Website (Next.js), BlueAlly Customer Portal, and BlueAlly Portal — for interactive animations.
+tags: [animation, react, ui, frontend]
+sources: 2
 updated: 2026-05-21
 ---
 
-Framer Motion is a React animation library. BlueAlly uses it broadly to deliver polished, interactive motion across its web-native presentation and portal products.
+Framer Motion is a React animation library that provides declarative, physics-based animations. BlueAlly uses it consistently across client-facing apps to deliver polished, interactive presentation experiences.
 
-## BlueAlly Apps Using Framer Motion
+## Usage in BlueAlly apps
 
-- [[ai-executive-briefing]] — interactive animated executive AI strategy presentation
-- [[ai-executive-readout]] — polished executive-level AI readout reports
-- [[ai-systems-presentation]] — animated AI systems architecture presentation
-- [[aiwebsiteblueally-next]] — Next.js marketing website rewrite
-- [[blueally-customer-portal]] — planned multi-tenant customer portal (not yet deployed)
+- [[ai-executive-briefing]] — Animated executive AI strategy presentation
+- [[ai-executive-readout]] — Polished animated readout reports
+- [[ai-systems-presentation]] — Interactive animated systems architecture presentation
+- [[aiwebsiteblueally-next]] — Animations on the Next.js marketing site rewrite
+- [[blueally-customer-portal]] — Planned use for multi-tenant portal interactions
+- [[blueally-microsites]] — Stagger animations on client landing pages (see [[glass-monolith-theme]])
+- [[blueally-portal]] — Polished interaction patterns for workshop participant portal
 
 ## Related
 
-- [[react]] — underlying UI library Framer Motion extends
-- [[blueally-presentation-toolkit]] — presentation suite leveraging Framer Motion
-- [[blueally-pipeline]] — broader pipeline context
+- [[react]] — The underlying UI library Framer Motion extends
+- [[blueally-presentation-toolkit]] — The presentation suite that most heavily leverages Framer Motion
+- [[glass-monolith-theme]] — BlueAlly Microsites visual theme that uses Framer Motion stagger animations

@@ -2,25 +2,22 @@
 title: Drizzle ORM
 kind: entity
 summary: TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
-tags: [database, orm, typescript]
+tags: [orm, typescript, database, infrastructure]
 sources: 2
 updated: 2026-05-21
 ---
 
-Drizzle ORM is a lightweight, TypeScript-native object-relational mapping library that provides type-safe database query building and schema management. It is the standard ORM choice across the BlueAlly ecosystem.
+Drizzle ORM is a TypeScript-native, SQL-first ORM that provides type-safe database access. It is the standard database access layer across the BlueAlly ecosystem, most frequently paired with [[neon]] as the Postgres backend.
 
-## BlueAlly usage
+## Usage in BlueAlly apps
 
-- [[ai-catalyst]] — archived workshop analysis platform
-- [[ai-executive-readout]] — executive readout report generation
-- [[ai-infra-sizing]] — infrastructure sizing platform
-- [[atlas]] — AI Investment Intelligence Platform
-- [[blueally-ai-app]] — field-CTO partner tool
-- [[blueally-ai-solution-navigator]] — AI solution selection tool
-- [[aiwebsiteblueally-next]] — BlueAlly AI Website (Next.js rewrite)
-- [[blueally-customer-portal]] — planned multi-tenant portal
-- [[blueally-intelligence]] — archived M&A intelligence platform (2026-02-13)
+- [[ai-executive-readout]] — Type-safe access to readout report data
+- [[ai-infra-sizing]] — Database access for infrastructure sizing
+- [[atlas]] — ORM layer in the investment intelligence monorepo
+- [[aiwebsiteblueally-next]] — Database access on the Next.js marketing site rewrite
+- [[blueally-portal]] — Type-safe access to workshop participant session data
 
 ## Related
 
-- [[neon]] — serverless Postgres platform paired with Drizzle ORM across these apps
+- [[neon]] — Serverless Postgres platform most commonly used with Drizzle ORM in BlueAlly
+- [[blueally-pipeline]] — The broader pipeline whose apps depend on Drizzle ORM

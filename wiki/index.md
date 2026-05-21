@@ -20,6 +20,7 @@
 - [[blueally-enablement-notebooks]] — Archived BlueAlly Python/Jupyter NYC Tourist Assistant project used as internal Claude SDK enablement training material; last committed 2025-06-11.
 - [[blueally-intelligence]] — Archived BlueAlly M&A intelligence and portfolio analytics platform powered by Claude and Neon; not deployed, last committed 2026-02-13.
 - [[blueally-microsites]] — Deployed BlueAlly multi-tenant client delivery portal at portal.gofasterwithai.com; password-protected landing pages linking clients to all their generated pipeline artifacts; last committed 2026-05-12.
+- [[blueally-portal]] — Active BlueAlly AI Workshop Portal built with Next.js and Neon, providing authenticated workshop participants access to session materials and outputs; last committed 2026-04-24.
 - [[blueally-presenting]] — BlueAlly web-native presentation utility; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing and blueally-workshop-experience.
 - [[blueally-workshop-experience]] — BlueAlly web-native workshop presentation application; part of the BlueAlly Presentation Toolkit alongside AI Executive Briefing and blueally-presenting.
 - [[claude-sonnet]] — Anthropic LLM model used in AI Architecture Studio specifically for PRD (Product Requirements Document) generation.
@@ -27,7 +28,7 @@
 - [[cognition-two]] — Upstream BlueAlly data source integrated by AI Catalyst to supply use-case cognition data into the workshop analysis pipeline.
 - [[drizzle-orm]] — TypeScript-native ORM library used across multiple BlueAlly apps for type-safe database access.
 - [[express]] — Minimal Node.js web framework used as the back-end server layer in BlueAlly apps.
-- [[framer-motion]] — React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, BlueAlly AI Website (Next.js), and BlueAlly Customer Portal — for interactive animations.
+- [[framer-motion]] — React animation library used across multiple BlueAlly apps — AI Executive Briefing, AI Executive Readout, AI Systems Presentation, BlueAlly AI Website (Next.js), BlueAlly Customer Portal, and BlueAlly Portal — for interactive animations.
 - [[gofasterwithai]] — BlueAlly's branded domain (gofasterwithai.com) hosting deployed pipeline apps including AI Architecture Studio at builder.gofasterwithai.com, AI Visual Intelligence Library at library.gofasterwithai.com, and BlueAlly Microsites client portal at portal.gofasterwithai.com.
 - [[hyperformula]] — Spreadsheet-engine library used in AI Architecture Studio for deterministic financial calculations.
 - [[jose]] — JavaScript library for JSON Web Tokens (JWT) and related standards; used in BlueAlly Microsites for Edge middleware session authentication.
@@ -72,3 +73,4 @@
 - [[blueally-enablement-notebooks-source]] — Project inventory for BlueAlly Enablement Notebooks, an archived Python/Jupyter NYC Tourist Assistant used for internal Claude SDK enablement training; last committed 2025-06-11.
 - [[blueally-intelligence-source]] — Project inventory for BlueAlly Intelligence, an archived BlueAlly M&A intelligence and portfolio analytics platform built on React/Vite/Express with Claude and Neon; last committed 2026-02-13.
 - [[blueally-microsites-source]] — Project inventory for BlueAlly Microsites, a deployed multi-tenant client delivery portal at portal.gofasterwithai.com providing password-protected landing pages linking clients to all their generated artifacts; last committed 2026-05-12.
+- [[blueally-portal-source]] — Project inventory for BlueAlly Portal, an active Next.js/Neon workshop participant portal providing authenticated access to session materials and outputs; last committed 2026-04-24.
